@@ -1,0 +1,1041 @@
+{
+    "Antique Perfume": {
+        "name": "Antique Perfume",
+        "description": "Ah yesh they knew how to make real perfumesh in Fraigonard'sh boutiquesh in Nineteen Shixty Shixsh...",
+        "effects": "Every time you shower, you will be immune from contaminations for 2 cycles.",
+        "icon": "https://www.mushpedia.com/images/d/d2/Antique_Perfume.png",
+        "learnedBy": [
+            {
+                "name": "Frieda",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Apprentice": {
+        "name": "Apprentice",
+        "description": "By attentively watching what their mentor does, the apprentice can quicky pick up the same knowledge and actions.",
+        "effects": "Enables the action Apprenticeship which allows them to copy a skill possessed by a player present in the room, once per game.",
+        "icon": "https://www.mushpedia.com/images/6/66/Apprentice.png",
+        "learnedBy": [
+            {
+                "name": "Stephen",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Astrophysicist": {
+        "name": "Astrophysicist",
+        "description": "Skilled in scanning for planets in range or to determine their composition.",
+        "effects": "The Planet Scan action discovers 2 zones per Analyze action. Bonus for developing certain NERON projects. Undocumented: The Scan action costs 1  less.",
+        "icon": "https://www.mushpedia.com/images/e/e8/Astrophysicist.png",
+        "learnedBy": [
+            {
+                "name": "Frieda",
+                "level": 1
+            },
+            {
+                "name": "Gioele",
+                "level": 4
+            },
+            {
+                "name": "Kuan Ti",
+                "level": 3
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Biologist": {
+        "name": "Biologist",
+        "description": "Highly skilled in laboratory research.",
+        "effects": "Can read properties of medicines. +4% bonus on all Research in the laboratory. Bonus for developing certain NERON projects.",
+        "icon": "https://www.mushpedia.com/images/a/a5/Biologist.png",
+        "learnedBy": [
+            {
+                "name": "Finola",
+                "level": 1
+            },
+            {
+                "name": "Ian",
+                "level": 2
+            },
+            {
+                "name": "Paola",
+                "level": 4
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Botanist": {
+        "name": "Botanist",
+        "description": "Capable of distinguishing the characteristics of the various plants and fruits. They are also equally effective when maintaining the garden.",
+        "effects": "Can read the fruit nutrition information. Can read plant properties.. Can carry out transplants. +2  per day (Gardening action points). Expedition: The harvest action gives an additional fruit. Bonus for developing certain NERON projects",
+        "icon": "https://www.mushpedia.com/images/8/86/Botanist.png",
+        "learnedBy": [
+            {
+                "name": "Ian",
+                "level": 1
+            },
+            {
+                "name": "Hua",
+                "level": 2
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Caffeine Junkie": {
+        "name": "Caffeine Junkie",
+        "description": "The caffeine junkie is twice as effective as their colleagues when they have access to the coffee machine.",
+        "effects": "+2  AP when they drink a Coffee. Bonus for developing certain NERON projects",
+        "icon": "https://www.mushpedia.com/images/e/e9/Caffeine_Junkie.png",
+        "learnedBy": [
+            {
+                "name": "Gioele",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "Chef": {
+        "name": "Chef",
+        "description": "Formidable when it comes to knocking meals together. They also have an impressive awareness of what you should eat.",
+        "effects": "Can read the food nutrition information. Can read the fruit nutrition information. +4  per day (Cook action points). Bonus for developing certain NERON projects.",
+        "icon": "https://www.mushpedia.com/images/e/e5/Chef.png",
+        "learnedBy": [
+            {
+                "name": "Stephen",
+                "level": 1
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Cold Blooded": {
+        "name": "Cold Blooded",
+        "description": "In space, anything can and does happen. Knowing how to keep calm is extremely useful.",
+        "effects": "Earns 3  AP every time a team mate dies.",
+        "icon": "https://www.mushpedia.com/images/e/ea/Cold_Blooded.png",
+        "learnedBy": [
+            {
+                "name": "Jin Su",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "Confident": {
+        "name": "Confident",
+        "description": "Discreet and loyal, you share everyone's pain and as such have the sympathy of the whole crew...",
+        "effects": "Once per day, the other players can confide in you, and in doing so they'll reveal their last X actions where X is your stock of . In doing so, they'll earn 2 .",
+        "icon": "https://www.mushpedia.com/images/2/20/Confident.png",
+        "learnedBy": [
+            {
+                "name": "Andie",
+                "level": 4
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Crazy Eye": {
+        "name": "Crazy Eye",
+        "description": "There is no way to take you by surprise. You foresee all attacks from your enemies as well as those from your so-called allies.",
+        "effects": "All aggressive actions targeting you cost an additional 2",
+        "icon": "https://www.mushpedia.com/images/9/93/Crazy_Eye.png",
+        "learnedBy": [
+            {
+                "name": "Chao",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Creative": {
+        "name": "Creative",
+        "description": "Sometimes you need to think outside the box",
+        "effects": "Every time you fail in an attempt to do something, there is a 50% chance of regaining 1 .",
+        "icon": "https://www.mushpedia.com/images/5/57/Creative.png",
+        "learnedBy": [
+            {
+                "name": "Roland",
+                "level": 6
+            },
+            {
+                "name": "Stephen",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Designer": {
+        "name": "Designer",
+        "description": "Has access to NERON's core twice per day (Free Actions).",
+        "effects": "+2  per day (NERON project action points). Bonus for developing certain NERON projects",
+        "icon": "https://www.mushpedia.com/images/b/b2/Designer.png",
+        "learnedBy": [
+            {
+                "name": "Kuan Ti",
+                "level": 1
+            },
+            {
+                "name": "Raluca",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Detached Crewmember": {
+        "name": "Detached Crewmember",
+        "description": "The unconcerned crewmember is cold, hard, and unfeeling. They are unaffected by deaths of teammates.",
+        "effects": "You lose no Morale Points () when a crewmember dies. Zero risk of psychological illness if you witness a death.",
+        "icon": "https://www.mushpedia.com/images/0/08/Detached_Crewmember.png",
+        "learnedBy": [
+            {
+                "name": "Raluca",
+                "level": 2
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "Devotion": {
+        "name": "Devotion",
+        "description": "In the heat of the action, we can count on you",
+        "effects": "You earn an additional 3  when you accept a mission.",
+        "icon": "https://www.mushpedia.com/images/6/6a/Devoted.png",
+        "learnedBy": [
+            {
+                "name": "Andie",
+                "level": 2
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Determined": {
+        "name": "Determined",
+        "description": "Once they begin their task, nothing can distract the determined player",
+        "effects": "If an action fails, the % chance of subsequent success increases more rapidly",
+        "icon": "https://www.mushpedia.com/images/e/eb/Determined.png",
+        "learnedBy": [
+            {
+                "name": "Eleesha",
+                "level": 2
+            },
+            {
+                "name": "Hua",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Diplomat": {
+        "name": "Diplomat",
+        "description": "A good diplomat knows how to communicate effectively with extra-terrestrials.",
+        "effects": "Eliminates the chance of encountering hostility from extra-terrestrials. Can declare a ceasefire once per game.",
+        "icon": "https://www.mushpedia.com/images/e/ee/Diplomat.png",
+        "learnedBy": [
+            {
+                "name": "Finola",
+                "level": 4
+            },
+            {
+                "name": "Janice",
+                "level": 4
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Expert": {
+        "name": "Expert",
+        "description": "Your skills are impressive, but your disregard for your own safety is equally so!",
+        "effects": "Your chances of succeeding at a particular task are increased by 20% but so is the likelihood of injury and getting  Dirty.",
+        "icon": "https://www.mushpedia.com/images/3/3e/Expert.png",
+        "learnedBy": [
+            {
+                "name": "Andie",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Firefighter": {
+        "name": "Firefighter",
+        "description": "The Firefighter has great experience which means they will always succeed when using the extinguisher.",
+        "effects": "The Extinguish Fire action is always successful. Bonus for developing certain NERON projects.",
+        "icon": "https://www.mushpedia.com/images/3/3d/Firefighter.png",
+        "learnedBy": [
+            {
+                "name": "Derek",
+                "level": 3
+            },
+            {
+                "name": "Roland",
+                "level": 4
+            },
+            {
+                "name": "Ian",
+                "level": 5
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Frugivore": {
+        "name": "Frugivore",
+        "description": "You terrorize fruits, you adore them, they are your drug. When you make eye contact with a fruit, it over-ripens before you...",
+        "effects": "You gain an additional 2 when you eat alien fruits, 1  for  Bananas.",
+        "icon": "https://www.mushpedia.com/images/b/ba/Frugivore.png",
+        "learnedBy": [
+            {
+                "name": "Ian",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "Genius": {
+        "name": "Genius",
+        "description": "When divinely enlighted by the flame of consciousness, the genius can find a solution to any problem encountered aboard the Daedalus.",
+        "effects": "The genius can carry out one piece of Resarch, one Project, or one Repair once per game.",
+        "icon": "https://www.mushpedia.com/images/2/2d/Genius.png",
+        "learnedBy": [
+            {
+                "name": "Raluca",
+                "level": 4
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Green Thumb": {
+        "name": "Green Thumb",
+        "description": "Plants grow naturally in your presence, you only require to speak to them with a languishing gaze for them to bear beautiful fruit.",
+        "effects": "Begins the game with an additional two pots. Hybrids made by the Green Thumb start with a short growth cycle.",
+        "icon": "https://www.mushpedia.com/images/b/b4/Green_Thumb.png",
+        "learnedBy": [
+            {
+                "name": "Ian",
+                "level": 4
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Gunner": {
+        "name": "Gunner",
+        "description": "At least someone will show them how it's done",
+        "effects": "Double the damages from you turret shoots. Double the odd of touching ennemies with turrets.",
+        "icon": "https://www.mushpedia.com/images/d/d0/Gunner.png",
+        "learnedBy": [
+            {
+                "name": "Paola",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Intimidating": {
+        "name": "Intimidating",
+        "description": "When Chao stares at them with bloodlust in his eyes, even Mush can become paralyzed with fear.",
+        "effects": "Spend 1  to intimidate another crewmember, who will lose 2  and 4 .",
+        "icon": "https://www.mushpedia.com/images/c/c3/Intimidating.png",
+        "learnedBy": [
+            {
+                "name": "Chao",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "IT Expert": {
+        "name": "IT Expert",
+        "description": "The IT Expert is at home as soon as they are in front of a screen. They manipulate the nexus, navigation and communications terminals with ease.",
+        "effects": "+2  per day (IT Action Points). Bonus for developing certain NERON projects. Chances of success are improved with the  Hacker Kit",
+        "icon": "https://www.mushpedia.com/images/c/c0/IT_Expert.png",
+        "learnedBy": [
+            {
+                "name": "Janice",
+                "level": 2
+            },
+            {
+                "name": "Eleesha",
+                "level": 4
+            },
+            {
+                "name": "Frieda",
+                "level": 4
+            },
+            {
+                "name": "Terrence",
+                "level": 5
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Leader": {
+        "name": "Leader",
+        "description": "A charismatic leader knows how to effectively lead a team and increase morale using powerful, passionate speeches.",
+        "effects": "Gives the action Motivational Speech which increases the Morale () of your crewmates.",
+        "icon": "https://www.mushpedia.com/images/5/50/Leader.png",
+        "learnedBy": [
+            {
+                "name": "Jin Su",
+                "level": 1
+            },
+            {
+                "name": "Kuan Ti",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Lethargy": {
+        "name": "Lethargy",
+        "description": "You're only awake for 4h per day, but even in that short time, you can achieve miracles!",
+        "effects": "You will restore 3  every consecutive cycle in bed after you've slept for at least 4 cycles in a row. The maximum  in your gauge is doubled.",
+        "icon": "https://www.mushpedia.com/images/f/f9/Lethargy.png",
+        "learnedBy": [
+            {
+                "name": "Chun",
+                "level": 5
+            }
+        ],
+        "mushStatus": "N/A"
+    },
+    "Logistics Expert": {
+        "name": "Logistics Expert",
+        "description": "You personally oversee the organisation of every task aboard the Daedalus in order to maximize the efficiency of every one of your teammates.",
+        "effects": "Every cycle, 1  is given randomly to a crewmate in the same room as you.",
+        "icon": "https://www.mushpedia.com/images/1/11/Logistics_Expert.png",
+        "learnedBy": [
+            {
+                "name": "Paola",
+                "level": 2
+            },
+            {
+                "name": "Jin Su",
+                "level": 5
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Mankind's only hope": {
+        "name": "Mankind's only hope",
+        "description": "Her unique immune system makes her the last hope for humanity. As long as she stays alive, we'll have a shot at combating the Mush invasion",
+        "effects": "Daily morale loss is reduced by 1 point",
+        "icon": "https://www.mushpedia.com/images/f/fe/Mankind%27s_only_hope.png",
+        "learnedBy": [
+            {
+                "name": "Chun",
+                "level": 1
+            }
+        ],
+        "mushStatus": "N/A"
+    },
+    "Medic": {
+        "name": "Medic",
+        "description": "Medics have full medical training, allowing them to carry out rapid, appropriate procedures. They are also skilled in surgery",
+        "effects": "Heal actions earn an additional 2 . Can carry out Operations. Can read properties of medicines. +4% bonus' on all laboratory Research.",
+        "icon": "https://www.mushpedia.com/images/2/26/Medic.png",
+        "learnedBy": [
+            {
+                "name": "Finola",
+                "level": 2
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Metalworker": {
+        "name": "Metalworker",
+        "description": "It seems pretty clear that you're a really productive person.",
+        "effects": "Daily if you find yourself in a Warehouse, you have a chance of finding scraps or better for 0 .",
+        "icon": "https://www.mushpedia.com/images/a/a3/Metalworker.png",
+        "learnedBy": [
+            {
+                "name": "Terrence",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Motivator": {
+        "name": "Motivator",
+        "description": "Bla bla bla... Whatever",
+        "effects": "For 2AP you can give a motivation speech wich give 3MP to everyone in the room.",
+        "icon": "https://www.mushpedia.com/images/c/c3/Motivator.png",
+        "learnedBy": [
+            {
+                "name": "Derek",
+                "level": 4
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Mycologist": {
+        "name": "Mycologist",
+        "description": "The mycologist can treat fungal infections in the Medlab or using a Medikit",
+        "effects": "When you heal a crewmate, they automatically lose a spore",
+        "icon": "https://www.mushpedia.com/images/6/66/Mycologist.png",
+        "learnedBy": [
+            {
+                "name": "Ian",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "NERON's only friend": {
+        "name": "NERON's only friend",
+        "description": "As soon as you are aboard the ship, NERON is content, its programs run without a hitch and its performance is noticeably improved.",
+        "effects": "The rewards from all NEXUS research are maximized for everyone.",
+        "icon": "https://www.mushpedia.com/images/7/7d/NERON%27s_only_friend.png",
+        "learnedBy": [
+            {
+                "name": "Janice",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Nurse": {
+        "name": "Nurse",
+        "description": "Always ready to help",
+        "effects": "+1  every day (Free healing action) Can read properties of medicines",
+        "icon": "https://www.mushpedia.com/images/c/cc/Nurse.png",
+        "learnedBy": [
+            {
+                "name": "Chun",
+                "level": 2
+            },
+            {
+                "name": "Finola",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Observant": {
+        "name": "Observant",
+        "description": "You use 1  less to discover hidden objects. You have a 25% chance of detecting covert activity in the room you are in.",
+        "effects": "The Search action costs 1  less. You have a 25% chance of detecting covert activity in your room.",
+        "icon": "https://www.mushpedia.com/images/5/52/Observant.png",
+        "learnedBy": [
+            {
+                "name": "Eleesha",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "OCD": {
+        "name": "OCD",
+        "description": "Your work is clean, very clean, getting cleaner, ever cleaner. You are genuinely obsessed by cleanliness, but this has its advantages.",
+        "effects": "You will never make a mess carrying out any tasks aboard the ship",
+        "icon": "https://www.mushpedia.com/images/a/a9/OCD.png",
+        "learnedBy": [
+            {
+                "name": "Finola",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Opportunist": {
+        "name": "Opportunist",
+        "description": "The opportunist waits for any chance to ascend in the ship's hierarchy, they will miss no opportunity",
+        "effects": "+5  when you earn a title for the first time",
+        "icon": "https://www.mushpedia.com/images/2/25/Opportunist.png",
+        "learnedBy": [
+            {
+                "name": "Stephen",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "Panic": {
+        "name": "Panic",
+        "description": "Seeing the Mush take over his beloved ship drives Gioele to his limits.",
+        "effects": "Gives 1  and 1  in each cycle in which at least half the crew are Mush.",
+        "icon": "https://www.mushpedia.com/images/4/4c/Panic.png",
+        "learnedBy": [
+            {
+                "name": "Gioele",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "Paranoid": {
+        "name": "Paranoid",
+        "description": "The paranoid crewmember always believes their crewmates to be potentially dangerous, they always watch their back using their extra cameras.",
+        "effects": "Starts out with 2 additional Cameras.",
+        "icon": "https://www.mushpedia.com/images/b/b2/Paranoid.png",
+        "learnedBy": [
+            {
+                "name": "Gioele",
+                "level": 2
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Physicist": {
+        "name": "Physicist",
+        "description": "The Physicist is a high flier in the field of physics research. Their understanding of quantum mechanics and even the essence of the strings that make up our universe is their major talent. They also have the advantage when repairing PILGRED.",
+        "effects": "Gives 1  (PILGRED repair point) per day Bonus for repairing PILGRED Bonus for developing certain NERON projects",
+        "icon": "https://www.mushpedia.com/images/0/01/Physicist.png",
+        "learnedBy": [
+            {
+                "name": "Raluca",
+                "level": 1
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Pilot": {
+        "name": "Pilot",
+        "description": "An expert in manoeuvring the Icarus, Pasiphae and Patroller craft. Their aerial mastery is impressive.",
+        "effects": "Has Mad Pilot Skills. Never misses landings or takeoffs. Bonus for developing certain NERON projects.",
+        "icon": "https://www.mushpedia.com/images/8/8f/Pilot.png",
+        "learnedBy": [
+            {
+                "name": "Andie",
+                "level": 1
+            },
+            {
+                "name": "Hua",
+                "level": 1
+            },
+            {
+                "name": "Frieda",
+                "level": 2
+            },
+            {
+                "name": "Jin Su",
+                "level": 2
+            },
+            {
+                "name": "Roland",
+                "level": 2
+            },
+            {
+                "name": "Terrence",
+                "level": 3
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Politician": {
+        "name": "Politician",
+        "description": "Either they are with you or against you.",
+        "effects": "Unique: For 3  vyou(sic) can declare a Coup at the Nexus. On next cycle, NERON will consider as the new commander.",
+        "icon": "https://www.mushpedia.com/images/7/77/Politician_skill.png",
+        "learnedBy": [
+            {
+                "name": "Kuan Ti",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Polymath": {
+        "name": "Polymath",
+        "description": "Knowledge is always moving, state is overrated.",
+        "effects": "+2 private channels +1  per day. -10% to all you action tries.",
+        "icon": "https://www.mushpedia.com/images/f/f6/Polymath.png",
+        "learnedBy": [
+            {
+                "name": "Eleesha",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Polyvalent": {
+        "name": "Polyvalent",
+        "description": "You have skills, they're always useful...",
+        "effects": "You are considered a  Botanist,  Diplomat and  Biologist but you don't have their actions or resources.",
+        "icon": "https://www.mushpedia.com/images/0/07/Skilful.png",
+        "learnedBy": [
+            {
+                "name": "Andie",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Premonition": {
+        "name": "Premonition",
+        "description": "Your intuition never fails, you can see the most recent activities of a teammate in the form of a vivid flashback. It's practical, but gives you a monster headache!",
+        "effects": "You can see the last action of a teammate. This action costs you one .",
+        "icon": "https://www.mushpedia.com/images/4/40/Premonition.png",
+        "learnedBy": [
+            {
+                "name": "Chun",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Unknown"
+    },
+    "Radio Expert": {
+        "name": "Radio Expert",
+        "description": "The radio expert can decode the most complicated jumble of spatial waves in order to rebuild or send messages to the other end of the universe.",
+        "effects": "Twice as effective at establishing contact with Sol. Improves the quality of teammates attempts to contact Sol by 50% when they're in the same room. Bonus for developing certain NERON projects.",
+        "icon": "https://www.mushpedia.com/images/f/f9/Radio_Expert.png",
+        "learnedBy": [
+            {
+                "name": "Paola",
+                "level": 1
+            },
+            {
+                "name": "Janice",
+                "level": 5
+            },
+            {
+                "name": "Frieda",
+                "level": 5
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Rebel": {
+        "name": "Rebel",
+        "description": "Your links to the anti-mush resistance allow you to understand and decode rebel transmissions much quicker than any other radio expert.",
+        "effects": "Doubles your chances of contacting a rebel base.",
+        "icon": "https://www.mushpedia.com/images/e/e3/Rebel.png",
+        "learnedBy": [
+            {
+                "name": "Paola",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Robotics Expert": {
+        "name": "Robotics Expert",
+        "description": "The Robotics Expert can create and operate drones in any way they see fit.",
+        "effects": "Starts out with a drone plan. Can upgrade drones. Bonus for developing certain NERON projects.",
+        "icon": "https://www.mushpedia.com/images/6/64/Robotics_Expert.png",
+        "learnedBy": [
+            {
+                "name": "Terrence",
+                "level": 1
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Self-sacrifice": {
+        "name": "Self-sacrifice",
+        "description": "Certain particularly resilient people can withstand the unthinkable, but this comes at a cost.",
+        "effects": "When your morale reaches 0, you will not die, but lose one  per cycle instead.",
+        "icon": "https://www.mushpedia.com/images/6/60/Self-sacrifice.png",
+        "learnedBy": [
+            {
+                "name": "Janice",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Unknown"
+    },
+    "Shooter": {
+        "name": "Shooter",
+        "description": "At ease handling all kinds of weapons",
+        "effects": "+2 Free Shots  per day. Your off-target shots cause 2 times fewer accidents. Your successful shots cause 2 times as many critical hits. Bonus : +1 to expedition combat strength. Bonus for developing certain NERON projects.",
+        "icon": "https://www.mushpedia.com/images/e/ed/Shooter.png",
+        "learnedBy": [
+            {
+                "name": "Chao",
+                "level": 1
+            },
+            {
+                "name": "Derek",
+                "level": 1
+            },
+            {
+                "name": "Paola",
+                "level": 3
+            },
+            {
+                "name": "Roland",
+                "level": 3
+            },
+            {
+                "name": "Jin Su",
+                "level": 4
+            },
+            {
+                "name": "Stephen",
+                "level": 4
+            },
+            {
+                "name": "Terrence",
+                "level": 4
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Shrink": {
+        "name": "Shrink",
+        "description": "The Shrink is in charge of psychological support. They are able to keep morale high and treat psychological illnesses.",
+        "effects": "On each cycle, 1 Morale Point () is regained by everyone lying down in the room. Treats psychological illnesses. Gives the action Comfort, which increases morale. Bonus for developing certain NERON projects",
+        "icon": "https://www.mushpedia.com/images/6/65/Shrink.png",
+        "learnedBy": [
+            {
+                "name": "Janice",
+                "level": 1
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Sneak": {
+        "name": "Sneak",
+        "description": "You are of a fearful nature and you instinctively know how to make yourself scarce in order to avoid any and all attempts at physical contact.",
+        "effects": "Hand-to-hand attacks are subject to a 25% penalty. You can move around freely regardless of how many Guards there are in the room.",
+        "icon": "https://www.mushpedia.com/images/9/91/Sneak.png",
+        "learnedBy": [
+            {
+                "name": "Chun",
+                "level": 4
+            }
+        ],
+        "mushStatus": "Unknown"
+    },
+    "Solid": {
+        "name": "Solid",
+        "description": "You'll incur no penalties for carrying heavy objects. Also useful for hand-to-hand combat.",
+        "effects": "Your hand-to-hand attacks inflict one additional damage point No penalties for carrying heavy objects. Undocumented: You can kick people out of a room.",
+        "icon": "https://www.mushpedia.com/images/9/9b/Solid.png",
+        "learnedBy": [
+            {
+                "name": "Gioele",
+                "level": 1
+            },
+            {
+                "name": "Stephen",
+                "level": 2
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Sprinter": {
+        "name": "Sprinter",
+        "description": "The Sprinter always puts their best foot forward! They get additional Movement Points.",
+        "effects": "You earn an additional 2  every time you convert - (Does not stack with  Anti-Grav Scooter). Expeditions involving a Sprinter will allow an additional planetary zone to be explored",
+        "icon": "https://www.mushpedia.com/images/0/06/Sprinter.png",
+        "learnedBy": [
+            {
+                "name": "Roland",
+                "level": 1
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Strateguru": {
+        "name": "Strateguru",
+        "description": "After displaying a certain degree of megalomania, it can be mistaken for talent. You are an expert in intergalactic warfare, but everyone thinks you're crazy.",
+        "effects": "50% of chance of reducing each wave of Hunters by 33%.",
+        "icon": "https://www.mushpedia.com/images/5/5a/Strateguru.png",
+        "learnedBy": [
+            {
+                "name": "Jin Su",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Survivalist": {
+        "name": "Survivalist",
+        "description": "The Survivalist is great to have on exploration missions. They can defend themselves more effectively against extra-terrestrial life forms and generally deal with these encounters better than anyone else.",
+        "effects": "Expedition : All damage is reduced by one point. Expedition : The action Provision gives one additional steak. Expedition : Last to die if a team fatality occurs.",
+        "icon": "https://www.mushpedia.com/images/c/c0/Survivalist.png",
+        "learnedBy": [
+            {
+                "name": "Chao",
+                "level": 2
+            },
+            {
+                "name": "Frieda",
+                "level": 3
+            },
+            {
+                "name": "Hua",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Technician": {
+        "name": "Technician",
+        "description": "Qualified to repair materials, equipment and the hull of the Daedalus.",
+        "effects": "+1  (Repair Action Point) per day. Chance of success on Repairs doubled. Bonus for developing certain NERON projects. Can reinforce and dismantle objects",
+        "icon": "https://www.mushpedia.com/images/3/36/Technician.png",
+        "learnedBy": [
+            {
+                "name": "Terrence",
+                "level": 2
+            },
+            {
+                "name": "Raluca",
+                "level": 3
+            },
+            {
+                "name": "Hua",
+                "level": 4
+            },
+            {
+                "name": "Kuan Ti",
+                "level": 4
+            },
+            {
+                "name": "Eleesha",
+                "level": 5
+            },
+            {
+                "name": "Mage Book",
+                "level": null
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "The Optimist": {
+        "name": "The Optimist",
+        "description": "The end of humanity... worse things happen at sea, right?",
+        "effects": "The optimist loses one less  per day.",
+        "icon": "https://www.mushpedia.com/images/a/a6/The_Optimist.png",
+        "learnedBy": [
+            {
+                "name": "Kuan Ti",
+                "level": 2
+            },
+            {
+                "name": "Roland",
+                "level": 5
+            }
+        ],
+        "mushStatus": "Lost"
+    },
+    "Torturer": {
+        "name": "Torturer",
+        "description": "The torturer knows all the pressure points and most sensitive areas with which they can convey their most important message... \"You WILL talk.\"",
+        "effects": "Enables the Torture action.",
+        "icon": "https://www.mushpedia.com/images/d/d7/Torturer.png",
+        "learnedBy": [
+            {
+                "name": "Chao",
+                "level": 4
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Tracker": {
+        "name": "Tracker",
+        "description": "The tracker can see the comings and going of every team member. Furthermore, they can print any research results during the game via the Tabulatrix. This provides a list of players of which at least one is Mush.",
+        "effects": "Full access to movement history. Able to print secret list on the Tabulatrix.",
+        "icon": "https://www.mushpedia.com/images/c/c5/Tracker.png",
+        "learnedBy": [
+            {
+                "name": "Eleesha",
+                "level": 1
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "U-Turn": {
+        "name": "U-Turn",
+        "description": "You've got to know how to change your certitudes",
+        "effects": "When on an expedition, if there's an emergency, you can return to the Daedalus for 2 .",
+        "icon": "https://www.mushpedia.com/images/6/6c/U-Turn.png",
+        "learnedBy": [
+            {
+                "name": "Hua",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Victimizer": {
+        "name": "Victimizer",
+        "description": "Certain well-targeted remarks can have unexpected results.",
+        "effects": "For 1 , you can chastise someone. This crewmate gains Pariah status. The Pariah's actions are 20% less likely to be successful. Covert actions become  Secret. If the Pariah dies and was  Mush, the Victimizer earns 8 . Otherwise they lose 8 .",
+        "icon": "https://www.mushpedia.com/images/e/ee/Victimizer.png",
+        "learnedBy": [
+            {
+                "name": "Gioele",
+                "level": 6
+            }
+        ],
+        "mushStatus": "Kept"
+    },
+    "Wrestler": {
+        "name": "Wrestler",
+        "description": "The wrestler's german suplex makes the vertebrae of your enemies tremble.",
+        "effects": "Your attacks in hand-to-hand combat inflict an additional 2 damage. Undocumented: You can kick people out of a room.",
+        "icon": "https://www.mushpedia.com/images/2/26/Wrestler.png",
+        "learnedBy": [
+            {
+                "name": "Derek",
+                "level": 2
+            },
+            {
+                "name": "Chao",
+                "level": 3
+            }
+        ],
+        "mushStatus": "Kept"
+    }
+}

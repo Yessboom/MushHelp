@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.polygon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.area-polygon {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    fill: rgba(255, 0, 0, 0.3);
+    stroke: rgba(255, 0, 0, 0.8);
+    stroke-width: 2;
+}
+
+.area-polygon.active {
+    opacity: 1;
+}
+
+.area-polygon.selected {
+    fill: rgba(0, 255, 0, 0.4);
+    stroke: rgba(0, 255, 0, 0.9);
+    stroke-width: 3;
+}
+
+#Info {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    min-height: 20px;
+}
+
+.area-card {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    border: 2px solid #13134e;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    padding: 20px;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.area-card.visible {
+    transform: translateX(0);
+}
+
+.area-card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #13134e;
+    border-bottom: 2px solid #13134e;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+.area-description {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.usual-suspects {
+    margin-bottom: 20px;
+}
+
+.usual-suspects h3 {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.close-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+}
+
+.close-btn:hover {
+    background: #c82333;
+}
+
+.elements-description {
+    margin-bottom: 20px;
+}
+
+.elements-description h3 {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.elements-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.elements-list li {
+    background: #e8f4f8;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-left: 3px solid #17a2b8;
+    font-size: 14px;
+}
+
+.suspects-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.suspects-list li {
+    background: #f8f9fa;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-left: 3px solid #13134e;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.suspects-list li:hover {
+    background: #e9ecef;
+    text-decoration: underline;
+}
+
+/* Character card styles */
+.character-card {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+    background: #222a6b;
+    border: 2px solid #181a54;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    padding: 20px;
+    z-index: 1001; /* Higher than area card */
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+
+.character-card.visible {
+    transform: translateX(0);
+}
+
+.character-card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+    font-weight: 5000;    
+    border-bottom: 2px solid #008ee5;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+.character-description {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.character-skills {
+    margin-bottom: 20px;
+}
+
+.character-skills h3 {
+    margin-bottom: 8px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    background: #008ee5;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-left: 3px solid #008ee5;
+    font-size: 14px;
+    color: white;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+    font-weight: 500;
+    
+}
+
+.character-history {
+    margin-bottom: 20px;
+}
+
+.character-history h3 {
+    margin-bottom: 8px;
+    color: white; /* Change from #333 to white */
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.history-list li {
+    background: #008ee5;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white; /* Add this line */
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+    font-weight: 500;
+}
+
+.characterColumn {
+    float: left;
+    width: 70%;
+    padding: 2px;
+}
+
+.skillsColumn {
+    float: left;
+    width: 30%;
+    padding: 2px;
+}
+
+.character-description{
+    background: #008ee5;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-left: 3px solid #008ee5;
+    font-size: 14px;
+    color: white;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+    font-weight: 500;
+
+}
+
+/* Add these styles to your existing CSS */
+
+.character-traits {
+    margin-bottom: 20px;
+}
+
+.character-traits h3 {
+    margin-bottom: 8px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.trait-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trait-list li {
+    background: #28a745;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-left: 3px solid #28a745;
+    font-size: 14px;
+    color: white;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+    font-weight: 500;
+}
+
+.character-objectives {
+    margin-bottom: 20px;
+}
+
+.character-objectives h3 {
+    margin-bottom: 8px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.objectives-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.objectives-list li {
+    background: #ffc107;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-left: 3px solid #ffc107;
+    font-size: 14px;
+    color: #212529;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+    font-weight: 500;
+}
+
+.trait-item, .objective-item {
+    position: relative;
+    display: inline-block;
+}
+
+.rowtrait, .rowobjective {
+    cursor: pointer;
+}
+
+.rowtrait:hover, .rowobjective:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Add row class for proper column clearing */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

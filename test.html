@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image map</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    img {
+      width: 100%;
+      padding: 3rem;
+    }
+  </style>
+  <body>
+    <div id="Info">Hover over areas to see info</div>
+    <img src="public/images/FullShip.png" usemap="#image-map" />
+    <map name="image-map">
+        <area target="" alt="bridge" title="bridge" href="" coords="160,192,156,119,176,84,272,35,292,53,353,53,516,136,311,236,232,189,192,213,192,213" shape="poly" onmouseover="mouseover('bridge')">
+        <area target="" alt="Front Beta Turret" title="Front Beta Turret" href="" coords="228,194,312,237,256,268,269,318,236,394,160,345,140,233" shape="poly" onmouseover="mouseover('Front Beta Turret')">
+        <area target="" alt="Front Alpha Turret" title="Front Alpha Turret" href="" coords="516,132,610,90,551,62,521,46,492,54,439,38,471,64,435,86" shape="poly" onmouseover="mouseover('Front Alpha Turret')">
+    </map>
+    <script src="mageMapResizer.min.js "></script>
+    <script>
+      imageMapResize();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
