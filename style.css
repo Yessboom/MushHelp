@@ -6,18 +6,19 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
 }
 
 
 .image-container {
-    position: relative;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
     width: 100vw;
     height: 100vh;
-    overflow: auto; /* Enable scrolling */
-    padding: 0;
-    margin: 0;
+    overflow: auto; /* Enable scrolling inside the container */
+    background: #000; 
 }
 
 img {
@@ -78,6 +79,15 @@ img {
     transition: transform 0.3s ease;
     max-height : 90vh;
     overflow-y: auto;
+}
+
+#ship-image {
+    display: block;
+    /* Show image at its natural size, allow scrolling if too big */
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
 }
 
 .area-card.visible {
