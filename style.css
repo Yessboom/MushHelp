@@ -190,7 +190,6 @@ img {
     text-decoration: underline;
 }
 
-/* Character card styles */
 .character-card {
     position: fixed;
     top: 20px;
@@ -266,7 +265,7 @@ img {
 
 .character-history h3 {
     margin-bottom: 8px;
-    color: white; /* Change from #333 to white */
+    color: white; 
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -283,7 +282,7 @@ img {
     padding: 6px 10px;
     border-radius: 4px;
     font-size: 14px;
-    color: white; /* Add this line */
+    color: white; 
     font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
     font-weight: 500;
 }
@@ -313,7 +312,6 @@ img {
 
 }
 
-/* Add these styles to your existing CSS */
 
 .character-traits {
     margin-bottom: 20px;
@@ -409,7 +407,6 @@ img {
     transition: transform 0.3s ease;
 }
 
-/* Add row class for proper column clearing */
 .row::after {
     content: "";
     clear: both;
