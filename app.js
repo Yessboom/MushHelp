@@ -95,7 +95,7 @@ function clickArea(name) {
         selectedArea = null;
         hideAllHighlights();
         closeCard();
-        document.getElementById("Info").innerHTML = "Click on areas to select them";
+        //document.getElementById("Info").innerHTML = "Click on areas to select them";
     } else {
         selectedArea = name;
         hideAllHighlights();
@@ -174,7 +174,21 @@ function populateAreaSkillList(area, data) {
             // Create skill header
             const skillHeader = document.createElement("div");
             skillHeader.className = "skill-header";
-            skillHeader.textContent = skill;
+            const skillData = data["skill"][skill];
+            const skillName = skillData ? skillData.name : skill;
+            const isOpen = false;
+            const arrowSymbol = isOpen ? '▼' : '▲';
+
+            const textContent = `
+            <span style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                <span style="display: flex; align-items: center;">
+                <img src="${skillData.icon}" alt="${skill} icon" style="width:16px; height:16px; margin-right:5px;">
+                <span>${skillName}</span>
+                </span>
+                <span class="arrow">${arrowSymbol}</span>
+            </span>
+            `;
+            skillHeader.innerHTML = textContent;
             skillHeader.style.padding = "10px";
             skillHeader.style.backgroundColor = "#f8f9fa";
             skillHeader.style.borderRadius = "4px";
@@ -265,7 +279,7 @@ function populateAreaSkillList(area, data) {
                 const arrow = skillHeader.querySelector('.arrow') || document.createElement('span');
                 if (!skillHeader.querySelector('.arrow')) {
                     arrow.className = 'arrow';
-                    arrow.style.float = 'right';
+                    //arrow.style.float = 'right';
                     skillHeader.appendChild(arrow);
                 }
                 arrow.textContent = isOpen ? '▼' : '▲';
