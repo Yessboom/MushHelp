@@ -67,7 +67,7 @@ img {
 .area-card {
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 00px;
     width: 300px;
     background: white;
     border: 2px solid #13134e;
@@ -187,7 +187,7 @@ img {
 .character-card {
     position: fixed;
     top: 20px;
-    left: 20px;
+    left: 0px;
     width: 400px;
     background: #222a6b;
     border: 2px solid #181a54;
