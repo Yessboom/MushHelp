@@ -124,7 +124,7 @@
             "description" : "The Nexus is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["NERON Core", "Bios Terminal"],
             "usual_suspects" : ["Janice Kent", "Lai Kuan Ti", "Raluca Tomescu", "Terrence Archer"],
-            "skills" : ["Designer", "IT Expert", "Politican", "Technician", "Genius", "Physicist"]
+            "skills" : ["Designer", "IT Expert", "Politician", "Technician", "Genius", "Physicist"]
         },
         "Rear Corridor": {
             "name" : "Rear Corridor",
@@ -272,7 +272,7 @@
         "Finola Keegan": {
             "name" : "Finola Keegan",
             "description" : "A doctor of both medicine and biology, Finola's life's work revolves around making the world a better place. Her research and healing skills make her invaluable on board.",
-            "skills" : ["Medic", "Calm", "Field Surgeon", "Pharmacist", "Biologist"],
+            "skills" : ["Biologist", "Medic", "Nurse", "Diplomat", "OCD"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Finola.png",
             "pixel": "",
@@ -414,7 +414,7 @@
         "Lai Kuan Ti": {
             "name" : "Lai Kuan Ti",
             "description" : "An astrophycisist and the ship's designer, Kuan Ti knows it like the back of his hand and has privileged access to NERON. If a Nexus project is underway, you can be sure he is involved!",
-            "skills" : ["Designer", "The Optimist", "Astrophysicist", "Technician", "Leader", "Politican"],
+            "skills" : ["Designer", "The Optimist", "Astrophysicist", "Technician", "Leader", "Politician"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "KuanTi.png",
             "pixel": "",
@@ -512,7 +512,7 @@
         "Terrence Archer": {
             "name" : "Terrence Archer",
             "description" : "Don't be fooled by his appearance, Terrence is amongst the most agile crew members, albeit mentally. Next-generation robotics and UAVs are his bread and butter.",
-            "skills" : ["Robotic Expert", "Technician", "Pilot", "Shooter", "IT Expert", "Metalworker"],
+            "skills" : ["Robotics Expert", "Technician", "Pilot", "Shooter", "IT Expert", "Metalworker"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Terrence.png",
             "pixel": "",

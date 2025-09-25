@@ -163,6 +163,7 @@ function populateSuspectList(area, data) {
 }
 
 function populateAreaSkillList(area, data) {
+    
     const skillsList = document.getElementById("skillsArea-list");
     skillsList.innerHTML = "";
     if (data["area"][area].skills && data["area"][area].skills.length > 0) {
@@ -689,6 +690,6 @@ window.addEventListener('resize', () => {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById("Info").innerHTML = "Click on areas to select them";
+    //document.getElementById("Info").innerHTML = "Click on areas to select them";
     updatePolygonOverlay();
 });
