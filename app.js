@@ -129,6 +129,161 @@ function highlightCharacterRooms(characterName, data) {
     });
 }
 
+function populateElementList(area, data) {
+    const elementsList = document.getElementById("elements-list");
+    elementsList.innerHTML = "";
+    if (data["area"][area].elements && data["area"][area].elements.length > 0) {
+        data["area"][area].elements.forEach(element => {
+            const li = document.createElement("li");
+            li.textContent = element;
+            elementsList.appendChild(li);
+        });
+    } else {
+        const li = document.createElement("li");
+        li.textContent = "No key elements listed.";
+        elementsList.appendChild(li);
+    }
+}
+
+function populateSuspectList(area, data) {
+    const suspectsList = document.getElementById("suspects-list");
+    suspectsList.innerHTML = "";
+    if (data["area"][area].usual_suspects && data["area"][area].usual_suspects.length > 0) {
+        data["area"][area].usual_suspects.forEach(suspect => {
+            const li = document.createElement("li");
+            li.textContent = suspect;
+            li.onclick = () => showCharacterCard(suspect);
+            suspectsList.appendChild(li);
+        });
+    } else {
+        const li = document.createElement("li");
+        li.textContent = "No usual suspects listed.";
+        suspectsList.appendChild(li);
+    }
+}
+
+function populateAreaSkillList(area, data) {
+    const skillsList = document.getElementById("skillsArea-list");
+    skillsList.innerHTML = "";
+    if (data["area"][area].skills && data["area"][area].skills.length > 0) {
+        data["area"][area].skills.forEach(skill => {
+            const li = document.createElement("li");
+            li.style.cursor = "pointer";
+            
+            // Create skill header
+            const skillHeader = document.createElement("div");
+            skillHeader.className = "skill-header";
+            skillHeader.textContent = skill;
+            skillHeader.style.padding = "10px";
+            skillHeader.style.backgroundColor = "#f8f9fa";
+            skillHeader.style.borderRadius = "4px";
+            skillHeader.style.marginBottom = "5px";
+            
+            // Create accordion content (initially hidden)
+            const accordionContent = document.createElement("div");
+            accordionContent.className = "skill-accordion-content";
+            accordionContent.style.display = "none";
+            accordionContent.style.padding = "10px";
+            accordionContent.style.backgroundColor = "#ffffff";
+            accordionContent.style.border = "1px solid #dee2e6";
+            accordionContent.style.borderRadius = "4px";
+            accordionContent.style.marginBottom = "10px";
+            
+            // Populate accordion with character images
+            if (data["skill"][skill] && data["skill"][skill].learnedBy) {
+                const charactersContainer = document.createElement("div");
+                charactersContainer.style.display = "flex";
+                //charactersContainer.style.flexWrap = "wrap";
+                charactersContainer.style.gap = "10px";
+                
+                data["skill"][skill].learnedBy.forEach(learner => {
+                    if (learner.name !== "Mage Book" && data["character"][learner.name]) {
+                        const characterDiv = document.createElement("div");
+                        characterDiv.style.textAlign = "center";
+                        characterDiv.style.cursor = "pointer";
+                        characterDiv.style.transition = "transform 0.2s ease";
+                        
+                        // Character image
+                        const img = document.createElement("img");
+                        if (data["character"][learner.name].image) {
+                            img.src = `public/images/charactersHead/${data["character"][learner.name].image}`;
+                        } else {
+                            img.src = "public/images/charactersHead/default.png"; // fallback image
+                        }
+                        img.alt = learner.name;
+                        //img.style.width = "60px";
+                        //img.style.height = "60px";
+                        //img.style.borderRadius = "50%";
+                        //img.style.border = "2px solid #dee2e6";
+                        //img.style.objectFit = "cover";
+                        
+                        // Character name and level
+                        const nameLabel = document.createElement("div");
+                        // nameLabel.textContent = learner.level !== null ? 
+                        //     `${learner.name} (Lvl ${learner.level})` : 
+                        //     learner.name;
+                        // nameLabel.style.fontSize = "12px";
+                        // nameLabel.style.marginTop = "5px";
+                        // nameLabel.style.maxWidth = "80px";
+                        // nameLabel.style.wordWrap = "break-word";
+                        
+                        // Add hover effect
+                        characterDiv.addEventListener('mouseenter', () => {
+                            characterDiv.style.transform = "scale(1.1)";
+                        });
+                        
+                        characterDiv.addEventListener('mouseleave', () => {
+                            characterDiv.style.transform = "scale(1)";
+                        });
+                        
+                        // Click to open character card
+                        characterDiv.addEventListener('click', (e) => {
+                            e.stopPropagation(); // Prevent accordion toggle
+                            showCharacterCard(learner.name);
+                        });
+                        
+                        characterDiv.appendChild(img);
+                        characterDiv.appendChild(nameLabel);
+                        charactersContainer.appendChild(characterDiv);
+                    }
+                });
+                
+                if (charactersContainer.children.length > 0) {
+                    accordionContent.appendChild(charactersContainer);
+                } else {
+                    accordionContent.textContent = "No characters learn this skill.";
+                }
+            } else {
+                accordionContent.textContent = "No character data available for this skill.";
+            }
+            
+            // Add click event to toggle accordion
+            skillHeader.addEventListener('click', () => {
+                const isOpen = accordionContent.style.display === "block";
+                accordionContent.style.display = isOpen ? "none" : "block";
+                
+                // Add visual indicator (arrow)
+                const arrow = skillHeader.querySelector('.arrow') || document.createElement('span');
+                if (!skillHeader.querySelector('.arrow')) {
+                    arrow.className = 'arrow';
+                    arrow.style.float = 'right';
+                    skillHeader.appendChild(arrow);
+                }
+                arrow.textContent = isOpen ? '▼' : '▲';
+            });
+            
+            li.appendChild(skillHeader);
+            li.appendChild(accordionContent);
+            skillsList.appendChild(li);
+        });
+    } else {
+        const li = document.createElement("li");
+        li.textContent = "No skills listed.";
+        skillsList.appendChild(li);
+    }
+}
+
+
 async function showAreaCard(name) {
 
     const card = document.getElementById("area-card");
@@ -145,63 +300,28 @@ async function showAreaCard(name) {
     description.textContent = data["area"][name].description || "No description available.";
 
     //Populate Elements
-    elementsList.innerHTML = "";
-    if (data["area"][name].elements && data["area"][name].elements.length > 0) {
-        console.log(data["area"][name].elements);
-        data["area"][name].elements.forEach(element => {
-            const li = document.createElement("li");
-            li.textContent = element;
-            elementsList.appendChild(li);
-        });
-    } else {
-        const li = document.createElement("li");
-        li.textContent = "No key elements listed.";
-        elementsList.appendChild(li);
-    }
+    populateElementList(name, data);
 
-    // Populate Suspects
-    suspectsList.innerHTML = "";
-    if (data["area"][name].usual_suspects && data["area"][name].usual_suspects.length > 0) {
-        data["area"][name].usual_suspects.forEach(suspect => {
-            const li = document.createElement("li");
-            li.textContent = suspect;
-            li.onclick = () => showCharacterCard(suspect);
-            suspectsList.appendChild(li);
-        });
-    } else {
-        const li = document.createElement("li");
-        li.textContent = "No usual suspects listed.";
-        suspectsList.appendChild(li);
-    }
+    //Populate Suspects
+    //populateSuspectList(name, data);
+
+    //Populate Skills
+    populateAreaSkillList(name, data);
 
     // Show the card
     card.classList.add("visible");
 }
 
-async function showCharacterCard(characterName) {
-    const card = document.getElementById("character-card");
-    const title = document.getElementById("character-title");
-    const description = document.getElementById("character-description");
-    const skillsList = document.getElementById("skills-list");
-    const historyList = document.getElementById("history-list");
-    const characterImage = document.getElementById("character-img");
-    
-    try {
-        // Get data from Json
-        const response = await fetch('DataFr.json');
-        const data = await response.json();
-        
-        // Update card content
-        title.textContent = data["character"][characterName].name || characterName;
-        description.textContent = data["character"][characterName].description || "No description available.";
 
-        // Populate Skills
-        skillsList.innerHTML = "";
-        if (data["character"][characterName].skills && data["character"][characterName].skills.length > 0) {
-            data["character"][characterName].skills.forEach(skill => {
-                const li = document.createElement("li");
-                
-                // Check if skill exists in data and has a non-empty icon
+
+function populateCharacterSkillList(characterName, data) {
+    const skillsList = document.getElementById("skills-list");
+    skillsList.innerHTML = "";
+    if (data["character"][characterName].skills && data["character"][characterName].skills.length > 0) {
+        data["character"][characterName].skills.forEach(skill => {
+            const li = document.createElement("li");
+
+            // Check if skill exists in data and has a non-empty icon
                 const skillData = data["skill"][skill];
                 const skillName = skillData ? skillData.name : skill;
                 const hasIcon = skillData && skillData.icon && skillData.icon !== "";
@@ -254,9 +374,10 @@ async function showCharacterCard(characterName) {
             li.textContent = "No skills listed.";
             skillsList.appendChild(li);
         }
+}
 
-        // Populate Trait
-        const traitList = document.getElementById("trait-list");
+function populateCharacterTraitList(characterName, data) {
+const traitList = document.getElementById("trait-list");
         traitList.innerHTML = "";
         if (data["character"][characterName].traits && data["character"][characterName].traits.name) {
             const li = document.createElement("li");
@@ -299,9 +420,10 @@ async function showCharacterCard(characterName) {
             li.textContent = "No traits listed.";
             traitList.appendChild(li);
         }
+}
 
-        // Populate Objectives
-        const objectivesList = document.getElementById("objectives-list");
+function populateCharacterObjectiveList(characterName, data) {
+const objectivesList = document.getElementById("objectives-list");
         console.log(data["character"][characterName].objectives);
         objectivesList.innerHTML = "";
         if (data["character"][characterName].objectives) {
@@ -363,6 +485,39 @@ async function showCharacterCard(characterName) {
             li.textContent = "No objectives listed.";
             objectivesList.appendChild(li);
         }
+    }
+
+
+
+
+
+    
+async function showCharacterCard(characterName) {
+    const card = document.getElementById("character-card");
+    const title = document.getElementById("character-title");
+    const description = document.getElementById("character-description");
+    const characterImage = document.getElementById("character-img");
+    
+    try {
+        // Get data from Json
+        const response = await fetch('DataFr.json');
+        const data = await response.json();
+        
+        // Update card content
+        title.textContent = data["character"][characterName].name || characterName;
+        description.textContent = data["character"][characterName].description || "No description available.";
+
+        //Populate Character Skills
+        populateCharacterSkillList(characterName, data);
+
+
+
+        // Populate Trait
+        populateCharacterTraitList(characterName, data);
+
+
+        // Populate Objectives
+        populateCharacterObjectiveList(characterName, data);
 
         // Set character image
         if (data["character"][characterName].image) {
@@ -380,6 +535,62 @@ async function showCharacterCard(characterName) {
     }
 }
 
+function populateSkillCharacterList(skillName, data) {
+    const relatedCharactersList = document.getElementById("related-characters-list");
+    relatedCharactersList.innerHTML = "";
+    
+    // Check if skill exists in data
+    if (data["skill"][skillName] && data["skill"][skillName].learnedBy) {
+        data["skill"][skillName].learnedBy.forEach(learner => {
+            const li = document.createElement("li");
+            
+            // Display character name and level
+            if (learner.level !== null) {
+                li.textContent = `${learner.name} (Level ${learner.level})`;
+            } else {
+                li.textContent = learner.name;
+            }
+            
+            // Make it clickable to show character card (if it's not "Mage Book")
+            if (learner.name !== "Mage Book") {
+                li.style.cursor = "pointer";
+                li.onclick = () => showCharacterCard(learner.name);
+                li.classList.add("clickable-character"); // Add class for styling
+            }
+            
+            relatedCharactersList.appendChild(li);
+        });
+    } else {
+        const li = document.createElement("li");
+        li.textContent = "No characters learn this skill.";
+        relatedCharactersList.appendChild(li);
+    }
+}
+
+async function showSkillCard(skillName) {
+    const card = document.getElementById("skill-card");
+    const title = document.getElementById("skill-title");
+    const description = document.getElementById("skill-description");
+    const relatedCharactersList = document.getElementById("related-characters-list");
+    
+    //Get data from Json
+    const response = await fetch('DataFr.json');
+    const data = await response.json(); 
+
+    // Update card content
+    title.textContent = data["skill"][skillName].name || skillName;
+    description.textContent = data["skill"][skillName].description || "No description available.";
+
+    // Populate related characters
+    populateSkillCharacterList(skillName, data);
+    
+    // Show the card
+    card.classList.add("visible");
+}
+
+
+
+
 function closeCharacterCard() {
     const card = document.getElementById("character-card");
     card.classList.remove("visible");
@@ -395,8 +606,9 @@ function closeCard() {
     // Also clear selection
     selectedArea = null;
     hideAllHighlights();
-    document.getElementById("Info").innerHTML = "Click on areas to see details";
+    //document.getElementById("Info").innerHTML = "Click on areas to see details";
 }
+
 
 
 function showPolygonHighlight(name, isSelected) {
@@ -411,23 +623,26 @@ function showPolygonHighlight(name, isSelected) {
 
     if (!polygon || !image || !svg) return;
 
-    // Scale factors
-    const scaleX = image.clientWidth / (image.naturalWidth || 1000);
-    const scaleY = image.clientHeight / (image.naturalHeight || 600);
+    // Use the same scaling logic as imageMapResizer
+    const scaleX = image.width / image.naturalWidth;
+    const scaleY = image.height / image.naturalHeight;
 
-    // Update SVG viewBox to match current image display size
-    svg.setAttribute('viewBox', `0 0 ${image.clientWidth} ${image.clientHeight}`);
+    // Update SVG to match image size
+    svg.style.width = image.width + 'px';
+    svg.style.height = image.height + 'px';
+    svg.setAttribute('viewBox', `0 0 ${image.width} ${image.height}`);
 
-    // Convert original coords → scaled points
+    // Scale coordinates exactly like imageMapResizer does
     const points = [];
     for (let i = 0; i < coords.length; i += 2) {
-        const x = coords[i] * scaleX;
-        const y = coords[i + 1] * scaleY;
+        const x = Math.floor(coords[i] * scaleX);
+        const y = Math.floor(coords[i + 1] * scaleY);
         points.push(`${x},${y}`);
     }
 
     polygon.setAttribute('points', points.join(' '));
 
+    // Apply styling
     polygon.classList.remove('selected');
     if (isSelected) {
         polygon.classList.add('selected');

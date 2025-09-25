@@ -30,6 +30,12 @@
           <!-- Suspects will be populated here -->
         </ul>
       </div>
+      <div class="skills">
+        <h3> Who hangs out here</h3>
+        <ul class="skillsArea-list" id="skillsArea-list">
+          <!-- Skills will be populated here -->
+        </ul>
+      </div>
       <button class="close-btn" onclick="closeCard()">Close</button>
     </div>
 
@@ -63,7 +69,7 @@
       <div class = "characterColumn">
         <div class="character-image" id="character-image">
           <!-- Character image will be displayed here -->
-          <img src="" alt="Character Image" id="character-img" style="width:100%; height:auto; display:none;" />
+          <img src="" alt="Character Image" id="character-img" style="width:100%; height:100%; display:none;" />
         </div>
       </div>
     </div>
@@ -76,7 +82,20 @@
     <button class="close-btn" onclick="closeCharacterCard()">Close</button>
   </div>
 
-</div>  
+  <!-- Skill Info Card -->
+  <!-- <div class="skill-card" id="skill-card">
+    <h2 id="skill-title">Skill Name</h2>
+    <div class="skill-description" id="skill-description">
+      Skill description will appear here.
+    </div>
+    <div class="related-characters">
+      <h3>Characters with this skill:</h3>
+      <ul class="related-characters-list" id="related-characters-list">
+      </ul>
+    </div>
+    <button class="close-btn" onclick="closeSkillCard()">Close</button>
+  </div>   -->
+
     <div class="image-container">
       <img src="public/images/FullShip.png" usemap="#image-map" id="ship-image" />
       
@@ -148,6 +167,6 @@
     <script>
       imageMapResize();
     </script>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

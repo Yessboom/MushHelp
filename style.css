@@ -1,15 +1,30 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;    
 }
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
 
 .image-container {
     position: relative;
-    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto; /* Enable scrolling */
+    padding: 0;
+    margin: 0;
 }
 
 img {
-    width: 100%;
     display: block;
+    width: 100%;
+    height: 100%;
+
 }
 
 .polygon-overlay {
@@ -61,6 +76,8 @@ img {
     z-index: 1000;
     transform: translateX(100%);
     transition: transform 0.3s ease;
+    max-height : 90vh;
+    overflow-y: auto;
 }
 
 .area-card.visible {
@@ -170,6 +187,8 @@ img {
     z-index: 1001; /* Higher than area card */
     transform: translateX(-100%);
     transition: transform 0.3s ease;
+    max-height : 90vh;
+    overflow-y: auto;
 }
 
 
@@ -350,7 +369,28 @@ img {
     opacity: 0.8;
 }
 
+.skill-header:hover {
+    background-color: #e9ecef !important;
+}
 
+.skill-accordion-content {
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        max-height: 300px;
+    }
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
 
 /* Add row class for proper column clearing */
 .row::after {

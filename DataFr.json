@@ -3,163 +3,192 @@
             "name" : "Bridge",
             "description" : "The Bridge is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Communications Console", "Astro smth I forgot the name in english", "Command Center"],
-            "usual_suspects" : ["Paola Rinaldo", "Kim Jin Su", "Frieda Bergmann"]
+            "usual_suspects" : ["Paola Rinaldo", "Kim Jin Su", "Frieda Bergmann"],
+            "skills" : ["Astrophysicist", "IT Expert", "Polyvalent", "Radio Expert", "Rebel", "Tracker"]
         },
         "Front Beta Turret": {
             "name" : "Front Beta Turret",
             "description" : "The Front Beta Turret sucks. Way worst that the front Alpha Turret",
             "elements" : ["Turret"],
-            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"]
+            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
+            "skills" : ["Gunner", "Shooter"]
         },
         "Front Alpha Turret": {
             "name" : "Front Alpha Turret",
             "description" : "This is Paola's favorite spot when she wants to kill some hunters hanging around.",
             "elements" : ["Turret"],
-            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"]
+            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
+            "skills" : ["Gunner", "Shooter"]
         },
         "Front Corridor": {
             "name" : "Front Corridor",
             "description" : "The Front Corridor is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : [],
-            "usual_suspects" : ["Wang Chao", "Derek Hogan", "Ian Soulton"]
+            "usual_suspects" : ["Wang Chao", "Derek Hogan", "Ian Soulton"],
+            "skills" : []
         },
         "Central Corridor": {
             "name" : "Central Corridor",
             "description" : "The Central Corridor is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : [],
-            "usual_suspects" : ["Stephen Seagull", "Terrence Archer"]
+            "usual_suspects" : ["Stephen Seagull", "Terrence Archer"],
+            "skills" : []
         },
         "Medlab": {
             "name" : "Medlab",
             "description" : "The Medlab is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Mycoscan", "Lab"],
-            "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"]
+            "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
+            "skills" : ["Medic", "Biologist", "Polyvalent", "Genius", "IT Expert"]
         },
         "Garden": {
             "name" : "Garden",
             "description" : "The Garden is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : [],
-            "usual_suspects" : ["Ian Soulton", "Jiang Hua"]
+            "usual_suspects" : ["Ian Soulton", "Jiang Hua"],
+            "skills" : ["Botanist", "Mycologist", "Green Thumb", "Polyvalent"]
         },
         "Front Storage": {
             "name" : "Front Storage",
             "description" : "The Front Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : [],
-            "usual_suspects" : ["Terrence Archer", "Stephen Seagull"]
+            "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
+            "skills" : ["Metalworker"]
         },
         "Infirmary": {
             "name" : "Infirmary",
             "description" : "The Infirmary is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Bed", "Dispensary", "MedPod"],
-            "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"]
+            "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
+            "skills" : ["Medic", "Biologist", "Mycologist", "Nurse", "Lethargy", "Shrink"]
+
         },
         "Central Beta Turret": {
             "name" : "Central Beta Turret",
             "description" : "The Central Beta Turret is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Turret"],
-            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"]
+            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
+            "skills" : ["Gunner", "Shooter"]
         },
         "Central Alpha Turret": {
             "name" : "Central Alpha Turret",
             "description" : "The Central Alpha Turret is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Turret"],
-            "usual_suspects" : ["Paola Rinaldo", "Raluca Tomescu", "Derek Hogan"]
+            "usual_suspects" : ["Paola Rinaldo", "Raluca Tomescu", "Derek Hogan"],
+            "skills" : ["Gunner", "Shooter"]
         },
         "Kitchen": {
             "name" : "Kitchen",
             "description" : "The Kitchen is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : [ "Coffee Machine"],
-            "usual_suspects" : ["Stephen Seagull", "Derek Hogan"]
+            "usual_suspects" : ["Stephen Seagull", "Derek Hogan"],
+            "skills" : ["Chef", "Caffeine Junkie"]
         },
         "Beta Bay": {
             "name" : "Beta Bay",
             "description" : "The Beta Bay is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
-            "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"]
+            "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
+            "skills" : ["Pilot"]
         },
         "Central Beta Storage": {
             "name" : "Central Beta Storage",
             "description" : "The Central Beta Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Oxygen Tank"],
-            "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu"]
+            "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu"],
+            "skills" : ["Metalworker", "Technician"]
         },
         "Central Alpha Storage": {
             "name" : "Central Alpha Storage",
             "description" : "The Central Alpha Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
-            "elements" : ["Oxgyen Tank"],
-            "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu", "Stephen Seagull"]
+            "elements" : ["Oxygen Tank"],
+            "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu", "Stephen Seagull"],
+            "skills" : ["Metalworker", "Technician"]
         },
         "Alpha Bay 1": {
             "name" : "Alpha Bay 1",
             "description" : "The Alpha Bay 1 is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
-            "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"]
+            "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
+            "skills" : ["Pilot"]
         },
         "Alpha Dorm": {
             "name" : "Alpha Dorm",
             "description" : "The Alpha Dorm is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Bed", "Bed", "Bed", "Shower"],
-            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Janice Kent", "Eleesha Williams", "Lai Kuan Ti"]
+            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Janice Kent", "Eleesha Williams", "Lai Kuan Ti"],
+            "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
         },
         "Nexus": {
             "name" : "Nexus",
             "description" : "The Nexus is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["NERON Core", "Bios Terminal"],
-            "usual_suspects" : ["Janice Kent", "Lai Kuan Ti", "Raluca Tomescu", "Terrence Archer"]
+            "usual_suspects" : ["Janice Kent", "Lai Kuan Ti", "Raluca Tomescu", "Terrence Archer"],
+            "skills" : ["Designer", "IT Expert", "Politican", "Technician", "Genius", "Physicist"]
         },
         "Rear Corridor": {
             "name" : "Rear Corridor",
             "description" : "The Rear Corridor is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : [],
-            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Terrence Archer", "Jiang Hua"]
+            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Terrence Archer", "Jiang Hua"],
+            "skills" : []
         },
         "Icarus bay": {
             "name" : "Icarus bay",
             "description" : "The Icarus bay is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Icarus"],
-            "usual_suspects" : ["Jiang Hua", "Roland Zuccali", "Wang Chao", "Janice Kent", "Kim Jin Su", "Derek Hogan"]
+            "usual_suspects" : ["Jiang Hua", "Roland Zuccali", "Wang Chao", "Janice Kent", "Kim Jin Su", "Derek Hogan"],
+            "skills" : ["Pilot", "Survivalist", "Diplomat", "Polyvalent", "Botanist", "U-Turn"]
         },
         "Alpha Bay 2": {
             "name" : "Alpha Bay 2",
             "description" : "The Alpha Bay 2 is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Pasiphae", "Patroll ship"],
-            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"]
+            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
+            "skills" : ["Pilot"]
         },
         "Engine Room": {
             "name" : "Engine Room",
             "description" : "The Engine Room is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Fuel smth", "Pilgred", "Rear Reactor"],
-            "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"]
+            "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"],
+            "skills" : ["Technician", "Physicist"]
         },
         "Rear Beta Turret": {
             "name" : "Rear Beta Turret",
             "description" : "The Rear Beta Turret sucks. Way worst that the Rear Alpha Turret",
             "elements" : ["Turret"],
-            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan", "Raluca Tomescu"]
+            "usual_suspects" : ["Paola Rinaldo", "Derek Hogan", "Raluca Tomescu"],
+            "skills" : ["Gunner", "Shooter"]
         },
         "Rear Alpha Turret": {
             "name" : "Rear Alpha Turret",
             "description" : "This is Paola's favorite spot when she wants to kill some hunters hanging around.",
             "elements" : ["Turret"],
-            "usual_suspects" : ["Kim Jin Su", "Raluca Tomescu", "Derek Hogan"]
+            "usual_suspects" : ["Kim Jin Su", "Raluca Tomescu", "Derek Hogan"],
+            "skills" : ["Gunner", "Shooter"]
         }, 
         "Beta Dorm": {
             "name" : "Beta Dorm",
             "description" : "The Beta Dorm is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Bed", "Bed", "Bed", "Shower"],
-            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Eleesha Williams", "Wang Chao", "Janice Kent"]
+            "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Eleesha Williams", "Wang Chao", "Janice Kent"],
+            "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
         }, 
         "Rear Beta Storage": {
             "name" : "Rear Beta Storage",
             "description" : "The Rear Beta Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Fuel Tank"],
-            "usual_suspects" : ["Terrence Archer", "Stephen Seagull"]
+            "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
+            "skills" : ["Technician", "Metalworker"]
         },
         "Rear Alpha Storage": {
             "name" : "Rear Alpha Storage",
             "description" : "The Rear Alpha Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Fuel Tank"],
-            "usual_suspects" : ["Terrence Archer", "Stephen Seagull"]
+            "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
+            "skills" : ["Technician", "Metalworker"]
+
         }
 
 
@@ -553,7 +582,7 @@
         "icon": "https://www.mushpedia.com/images/d/d2/Antique_Perfume.png",
         "learnedBy": [
             {
-                "name": "Frieda",
+                "name": "Frieda Bergmann",
                 "level": 6
             }
         ],
@@ -566,7 +595,7 @@
         "icon": "https://www.mushpedia.com/images/6/66/Apprentice.png",
         "learnedBy": [
             {
-                "name": "Stephen",
+                "name": "Stephen Seagull",
                 "level": 5
             }
         ],
@@ -579,15 +608,15 @@
         "icon": "https://www.mushpedia.com/images/e/e8/Astrophysicist.png",
         "learnedBy": [
             {
-                "name": "Frieda",
+                "name": "Frieda Bergmann",
                 "level": 1
             },
             {
-                "name": "Gioele",
+                "name": "Gioele Rinaldo",
                 "level": 4
             },
             {
-                "name": "Kuan Ti",
+                "name": "Lai Kuan Ti",
                 "level": 3
             },
             {
@@ -604,15 +633,15 @@
         "icon": "https://www.mushpedia.com/images/a/a5/Biologist.png",
         "learnedBy": [
             {
-                "name": "Finola",
+                "name": "Finola Keegan",
                 "level": 1
             },
             {
-                "name": "Ian",
+                "name": "Ian Soulton",
                 "level": 2
             },
             {
-                "name": "Paola",
+                "name": "Paola Rinaldo",
                 "level": 4
             },
             {
@@ -629,11 +658,11 @@
         "icon": "https://www.mushpedia.com/images/8/86/Botanist.png",
         "learnedBy": [
             {
-                "name": "Ian",
+                "name": "Ian Soulton",
                 "level": 1
             },
             {
-                "name": "Hua",
+                "name": "Jiang Hua",
                 "level": 2
             },
             {
@@ -650,7 +679,7 @@
         "icon": "https://www.mushpedia.com/images/e/e9/Caffeine_Junkie.png",
         "learnedBy": [
             {
-                "name": "Gioele",
+                "name": "Gioele Rinaldo",
                 "level": 3
             }
         ],
@@ -663,7 +692,7 @@
         "icon": "https://www.mushpedia.com/images/e/e5/Chef.png",
         "learnedBy": [
             {
-                "name": "Stephen",
+                "name": "Stephen Seagull",
                 "level": 1
             },
             {
@@ -680,7 +709,7 @@
         "icon": "https://www.mushpedia.com/images/e/ea/Cold_Blooded.png",
         "learnedBy": [
             {
-                "name": "Jin Su",
+                "name": "Kim Jin Su",
                 "level": 3
             }
         ],
@@ -693,7 +722,7 @@
         "icon": "https://www.mushpedia.com/images/2/20/Confident.png",
         "learnedBy": [
             {
-                "name": "Andie",
+                "name": "Andie Graham",
                 "level": 4
             }
         ],
@@ -706,7 +735,7 @@
         "icon": "https://www.mushpedia.com/images/9/93/Crazy_Eye.png",
         "learnedBy": [
             {
-                "name": "Chao",
+                "name": "Wang Chao",
                 "level": 5
             }
         ],
@@ -719,11 +748,11 @@
         "icon": "https://www.mushpedia.com/images/5/57/Creative.png",
         "learnedBy": [
             {
-                "name": "Roland",
+                "name": "Roland Zuccali",
                 "level": 6
             },
             {
-                "name": "Stephen",
+                "name": "Stephen Seagull",
                 "level": 6
             }
         ],
@@ -736,11 +765,11 @@
         "icon": "https://www.mushpedia.com/images/b/b2/Designer.png",
         "learnedBy": [
             {
-                "name": "Kuan Ti",
+                "name": "Lai Kuan Ti",
                 "level": 1
             },
             {
-                "name": "Raluca",
+                "name": "Raluca Tomescu",
                 "level": 5
             }
         ],
@@ -753,7 +782,7 @@
         "icon": "https://www.mushpedia.com/images/0/08/Detached_Crewmember.png",
         "learnedBy": [
             {
-                "name": "Raluca",
+                "name": "Raluca Tomescu",
                 "level": 2
             }
         ],
@@ -766,7 +795,7 @@
         "icon": "https://www.mushpedia.com/images/6/6a/Devoted.png",
         "learnedBy": [
             {
-                "name": "Andie",
+                "name": "Andie Graham",
                 "level": 2
             }
         ],
@@ -779,11 +808,11 @@
         "icon": "https://www.mushpedia.com/images/e/eb/Determined.png",
         "learnedBy": [
             {
-                "name": "Eleesha",
+                "name": "Eleesha Williams",
                 "level": 2
             },
             {
-                "name": "Hua",
+                "name": "Jiang Hua",
                 "level": 5
             }
         ],
@@ -796,11 +825,11 @@
         "icon": "https://www.mushpedia.com/images/e/ee/Diplomat.png",
         "learnedBy": [
             {
-                "name": "Finola",
+                "name": "Finola Keegan",
                 "level": 4
             },
             {
-                "name": "Janice",
+                "name": "Janice Kent",
                 "level": 4
             },
             {
@@ -817,7 +846,7 @@
         "icon": "https://www.mushpedia.com/images/3/3e/Expert.png",
         "learnedBy": [
             {
-                "name": "Andie",
+                "name": "Andie Graham",
                 "level": 5
             }
         ],
@@ -830,15 +859,15 @@
         "icon": "https://www.mushpedia.com/images/3/3d/Firefighter.png",
         "learnedBy": [
             {
-                "name": "Derek",
+                "name": "Derek Hogan",
                 "level": 3
             },
             {
-                "name": "Roland",
+                "name": "Roland Zuccali",
                 "level": 4
             },
             {
-                "name": "Ian",
+                "name": "Ian Soulton",
                 "level": 5
             },
             {
@@ -855,7 +884,7 @@
         "icon": "https://www.mushpedia.com/images/b/ba/Frugivore.png",
         "learnedBy": [
             {
-                "name": "Ian",
+                "name": "Ian Soulton",
                 "level": 6
             }
         ],
@@ -868,7 +897,7 @@
         "icon": "https://www.mushpedia.com/images/2/2d/Genius.png",
         "learnedBy": [
             {
-                "name": "Raluca",
+                "name": "Raluca Tomescu",
                 "level": 4
             }
         ],
@@ -881,7 +910,7 @@
         "icon": "https://www.mushpedia.com/images/b/b4/Green_Thumb.png",
         "learnedBy": [
             {
-                "name": "Ian",
+                "name": "Ian Soulton",
                 "level": 4
             }
         ],
@@ -894,7 +923,7 @@
         "icon": "https://www.mushpedia.com/images/d/d0/Gunner.png",
         "learnedBy": [
             {
-                "name": "Paola",
+                "name": "Paola Rinaldo",
                 "level": 6
             }
         ],
@@ -907,7 +936,7 @@
         "icon": "https://www.mushpedia.com/images/c/c3/Intimidating.png",
         "learnedBy": [
             {
-                "name": "Chao",
+                "name": "Wang Chao",
                 "level": 6
             }
         ],
@@ -920,19 +949,19 @@
         "icon": "https://www.mushpedia.com/images/c/c0/IT_Expert.png",
         "learnedBy": [
             {
-                "name": "Janice",
+                "name": "Janice Kent",
                 "level": 2
             },
             {
-                "name": "Eleesha",
+                "name": "Eleesha Williams",
                 "level": 4
             },
             {
-                "name": "Frieda",
+                "name": "Frieda Bergmann",
                 "level": 4
             },
             {
-                "name": "Terrence",
+                "name": "Terrence Archer",
                 "level": 5
             },
             {
@@ -949,11 +978,11 @@
         "icon": "https://www.mushpedia.com/images/5/50/Leader.png",
         "learnedBy": [
             {
-                "name": "Jin Su",
+                "name": "Kim Jin Su",
                 "level": 1
             },
             {
-                "name": "Kuan Ti",
+                "name": "Lai Kuan Ti",
                 "level": 5
             }
         ],
@@ -966,7 +995,7 @@
         "icon": "https://www.mushpedia.com/images/f/f9/Lethargy.png",
         "learnedBy": [
             {
-                "name": "Chun",
+                "name": "Zhong Chun",
                 "level": 5
             }
         ],
@@ -979,11 +1008,11 @@
         "icon": "https://www.mushpedia.com/images/1/11/Logistics_Expert.png",
         "learnedBy": [
             {
-                "name": "Paola",
+                "name": "Paola Rinaldo",
                 "level": 2
             },
             {
-                "name": "Jin Su",
+                "name": "Kim Jin Su",
                 "level": 5
             },
             {
@@ -1000,7 +1029,7 @@
         "icon": "https://www.mushpedia.com/images/f/fe/Mankind%27s_only_hope.png",
         "learnedBy": [
             {
-                "name": "Chun",
+                "name": "Zhong Chun",
                 "level": 1
             }
         ],
@@ -1013,7 +1042,7 @@
         "icon": "https://www.mushpedia.com/images/2/26/Medic.png",
         "learnedBy": [
             {
-                "name": "Finola",
+                "name": "Finola Keegan",
                 "level": 2
             },
             {
@@ -1030,7 +1059,7 @@
         "icon": "https://www.mushpedia.com/images/a/a3/Metalworker.png",
         "learnedBy": [
             {
-                "name": "Terrence",
+                "name": "Terrence Archer",
                 "level": 6
             }
         ],
@@ -1043,7 +1072,7 @@
         "icon": "https://www.mushpedia.com/images/c/c3/Motivator.png",
         "learnedBy": [
             {
-                "name": "Derek",
+                "name": "Derek Hogan",
                 "level": 4
             }
         ],
@@ -1056,7 +1085,7 @@
         "icon": "https://www.mushpedia.com/images/6/66/Mycologist.png",
         "learnedBy": [
             {
-                "name": "Ian",
+                "name": "Ian Soulton",
                 "level": 3
             }
         ],
@@ -1069,7 +1098,7 @@
         "icon": "https://www.mushpedia.com/images/7/7d/NERON%27s_only_friend.png",
         "learnedBy": [
             {
-                "name": "Janice",
+                "name": "Janice Kent",
                 "level": 3
             }
         ],
@@ -1082,11 +1111,11 @@
         "icon": "https://www.mushpedia.com/images/c/cc/Nurse.png",
         "learnedBy": [
             {
-                "name": "Chun",
+                "name": "Zhong Chun",
                 "level": 2
             },
             {
-                "name": "Finola",
+                "name": "Finola Keegan",
                 "level": 3
             }
         ],
@@ -1099,7 +1128,7 @@
         "icon": "https://www.mushpedia.com/images/5/52/Observant.png",
         "learnedBy": [
             {
-                "name": "Eleesha",
+                "name": "Eleesha Williams",
                 "level": 3
             }
         ],
@@ -1112,7 +1141,7 @@
         "icon": "https://www.mushpedia.com/images/a/a9/OCD.png",
         "learnedBy": [
             {
-                "name": "Finola",
+                "name": "Finola Keegan",
                 "level": 5
             }
         ],
@@ -1125,7 +1154,7 @@
         "icon": "https://www.mushpedia.com/images/2/25/Opportunist.png",
         "learnedBy": [
             {
-                "name": "Stephen",
+                "name": "Stephen Seagull",
                 "level": 3
             }
         ],
@@ -1138,7 +1167,7 @@
         "icon": "https://www.mushpedia.com/images/4/4c/Panic.png",
         "learnedBy": [
             {
-                "name": "Gioele",
+                "name": "Gioele Rinaldo",
                 "level": 5
             }
         ],
@@ -1151,7 +1180,7 @@
         "icon": "https://www.mushpedia.com/images/b/b2/Paranoid.png",
         "learnedBy": [
             {
-                "name": "Gioele",
+                "name": "Gioele Rinaldo",
                 "level": 2
             }
         ],
@@ -1164,7 +1193,7 @@
         "icon": "https://www.mushpedia.com/images/0/01/Physicist.png",
         "learnedBy": [
             {
-                "name": "Raluca",
+                "name": "Raluca Tomescu",
                 "level": 1
             }
         ],
@@ -1177,27 +1206,27 @@
         "icon": "https://www.mushpedia.com/images/8/8f/Pilot.png",
         "learnedBy": [
             {
-                "name": "Andie",
+                "name": "Andie Graham",
                 "level": 1
             },
             {
-                "name": "Hua",
+                "name": "Jiang Hua",
                 "level": 1
             },
             {
-                "name": "Frieda",
+                "name": "Frieda Bergmann",
                 "level": 2
             },
             {
-                "name": "Jin Su",
+                "name": "Kim Jin Su",
                 "level": 2
             },
             {
-                "name": "Roland",
+                "name": "Roland Zuccali",
                 "level": 2
             },
             {
-                "name": "Terrence",
+                "name": "Terrence Archer",
                 "level": 3
             },
             {
@@ -1214,7 +1243,7 @@
         "icon": "https://www.mushpedia.com/images/7/77/Politician_skill.png",
         "learnedBy": [
             {
-                "name": "Kuan Ti",
+                "name": "Lai Kuan Ti",
                 "level": 6
             }
         ],
@@ -1227,7 +1256,7 @@
         "icon": "https://www.mushpedia.com/images/f/f6/Polymath.png",
         "learnedBy": [
             {
-                "name": "Eleesha",
+                "name": "Eleesha Williams",
                 "level": 6
             }
         ],
@@ -1240,7 +1269,7 @@
         "icon": "https://www.mushpedia.com/images/0/07/Skilful.png",
         "learnedBy": [
             {
-                "name": "Andie",
+                "name": "Andie Graham",
                 "level": 3
             }
         ],
@@ -1253,7 +1282,7 @@
         "icon": "https://www.mushpedia.com/images/4/40/Premonition.png",
         "learnedBy": [
             {
-                "name": "Chun",
+                "name": "Zhong Chun",
                 "level": 3
             }
         ],
@@ -1266,15 +1295,15 @@
         "icon": "https://www.mushpedia.com/images/f/f9/Radio_Expert.png",
         "learnedBy": [
             {
-                "name": "Paola",
+                "name": "Paola Rinaldo",
                 "level": 1
             },
             {
-                "name": "Janice",
+                "name": "Janice Kent",
                 "level": 5
             },
             {
-                "name": "Frieda",
+                "name": "Frieda Bergmann",
                 "level": 5
             },
             {
@@ -1291,7 +1320,7 @@
         "icon": "https://www.mushpedia.com/images/e/e3/Rebel.png",
         "learnedBy": [
             {
-                "name": "Paola",
+                "name": "Paola Rinaldo",
                 "level": 5
             }
         ],
@@ -1304,7 +1333,7 @@
         "icon": "https://www.mushpedia.com/images/6/64/Robotics_Expert.png",
         "learnedBy": [
             {
-                "name": "Terrence",
+                "name": "Terrence Archer",
                 "level": 1
             },
             {
@@ -1321,7 +1350,7 @@
         "icon": "https://www.mushpedia.com/images/6/60/Self-sacrifice.png",
         "learnedBy": [
             {
-                "name": "Janice",
+                "name": "Janice Kent",
                 "level": 6
             }
         ],
@@ -1334,31 +1363,31 @@
         "icon": "https://www.mushpedia.com/images/e/ed/Shooter.png",
         "learnedBy": [
             {
-                "name": "Chao",
+                "name": "Wang Chao",
                 "level": 1
             },
             {
-                "name": "Derek",
+                "name": "Derek Hogan",
                 "level": 1
             },
             {
-                "name": "Paola",
+                "name": "Paola Rinaldo",
                 "level": 3
             },
             {
-                "name": "Roland",
+                "name": "Roland Zuccali",
                 "level": 3
             },
             {
-                "name": "Jin Su",
+                "name": "Kim Jin Su",
                 "level": 4
             },
             {
-                "name": "Stephen",
+                "name": "Stephen Seagull",
                 "level": 4
             },
             {
-                "name": "Terrence",
+                "name": "Terrence Archer",
                 "level": 4
             },
             {
@@ -1375,7 +1404,7 @@
         "icon": "https://www.mushpedia.com/images/6/65/Shrink.png",
         "learnedBy": [
             {
-                "name": "Janice",
+                "name": "Janice Kent",
                 "level": 1
             },
             {
@@ -1392,7 +1421,7 @@
         "icon": "https://www.mushpedia.com/images/9/91/Sneak.png",
         "learnedBy": [
             {
-                "name": "Chun",
+                "name": "Zhong Chun",
                 "level": 4
             }
         ],
@@ -1405,11 +1434,11 @@
         "icon": "https://www.mushpedia.com/images/9/9b/Solid.png",
         "learnedBy": [
             {
-                "name": "Gioele",
+                "name": "Gioele Rinaldo",
                 "level": 1
             },
             {
-                "name": "Stephen",
+                "name": "Stephen Seagull",
                 "level": 2
             }
         ],
@@ -1422,7 +1451,7 @@
         "icon": "https://www.mushpedia.com/images/0/06/Sprinter.png",
         "learnedBy": [
             {
-                "name": "Roland",
+                "name": "Roland Zuccali",
                 "level": 1
             },
             {
@@ -1439,7 +1468,7 @@
         "icon": "https://www.mushpedia.com/images/5/5a/Strateguru.png",
         "learnedBy": [
             {
-                "name": "Jin Su",
+                "name": "Kim Jin Su",
                 "level": 6
             }
         ],
@@ -1452,15 +1481,15 @@
         "icon": "https://www.mushpedia.com/images/c/c0/Survivalist.png",
         "learnedBy": [
             {
-                "name": "Chao",
+                "name": "Wang Chao",
                 "level": 2
             },
             {
-                "name": "Frieda",
+                "name": "Frieda Bergmann",
                 "level": 3
             },
             {
-                "name": "Hua",
+                "name": "Jiang Hua",
                 "level": 3
             }
         ],
@@ -1473,23 +1502,23 @@
         "icon": "https://www.mushpedia.com/images/3/36/Technician.png",
         "learnedBy": [
             {
-                "name": "Terrence",
+                "name": "Terrence Archer",
                 "level": 2
             },
             {
-                "name": "Raluca",
+                "name": "Raluca Tomescu",
                 "level": 3
             },
             {
-                "name": "Hua",
+                "name": "Jiang Hua",
                 "level": 4
             },
             {
-                "name": "Kuan Ti",
+                "name": "Lai Kuan Ti",
                 "level": 4
             },
             {
-                "name": "Eleesha",
+                "name": "Eleesha Williams",
                 "level": 5
             },
             {
@@ -1506,11 +1535,11 @@
         "icon": "https://www.mushpedia.com/images/a/a6/The_Optimist.png",
         "learnedBy": [
             {
-                "name": "Kuan Ti",
+                "name": "Lai Kuan Ti",
                 "level": 2
             },
             {
-                "name": "Roland",
+                "name": "Roland Zuccali",
                 "level": 5
             }
         ],
@@ -1523,7 +1552,7 @@
         "icon": "https://www.mushpedia.com/images/d/d7/Torturer.png",
         "learnedBy": [
             {
-                "name": "Chao",
+                "name": "Wang Chao",
                 "level": 4
             }
         ],
@@ -1536,7 +1565,7 @@
         "icon": "https://www.mushpedia.com/images/c/c5/Tracker.png",
         "learnedBy": [
             {
-                "name": "Eleesha",
+                "name": "Eleesha Williams",
                 "level": 1
             }
         ],
@@ -1549,7 +1578,7 @@
         "icon": "https://www.mushpedia.com/images/6/6c/U-Turn.png",
         "learnedBy": [
             {
-                "name": "Hua",
+                "name": "Jiang Hua",
                 "level": 6
             }
         ],
@@ -1562,7 +1591,7 @@
         "icon": "https://www.mushpedia.com/images/e/ee/Victimizer.png",
         "learnedBy": [
             {
-                "name": "Gioele",
+                "name": "Gioele Rinaldo",
                 "level": 6
             }
         ],
@@ -1575,11 +1604,11 @@
         "icon": "https://www.mushpedia.com/images/2/26/Wrestler.png",
         "learnedBy": [
             {
-                "name": "Derek",
+                "name": "Derek Hogan",
                 "level": 2
             },
             {
-                "name": "Chao",
+                "name": "Wang Chao",
                 "level": 3
             }
         ],
