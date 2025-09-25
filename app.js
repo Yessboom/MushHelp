@@ -219,7 +219,6 @@ function populateAreaSkillList(area, data) {
                         //img.style.objectFit = "cover";
                         
                         // Character name and level
-                        const nameLabel = document.createElement("div");
                         // nameLabel.textContent = learner.level !== null ? 
                         //     `${learner.name} (Lvl ${learner.level})` : 
                         //     learner.name;
@@ -244,7 +243,6 @@ function populateAreaSkillList(area, data) {
                         });
                         
                         characterDiv.appendChild(img);
-                        characterDiv.appendChild(nameLabel);
                         charactersContainer.appendChild(characterDiv);
                     }
                 });
@@ -527,7 +525,7 @@ async function showCharacterCard(characterName) {
         }
 
         //Highlight rooms where character hangs out:
-        highlightCharacterRooms(characterName, data);
+        //highlightCharacterRooms(characterName, data); #Not used right now
 
         // Show the character card
         card.classList.add("visible");

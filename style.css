@@ -101,7 +101,19 @@ img {
     border-bottom: 2px solid #13134e;
     padding-bottom: 8px;
     font-size: 18px;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+
 }
+
+.area-card h3 {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+}
+
+
 
 .area-description {
     color: #555;
@@ -139,12 +151,7 @@ img {
     margin-bottom: 20px;
 }
 
-.elements-description h3 {
-    margin-bottom: 8px;
-    color: #333;
-    font-size: 14px;
-    text-transform: uppercase;
-}
+
 
 .elements-list {
     list-style: none;
