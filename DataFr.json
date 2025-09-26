@@ -55,9 +55,9 @@
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Metalworker"]
         },
-        "Infirmary": {
-            "name" : "Infirmary",
-            "description" : "The Infirmary is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+        "Medlab": {
+            "name" : "Medlab",
+            "description" : "The Medlab is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Bed", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Mycologist", "Nurse", "Lethargy", "Shrink"]
