@@ -2,7 +2,7 @@
         "Bridge": {
             "name" : "Bridge",
             "description" : "The Bridge is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
-            "elements" : ["Communications Console", "Astro smth I forgot the name in english", "Command Center"],
+            "elements" : ["Comms Center", "AstroTerminal", "Command Terminal"],
             "usual_suspects" : ["Paola Rinaldo", "Kim Jin Su", "Frieda Bergmann"],
             "skills" : ["Astrophysicist", "IT Expert", "Polyvalent", "Radio Expert", "Rebel", "Tracker", "Diplomat"]
         },
@@ -34,10 +34,10 @@
             "usual_suspects" : ["Stephen Seagull", "Terrence Archer"],
             "skills" : []
         },
-        "Medlab": {
-            "name" : "Medlab",
-            "description" : "The Medlab is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
-            "elements" : ["Mycoscan", "Lab"],
+        "Laboratory": {
+            "name" : "Laboratory",
+            "description" : "The Laboratory is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "elements" : ["Mycoscan", "Research Lab", "Gravity Simulator", "CryoModule"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Polyvalent", "Genius", "IT Expert"]
         },
@@ -58,7 +58,7 @@
         "Infirmary": {
             "name" : "Infirmary",
             "description" : "The Infirmary is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
-            "elements" : ["Bed", "Dispensary", "MedPod"],
+            "elements" : ["Bed", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Mycologist", "Nurse", "Lethargy", "Shrink"]
 
@@ -122,7 +122,7 @@
         "Nexus": {
             "name" : "Nexus",
             "description" : "The Nexus is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
-            "elements" : ["NERON Core", "Bios Terminal"],
+            "elements" : ["NERON's Core", "Bios Terminal", "Calculator"],
             "usual_suspects" : ["Janice Kent", "Lai Kuan Ti", "Raluca Tomescu", "Terrence Archer"],
             "skills" : ["Designer", "IT Expert", "Politician", "Technician", "Genius", "Physicist"]
         },
@@ -150,7 +150,7 @@
         "Engine Room": {
             "name" : "Engine Room",
             "description" : "The Engine Room is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
-            "elements" : ["Fuel smth", "Pilgred", "Rear Reactor"],
+            "elements" : ["Pilgred Reactor", "Emergency Reactor","Lateral Reactor", "Lateral Reactor", "Antenna", "Combustion Chamber", "Planet Scanner", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"],
             "skills" : ["Technician", "Physicist"]
         },
