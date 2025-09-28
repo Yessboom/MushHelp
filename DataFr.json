@@ -15,49 +15,49 @@
         },
         "Front Alpha Turret": {
             "name" : "Front Alpha Turret",
-            "description" : "This is Paola's favorite spot when she wants to kill some hunters hanging around.",
+            "description" : "",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Front Corridor": {
             "name" : "Front Corridor",
-            "description" : "The Front Corridor is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : [],
             "usual_suspects" : ["Wang Chao", "Derek Hogan", "Ian Soulton"],
             "skills" : []
         },
         "Central Corridor": {
             "name" : "Central Corridor",
-            "description" : "The Central Corridor is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : [],
             "usual_suspects" : ["Stephen Seagull", "Terrence Archer"],
             "skills" : []
         },
         "Laboratory": {
             "name" : "Laboratory",
-            "description" : "The Laboratory is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "The beeps of the machines and the smell of formaldehyde are strangely comforting. Just don't let Ian near the petri dishes...",
             "elements" : ["Mycoscan", "Research Lab", "Gravity Simulator", "CryoModule"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Polyvalent", "Genius", "IT Expert"]
         },
         "Garden": {
             "name" : "Garden",
-            "description" : "The Garden is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "A strange odor lingers in the air. What exactly is Ian growing in there?",
             "elements" : [],
             "usual_suspects" : ["Ian Soulton", "Jiang Hua"],
             "skills" : ["Botanist", "Mycologist", "Green Thumb", "Polyvalent"]
         },
         "Front Storage": {
             "name" : "Front Storage",
-            "description" : "The Front Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : [],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Metalworker"]
         },
         "Medlab": {
             "name" : "Medlab",
-            "description" : "The Medlab is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Bed", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Mycologist", "Nurse", "Lethargy", "Shrink"]
@@ -65,91 +65,91 @@
         },
         "Central Beta Turret": {
             "name" : "Central Beta Turret",
-            "description" : "The Central Beta Turret is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Central Alpha Turret": {
             "name" : "Central Alpha Turret",
-            "description" : "The Central Alpha Turret is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Raluca Tomescu", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
-        "Kitchen": {
-            "name" : "Kitchen",
-            "description" : "The Kitchen is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+        "Refectory": {
+            "name" : "Refectory",
+            "description" : "You can cook food here, and there's also a coffee machine! Watch your back when you take the daily coffee though, or the last thing you will ever see is a very angry Gioele.",
             "elements" : [ "Coffee Machine"],
             "usual_suspects" : ["Stephen Seagull", "Derek Hogan"],
             "skills" : ["Chef", "Caffeine Junkie"]
         },
         "Beta Bay": {
             "name" : "Beta Bay",
-            "description" : "The Beta Bay is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Central Beta Storage": {
             "name" : "Central Beta Storage",
-            "description" : "The Central Beta Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Oxygen Tank"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu"],
             "skills" : ["Metalworker", "Technician"]
         },
         "Central Alpha Storage": {
             "name" : "Central Alpha Storage",
-            "description" : "The Central Alpha Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Oxygen Tank"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu", "Stephen Seagull"],
             "skills" : ["Metalworker", "Technician"]
         },
         "Alpha Bay 1": {
             "name" : "Alpha Bay 1",
-            "description" : "The Alpha Bay 1 is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "Pew pew pew. Fly away and hunt those pesky hunters. ",
             "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Alpha Dorm": {
             "name" : "Alpha Dorm",
-            "description" : "The Alpha Dorm is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Bed", "Bed", "Bed", "Shower"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Janice Kent", "Eleesha Williams", "Lai Kuan Ti"],
             "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
         },
         "Nexus": {
             "name" : "Nexus",
-            "description" : "The Nexus is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "Tired of speaking to other humans? Come and have a chat with NERON instead! He won't like you, but he'll have no choice to listen to you.",
             "elements" : ["NERON's Core", "Bios Terminal", "Calculator"],
             "usual_suspects" : ["Janice Kent", "Lai Kuan Ti", "Raluca Tomescu", "Terrence Archer"],
             "skills" : ["Designer", "IT Expert", "Politician", "Technician", "Genius", "Physicist"]
         },
         "Rear Corridor": {
             "name" : "Rear Corridor",
-            "description" : "The Rear Corridor is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : [],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Terrence Archer", "Jiang Hua"],
             "skills" : []
         },
         "Icarus bay": {
             "name" : "Icarus bay",
-            "description" : "The Icarus bay is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "You're in orbit? Expeditions start here. We just don't know why this room ends up full of sticky notes...",
             "elements" : ["Icarus"],
             "usual_suspects" : ["Jiang Hua", "Roland Zuccali", "Wang Chao", "Janice Kent", "Kim Jin Su", "Derek Hogan"],
             "skills" : ["Pilot", "Survivalist", "Diplomat", "Polyvalent", "Botanist", "U-Turn"]
         },
         "Alpha Bay 2": {
             "name" : "Alpha Bay 2",
-            "description" : "The Alpha Bay 2 is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "Ever wanted to scoop up the remains of the Hunters you've defeated ? This place is for you. Bring back a few scraps and Terrence will love you to the moon and back.",
             "elements" : ["Pasiphae", "Patroll ship"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Engine Room": {
             "name" : "Engine Room",
-            "description" : "The Engine Room is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "Sometimes, late at night, you can hear hear the Pilgred Reactor humming a little tune. It's probably nothing.",
             "elements" : ["Pilgred Reactor", "Emergency Reactor","Lateral Reactor", "Lateral Reactor", "Antenna", "Combustion Chamber", "Planet Scanner", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"],
             "skills" : ["Technician", "Physicist"]
@@ -163,28 +163,28 @@
         },
         "Rear Alpha Turret": {
             "name" : "Rear Alpha Turret",
-            "description" : "This is Paola's favorite spot when she wants to kill some hunters hanging around.",
+            "description" : "Legends say no one has set foot in the Rear Alpha Turret for years. Even drones avoid it.",
             "elements" : ["Turret"],
             "usual_suspects" : ["Kim Jin Su", "Raluca Tomescu", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         }, 
         "Beta Dorm": {
             "name" : "Beta Dorm",
-            "description" : "The Beta Dorm is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "The best place to sleep tight, enjoy a hot shower, and unknowingly meet a mush.",
             "elements" : ["Bed", "Bed", "Bed", "Shower"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Eleesha Williams", "Wang Chao", "Janice Kent"],
             "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
         }, 
         "Rear Beta Storage": {
             "name" : "Rear Beta Storage",
-            "description" : "The Rear Beta Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Fuel Tank"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Technician", "Metalworker"]
         },
         "Rear Alpha Storage": {
             "name" : "Rear Alpha Storage",
-            "description" : "The Rear Alpha Storage is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
+            "description" : "",
             "elements" : ["Fuel Tank"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Technician", "Metalworker"]
