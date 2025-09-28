@@ -6,10 +6,10 @@ const areaCoords = {
     'Front Beta Turret': [228,194,312,237,256,268,269,318,236,394,160,345,140,233],
     'Front Alpha Turret': [516,132,610,90,551,62,521,46,492,54,439,38,471,64,435,86],
     'Front Corridor': [253,266,611,88,650,109,487,190,813,353,768,377,440,212,279,295],
-    'Medlab': [443,373,443,423,276,336,277,294,435,210,603,294],
+    'Laboratory': [443,373,443,423,276,336,277,294,435,210,603,294],
     'Garden': [660,271,489,187,651,108,818,192],
     'Front Storage': [664,272,818,195,974,272,814,354],
-    'Infirmary': [619,453,498,395,443,422,445,372,603,295,766,379],
+    'Medlab': [619,453,498,395,443,422,445,372,603,295,766,379],
     'Central Beta Turret': [421,440,500,401,574,438,451,498,419,482],
     'Central Alpha Turret': [895,229,953,201,958,190,976,187,992,187,1001,190,1019,180,1034,179,1048,179,1038,192,1021,203,1011,206,1047,227,969,266],
     'Central Corridor': [626,455,655,471,1009,294,977,276],
@@ -40,7 +40,7 @@ const polygonIds = {
     'Medlab': 'medlab-polygon',
     'Garden': 'garden-polygon',
     'Front Storage': 'front-storage-polygon',
-    'Infirmary': 'infirmary-polygon',
+    'Laboratory': 'laboratory-polygon',
     'Central Beta Turret': 'central-beta-turret-polygon',
     'Central Alpha Turret': 'central-alpha-turret-polygon',
     'Kitchen': 'kitchen-polygon',
@@ -101,7 +101,7 @@ function clickArea(name) {
         hideAllHighlights();
         showPolygonHighlight(name, true);
         showAreaCard(name);
-        document.getElementById("Info").innerHTML = `Selected: ${name}`;
+        //document.getElementById("Info").innerHTML = `Selected: ${name}`;
     }
 
 }

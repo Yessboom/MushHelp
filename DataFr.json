@@ -36,7 +36,7 @@
         },
         "Laboratory": {
             "name" : "Laboratory",
-            "description" : "The beeps of the machines and the smell of formaldehyde are strangely comforting. Just don't let Ian near the petri dishes...",
+            "description" : "Rings a bell? Normal, you woke up there. Once defrosted, you'll be able to research the Mush here. Don't forget your apron, though.",
             "elements" : ["Mycoscan", "Research Lab", "Gravity Simulator", "CryoModule"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Polyvalent", "Genius", "IT Expert"]
@@ -114,7 +114,7 @@
         },
         "Alpha Dorm": {
             "name" : "Alpha Dorm",
-            "description" : "",
+            "description" : "The knockoff version of Bravo Dorm. The perfect place to lie down and watch as Chun shanks one of her suspects.",
             "elements" : ["Bed", "Bed", "Bed", "Shower"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Janice Kent", "Eleesha Williams", "Lai Kuan Ti"],
             "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
