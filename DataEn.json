@@ -143,7 +143,7 @@
         "Alpha Bay 2": {
             "name" : "Alpha Bay 2",
             "description" : "Ever wanted to scoop up the remains of the Hunters you've defeated ? This place is for you. Bring back a few scraps and Terrence will love you to the moon and back.",
-            "elements" : ["Pasiphae", "Patroll ship"],
+            "elements" : ["Pasiphae", "Patroll ship", "Dynacarde"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
