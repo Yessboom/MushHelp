@@ -1,62 +1,62 @@
 {   "area": {
         "Bridge": {
-            "name" : "Pont",
-            "description" : " ",
+            "name" : "Bridge",
+            "description" : "The Bridge is where the cool peeps hang out. Nice view to the stars. You can contact your boyfriend. What's not to like really? ",
             "elements" : ["Comms Center", "AstroTerminal", "Command Terminal"],
             "usual_suspects" : ["Paola Rinaldo", "Kim Jin Su", "Frieda Bergmann"],
             "skills" : ["Astrophysicist", "IT Expert", "Polyvalent", "Radio Expert", "Rebel", "Tracker", "Diplomat"]
         },
         "Front Beta Turret": {
-            "name" : "Tourelle Beta Avant",
-            "description" : "La Tourelle Beta Avant est nulle. Bien pire que la tourelle Alpha Avant",
+            "name" : "Front Beta Turret",
+            "description" : "The Front Beta Turret sucks. Way worst that the front Alpha Turret",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Front Alpha Turret": {
-            "name" : "Tourelle Alpha Avant",
-            "description" : "La tourelle supérieur. Si vous voulez buter du Hunter, c'est le coin rêvé",
+            "name" : "Front Alpha Turret",
+            "description" : "",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Front Corridor": {
-            "name" : "Couloir Avant",
+            "name" : "Front Corridor",
             "description" : "",
             "elements" : [],
             "usual_suspects" : ["Wang Chao", "Derek Hogan", "Ian Soulton"],
             "skills" : []
         },
         "Central Corridor": {
-            "name" : "Couloir Central",
+            "name" : "Central Corridor",
             "description" : "",
             "elements" : [],
             "usual_suspects" : ["Stephen Seagull", "Terrence Archer"],
             "skills" : []
         },
         "Laboratory": {
-            "name" : "Laboratoire",
+            "name" : "Laboratory",
             "description" : "Rings a bell? Normal, you woke up there. Once defrosted, you'll be able to research the Mush here. Don't forget your apron, though.",
             "elements" : ["Mycoscan", "Research Lab", "Gravity Simulator", "CryoModule"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Polyvalent", "Genius", "IT Expert"]
         },
         "Garden": {
-            "name" : "Jardin",
+            "name" : "Garden",
             "description" : "A strange odor lingers in the air. What exactly is Ian growing in there?",
             "elements" : [],
             "usual_suspects" : ["Ian Soulton", "Jiang Hua"],
             "skills" : ["Botanist", "Mycologist", "Green Thumb", "Polyvalent"]
         },
         "Front Storage": {
-            "name" : "Stockage Avant",
+            "name" : "Front Storage",
             "description" : "",
             "elements" : [],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Metalworker"]
         },
         "Medlab": {
-            "name" : "Infirmerie",
+            "name" : "Medlab",
             "description" : "",
             "elements" : ["Bed", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
@@ -64,56 +64,56 @@
 
         },
         "Central Beta Turret": {
-            "name" : "Tourelle Beta Centrale",
+            "name" : "Central Beta Turret",
             "description" : "",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Central Alpha Turret": {
-            "name" : "Tourelle Alpha Centrale",
+            "name" : "Central Alpha Turret",
             "description" : "",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Raluca Tomescu", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Refectory": {
-            "name" : "Réfectoire",
-            "description" : "Vous pouvez cuisiner ici, et il y a aussi une machine à café ! Attention en prenant votre café quotidien, la dernière chose que vous verrez sera un Gioele très en colère.",
-            "elements" : [ "Machine à Café"],
+            "name" : "Refectory",
+            "description" : "You can cook food here, and there's also a coffee machine! Watch your back when you take the daily coffee though, or the last thing you will ever see is a very angry Gioele.",
+            "elements" : [ "Coffee Machine"],
             "usual_suspects" : ["Stephen Seagull", "Derek Hogan"],
             "skills" : ["Chef", "Caffeine Junkie"]
         },
         "Beta Bay": {
-            "name" : "Baie Beta",
+            "name" : "Beta Bay",
             "description" : "",
             "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Central Beta Storage": {
-            "name" : "Stockage Beta Central",
+            "name" : "Central Beta Storage",
             "description" : "",
             "elements" : ["Oxygen Tank"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu"],
             "skills" : ["Metalworker", "Technician"]
         },
         "Central Alpha Storage": {
-            "name" : "Stockage Alpha Central",
+            "name" : "Central Alpha Storage",
             "description" : "",
             "elements" : ["Oxygen Tank"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu", "Stephen Seagull"],
             "skills" : ["Metalworker", "Technician"]
         },
         "Alpha Bay 1": {
-            "name" : "Baie Alpha 1",
+            "name" : "Alpha Bay 1",
             "description" : "Pew pew pew. Fly away and hunt those pesky hunters. ",
             "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Alpha Dorm": {
-            "name" : "Dortoir Alpha",
+            "name" : "Alpha Dorm",
             "description" : "The knockoff version of Bravo Dorm. The perfect place to lie down and watch as Chun shanks one of her suspects.",
             "elements" : ["Bed", "Bed", "Bed", "Shower"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Janice Kent", "Eleesha Williams", "Lai Kuan Ti"],
@@ -127,63 +127,63 @@
             "skills" : ["Designer", "IT Expert", "Politician", "Technician", "Genius", "Physicist"]
         },
         "Rear Corridor": {
-            "name" : "Couloir Arrière",
+            "name" : "Rear Corridor",
             "description" : "",
             "elements" : [],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Terrence Archer", "Jiang Hua"],
             "skills" : []
         },
         "Icarus bay": {
-            "name" : "Baie Icarus",
+            "name" : "Icarus bay",
             "description" : "You're in orbit? Expeditions start here. We just don't know why this room ends up full of sticky notes...",
             "elements" : ["Icarus"],
             "usual_suspects" : ["Jiang Hua", "Roland Zuccali", "Wang Chao", "Janice Kent", "Kim Jin Su", "Derek Hogan"],
             "skills" : ["Pilot", "Survivalist", "Diplomat", "Polyvalent", "Botanist", "U-Turn"]
         },
         "Alpha Bay 2": {
-            "name" : "Baie Alpha 2",
+            "name" : "Alpha Bay 2",
             "description" : "Ever wanted to scoop up the remains of the Hunters you've defeated ? This place is for you. Bring back a few scraps and Terrence will love you to the moon and back.",
             "elements" : ["Pasiphae", "Patroll ship"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Engine Room": {
-            "name" : "Salle des Moteurs",
+            "name" : "Engine Room",
             "description" : "Sometimes, late at night, you can hear hear the Pilgred Reactor humming a little tune. It's probably nothing.",
             "elements" : ["Pilgred Reactor", "Emergency Reactor","Lateral Reactor", "Lateral Reactor", "Antenna", "Combustion Chamber", "Planet Scanner", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"],
             "skills" : ["Technician", "Physicist"]
         },
         "Rear Beta Turret": {
-            "name" : "Tourelle Beta Arrière",
+            "name" : "Rear Beta Turret",
             "description" : "The Rear Beta Turret sucks. Way worst that the Rear Alpha Turret",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan", "Raluca Tomescu"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Rear Alpha Turret": {
-            "name" : "Tourelle Alpha Arrière",
+            "name" : "Rear Alpha Turret",
             "description" : "Legends say no one has set foot in the Rear Alpha Turret for years. Even drones avoid it.",
             "elements" : ["Turret"],
             "usual_suspects" : ["Kim Jin Su", "Raluca Tomescu", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         }, 
         "Beta Dorm": {
-            "name" : "Dortoir Beta",
+            "name" : "Beta Dorm",
             "description" : "The best place to sleep tight, enjoy a hot shower, and unknowingly meet a mush.",
             "elements" : ["Bed", "Bed", "Bed", "Shower"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Eleesha Williams", "Wang Chao", "Janice Kent"],
             "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
         }, 
         "Rear Beta Storage": {
-            "name" : "Stockage Beta Arrière",
+            "name" : "Rear Beta Storage",
             "description" : "",
             "elements" : ["Fuel Tank"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Technician", "Metalworker"]
         },
         "Rear Alpha Storage": {
-            "name" : "Stockage Alpha Arrière",
+            "name" : "Rear Alpha Storage",
             "description" : "",
             "elements" : ["Fuel Tank"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],

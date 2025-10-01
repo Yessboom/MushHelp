@@ -13,7 +13,7 @@ const areaCoords = {
     'Central Beta Turret': [421,440,500,401,574,438,451,498,419,482],
     'Central Alpha Turret': [895,229,953,201,958,190,976,187,992,187,1001,190,1019,180,1034,179,1048,179,1038,192,1021,203,1011,206,1047,227,969,266],
     'Central Corridor': [626,455,655,471,1009,294,977,276],
-    'Kitchen': [764,424,918,346,1076,425,922,503],
+    'Refectory': [764,424,918,346,1076,425,922,503],
     'Beta Bay': [582,442,421,520,418,578,451,597,413,610,411,621,476,654,519,631,547,642,511,658,508,667,572,700,616,679,643,691,606,707,605,715,666,749,709,728,843,642,913,608],
     'Central Beta Storage': [663,474,755,427,864,482,769,529],
     'Beta Dorm': [779,533,874,486,922,510,953,494,1050,542,921,604],
@@ -43,7 +43,7 @@ const polygonIds = {
     'Laboratory': 'laboratory-polygon',
     'Central Beta Turret': 'central-beta-turret-polygon',
     'Central Alpha Turret': 'central-alpha-turret-polygon',
-    'Kitchen': 'kitchen-polygon',
+    'Refectory': 'refectory-polygon',
     'Beta Bay': 'beta-bay-polygon',
     'Central Beta Storage': 'central-beta-storage-polygon',
     'Beta Dorm': 'beta-dorm-polygon',
@@ -306,7 +306,7 @@ async function showAreaCard(name) {
     const elementsList = document.getElementById("elements-list");
     
     //Get data from Json
-    const response = await fetch('DataFr.json');
+    const response = await fetch(`./${documentLanguage}`);
     const data = await response.json();
     // Update card content
     title.textContent = data["area"][name].name || name;
@@ -513,7 +513,7 @@ async function showCharacterCard(characterName) {
     
     try {
         // Get data from Json
-        const response = await fetch('DataFr.json');
+        const response = await fetch(`./${documentLanguage}`);
         const data = await response.json();
         
         // Update card content
@@ -581,13 +581,14 @@ function populateSkillCharacterList(skillName, data) {
 }
 
 async function showSkillCard(skillName) {
+    //Not used but done just in case
     const card = document.getElementById("skill-card");
     const title = document.getElementById("skill-title");
     const description = document.getElementById("skill-description");
     const relatedCharactersList = document.getElementById("related-characters-list");
     
     //Get data from Json
-    const response = await fetch('DataFr.json');
+    const response = await fetch('DataEn.json');
     const data = await response.json(); 
 
     // Update card content
@@ -693,6 +694,22 @@ function updatePolygonOverlay() {
     }
 }
 
+function toggleLanguage(language) {
+    closeCard();
+    closeCharacterCard();
+    selectedArea = null;
+    hideAllHighlights();
+    documentLanguage = `Data${language}.json`;
+    localStorage.setItem('preferredLanguage', language);
+}
+
+
+
+
+
+
+
+
 // Update highlights when window resizes
 window.addEventListener('resize', () => {
     setTimeout(() => {
@@ -704,4 +721,10 @@ window.addEventListener('resize', () => {
 document.addEventListener('DOMContentLoaded', () => {
     //document.getElementById("Info").innerHTML = "Click on areas to select them";
     updatePolygonOverlay();
+    if (localStorage.getItem('preferredLanguage')) {
+        const lang = localStorage.getItem('preferredLanguage');
+        toggleLanguage(lang);
+    } else {
+        toggleLanguage('En'); // Default to English
+    }
 });

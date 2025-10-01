@@ -98,7 +98,16 @@
 
     <div class="image-container">
       <img src="public/images/FullShip.png" usemap="#image-map" id="ship-image" />
-      
+      <button class = "french-btn" onclick="toggleLanguage('Fr')">
+  <img src="public/images/flags/Fr.png" alt="French" style="width:24px; height:24px;">
+      </button>
+      <button class = "english-btn" onclick="toggleLanguage('En')">
+  <img src="public/images/flags/En.png" alt="English" style="width:24px; height:24px;">
+      </button>
+      <!-- <button class = "spanish-btn" onclick="toggleLanguage('Es')">
+  <img src="public/images/flags/Es.png" alt="Spanish" style="width:24px; height:24px;">
+      </button> -->
+
       <!-- SVG polygon overlays -->
     <svg class="polygon-overlay" id="polygon-overlay" viewBox="0 0 1000 600">
         <polygon class="area-polygon" id="bridge-polygon" points=""></polygon>
@@ -114,7 +123,7 @@
         <polygon class="area-polygon" id="medlab-polygon" points=""></polygon>
         <polygon class="area-polygon" id="central-beta-turret-polygon" points=""></polygon>
         <polygon class="area-polygon" id="central-alpha-turret-polygon" points=""></polygon>
-        <polygon class="area-polygon" id="kitchen-polygon" points=""></polygon>
+        <polygon class="area-polygon" id="refectory-polygon" points=""></polygon>
         <polygon class="area-polygon" id="beta-bay-polygon" points=""></polygon>
         <polygon class="area-polygon" id="central-beta-storage-polygon" points=""></polygon>
         <polygon class="area-polygon" id="beta-dorm-polygon" points=""></polygon>
@@ -145,7 +154,7 @@
     <area target="" alt="Central Beta Turret" title="Central Beta Turret" coords="421,440,500,401,574,438,451,498,419,482" shape="poly" onmouseover="mouseover('Central Beta Turret')" onclick="clickArea('Central Beta Turret')" onmouseout="mouseout()">
     <area target="" alt="Central Alpha Turret" title="Central Alpha Turret" coords="895,229,953,201,958,190,976,187,992,187,1001,190,1019,180,1034,179,1048,179,1038,192,1021,203,1011,206,1047,227,969,266" shape="poly" onmouseover="mouseover('Central Alpha Turret')" onclick="clickArea('Central Alpha Turret')" onmouseout="mouseout()">
     <area target="" alt="Central Corridor" title="Central Corridor" coords="626,455,655,471,1009,294,977,276" shape="poly" onmouseover="mouseover('Central Corridor')" onclick="clickArea('Central Corridor')" onmouseout="mouseout()">
-    <area target="" alt="Kitchen" title="Kitchen" coords="764,424,918,346,1076,425,922,503" shape="poly" onmouseover="mouseover('Kitchen')" onclick="clickArea('Kitchen')" onmouseout="mouseout()">
+    <area target="" alt="Refectory" title="Refectory" coords="764,424,918,346,1076,425,922,503" shape="poly" onmouseover="mouseover('Refectory')" onclick="clickArea('Refectory')" onmouseout="mouseout()">
     <area target="" alt="Beta Bay" title="Beta Bay" coords="582,442,421,520,418,578,451,597,413,610,411,621,476,654,519,631,547,642,511,658,508,667,572,700,616,679,643,691,606,707,605,715,666,749,709,728,843,642,913,608" shape="poly" onmouseover="mouseover('Beta Bay')" onclick="clickArea('Beta Bay')" onmouseout="mouseout()">
     <area target="" alt="Central Beta Storage" title="Central Beta Storage" coords="663,474,755,427,864,482,769,529" shape="poly" onmouseover="mouseover('Central Beta Storage')" onclick="clickArea('Central Beta Storage')" onmouseout="mouseout()">
     <area target="" alt="Beta Dorm" title="Beta Dorm" coords="779,533,874,486,922,510,953,494,1050,542,921,604" shape="poly" onmouseover="mouseover('Beta Dorm')" onclick="clickArea('Beta Dorm')" onmouseout="mouseout()">
