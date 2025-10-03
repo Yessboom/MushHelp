@@ -58,7 +58,7 @@
         "Medlab": {
             "name" : "Infirmerie",
             "description" : "",
-            "elements" : ["Bed", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
+            "elements" : ["Lit", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Mycologist", "Nurse", "Lethargy", "Shrink"]
 
@@ -87,7 +87,7 @@
         "Beta Bay": {
             "name" : "Baie Beta",
             "description" : "",
-            "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
+            "elements" : ["Patrouilleur", "Patrouilleur", "Patrouilleur"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
@@ -108,14 +108,14 @@
         "Alpha Bay 1": {
             "name" : "Baie Alpha 1",
             "description" : "Pew pew pew. Fly away and hunt those pesky hunters. ",
-            "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
+            "elements" : ["Patrouilleur", "Patrouilleur", "Patrouilleur"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Alpha Dorm": {
             "name" : "Dortoir Alpha",
             "description" : "The knockoff version of Bravo Dorm. The perfect place to lie down and watch as Chun shanks one of her suspects.",
-            "elements" : ["Bed", "Bed", "Bed", "Shower"],
+            "elements" : ["Lit", "Lit", "Lit", "Douche"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Janice Kent", "Eleesha Williams", "Lai Kuan Ti"],
             "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
         },
@@ -143,7 +143,7 @@
         "Alpha Bay 2": {
             "name" : "Baie Alpha 2",
             "description" : "Ever wanted to scoop up the remains of the Hunters you've defeated ? This place is for you. Bring back a few scraps and Terrence will love you to the moon and back.",
-            "elements" : ["Pasiphae", "Patroll ship", "Dynacarde"],
+            "elements" : ["Pasiphae", "Patrouilleur", "Dynacarde"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
@@ -170,8 +170,8 @@
         }, 
         "Beta Dorm": {
             "name" : "Dortoir Beta",
-            "description" : "The best place to sleep tight, enjoy a hot shower, and unknowingly meet a mush.",
-            "elements" : ["Bed", "Bed", "Bed", "Shower"],
+            "description" : "The best place to sleep tight, enjoy a hot Douche, and unknowingly meet a mush.",
+            "elements" : ["Lit", "Lit", "Lit", "Douche"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Eleesha Williams", "Wang Chao", "Janice Kent"],
             "skills" : ["Shrink", "Antique Perfume", "Lethargy"]
         }, 
@@ -536,7 +536,7 @@
             "pixel": "",
             "traits": {
                 "name": "Hyperactive",
-                "description": "Gains +1 Movement Point every cycle, however sleeping in a bed grants no additional Action Point.",
+                "description": "Gains +1 Movement Point every cycle, however sleeping in a Lit grants no additional Action Point.",
                 "icon": ""
             },
             "objectives" : {
@@ -576,9 +576,9 @@
 
     "skill" : {
     "Antique Perfume": {
-        "name": "Antique Perfume",
-        "description": "Ah yesh they knew how to make real perfumesh in Fraigonard'sh boutiquesh in Nineteen Shixty Shixsh...",
-        "effects": "Every time you shower, you will be immune from contaminations for 2 cycles.",
+        "name": "Parfum Antique",
+        "description": "Ah cha ils chavaient faire de frais parfums chez Fraigonard en mille neuf chent quatre-ving douche...",
+        "effects": "A chaque douche, vous gagnez une immunité de 2 cycles contre les infections Mush.",
         "icon": "https://www.mushpedia.com/images/d/d2/Antique_Perfume.png",
         "learnedBy": [
             {
@@ -589,9 +589,9 @@
         "mushStatus": "Kept"
     },
     "Apprentice": {
-        "name": "Apprentice",
-        "description": "By attentively watching what their mentor does, the apprentice can quicky pick up the same knowledge and actions.",
-        "effects": "Enables the action Apprenticeship which allows them to copy a skill possessed by a player present in the room, once per game.",
+        "name": "Apprentissage",
+        "description": "En observant attentivement les activités de ses professeurs, l'apprenti peut à terme reproduire leurs moindres faits et gestes.",
+        "effects": "Vous accorde l'action Apprentissage qui permet de copier la compétence d'un joueur présent dans la pièce, une fois par partie.",
         "icon": "https://www.mushpedia.com/images/6/66/Apprentice.png",
         "learnedBy": [
             {
@@ -602,9 +602,9 @@
         "mushStatus": "Kept"
     },
     "Astrophysicist": {
-        "name": "Astrophysicist",
-        "description": "Skilled in scanning for planets in range or to determine their composition.",
-        "effects": "The Planet Scan action discovers 2 zones per Analyze action. Bonus for developing certain NERON projects. Undocumented: The Scan action costs 1  less.",
+        "name": "Astrophysicien",
+        "description": "L'Astrophysicien est habilité à lancer des scans pour trouver des planètes à portée ou déterminer leur composition.",
+        "effects": "Scanner une planète coûte 1 PA de moins. Analyser une planète révèle une section de plus par analyse. Bonus pour développer certains projets NERON.",
         "icon": "https://www.mushpedia.com/images/e/e8/Astrophysicist.png",
         "learnedBy": [
             {
@@ -627,9 +627,9 @@
         "mushStatus": "Kept"
     },
     "Biologist": {
-        "name": "Biologist",
-        "description": "Highly skilled in laboratory research.",
-        "effects": "Can read properties of medicines. +4% bonus on all Research in the laboratory. Bonus for developing certain NERON projects.",
+        "name": "Biologiste",
+        "description": "Le Biologiste est plus efficace dans les recherches du laboratoire.",
+        "effects": "Peut lire les propriétés des Médicaments. +4% de bonus lors de vos contributions sur chacune des Recherches du Laboratoire.Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/a/a5/Biologist.png",
         "learnedBy": [
             {
@@ -652,9 +652,9 @@
         "mushStatus": "Kept"
     },
     "Botanist": {
-        "name": "Botanist",
-        "description": "Capable of distinguishing the characteristics of the various plants and fruits. They are also equally effective when maintaining the garden.",
-        "effects": "Can read the fruit nutrition information. Can read plant properties.. Can carry out transplants. +2  per day (Gardening action points). Expedition: The harvest action gives an additional fruit. Bonus for developing certain NERON projects",
+        "name": "Botaniste",
+        "description": "Le Botaniste peut distinguer les caractéristiques des fruits et des plantes. Il est également redoutablement efficace dans la maintenance du Jardin.",
+        "effects": "Peut lire les propriétés des Plantes et des Fruits. Expédition : L'évènement Récolte donne un fruit de plus. Bonus pour développer certains Projets NERON. (sauf Polyvalent) Peut effectuer des Greffes. (sauf Polyvalent) +2 Points Jardinage Par jour",
         "icon": "https://www.mushpedia.com/images/8/86/Botanist.png",
         "learnedBy": [
             {
@@ -673,9 +673,9 @@
         "mushStatus": "Kept"
     },
     "Caffeine Junkie": {
-        "name": "Caffeine Junkie",
-        "description": "The caffeine junkie is twice as effective as their colleagues when they have access to the coffee machine.",
-        "effects": "+2  AP when they drink a Coffee. Bonus for developing certain NERON projects",
+        "name": "Caféinomane",
+        "description": "Le Caféinomane travaille deux fois mieux que ses collègues tant qu'il a accès à la machine à café.",
+        "effects": "+2 PA lorsqu'il consomme un Café. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/e/e9/Caffeine_Junkie.png",
         "learnedBy": [
             {
@@ -686,9 +686,9 @@
         "mushStatus": "Lost"
     },
     "Chef": {
-        "name": "Chef",
-        "description": "Formidable when it comes to knocking meals together. They also have an impressive awareness of what you should eat.",
-        "effects": "Can read the food nutrition information. Can read the fruit nutrition information. +4  per day (Cook action points). Bonus for developing certain NERON projects.",
+        "name": "Cuistot",
+        "description": "Le cuisinier est un expert redoutable pour préparer des bons petits plats. Il a également un avis éclairé sur tout ce qui se mange ou presque.",
+        "effects": "Peut lire les propriétés des  Rations et des  Fruits. +4  Par jour. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/e/e5/Chef.png",
         "learnedBy": [
             {
@@ -703,9 +703,9 @@
         "mushStatus": "Kept"
     },
     "Cold Blooded": {
-        "name": "Cold Blooded",
-        "description": "In space, anything can and does happen. Knowing how to keep calm is extremely useful.",
-        "effects": "Earns 3  AP every time a team mate dies.",
+        "name": "Sang-froid",
+        "description": "Dans l'espace, tout peut arriver. Savoir garder son calme est un atout.",
+        "effects": "Gagne 3  à chaque fois qu'un équipier décède.",
         "icon": "https://www.mushpedia.com/images/e/ea/Cold_Blooded.png",
         "learnedBy": [
             {
@@ -716,9 +716,9 @@
         "mushStatus": "Lost"
     },
     "Confident": {
-        "name": "Confident",
-        "description": "Discreet and loyal, you share everyone's pain and as such have the sympathy of the whole crew...",
-        "effects": "Once per day, the other players can confide in you, and in doing so they'll reveal their last X actions where X is your stock of . In doing so, they'll earn 2 .",
+         "name": "Confident",
+        "description": "Discret et fidèle, vous attirez la sympathie et portez un peu la misère du monde quand même...",
+        "effects": "Une fois par jour et par personne, les autres équipiers peuvent se confier à vous pour 1 . En faisant cela, ils vous révèlent leurs X dernières actions où X est votre quantité de , et regagnent ainsi 2 .",
         "icon": "https://www.mushpedia.com/images/2/20/Confident.png",
         "learnedBy": [
             {
@@ -729,9 +729,9 @@
         "mushStatus": "Kept"
     },
     "Crazy Eye": {
-        "name": "Crazy Eye",
-        "description": "There is no way to take you by surprise. You foresee all attacks from your enemies as well as those from your so-called allies.",
-        "effects": "All aggressive actions targeting you cost an additional 2",
+        "name": "Oeil fou",
+        "description": "Il n'y a pas moyen de vous surprendre vous anticipez tout les mouvements de vos ennemis mais également ceux de vos prétendus alliés.",
+        "effects": "Toutes les actions agressives vous ciblant coûtent 2  supplémentaires.",
         "icon": "https://www.mushpedia.com/images/9/93/Crazy_Eye.png",
         "learnedBy": [
             {
@@ -742,9 +742,9 @@
         "mushStatus": "Kept"
     },
     "Creative": {
-        "name": "Creative",
-        "description": "Sometimes you need to think outside the box",
-        "effects": "Every time you fail in an attempt to do something, there is a 50% chance of regaining 1 .",
+        "name": "Créatif",
+        "description": "Parfois il faut savoir renverser le problème.",
+        "effects": "Rater une action a 50% de chance de vous rendre 1 . Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/5/57/Creative.png",
         "learnedBy": [
             {
@@ -759,9 +759,9 @@
         "mushStatus": "Kept"
     },
     "Designer": {
-        "name": "Designer",
-        "description": "Has access to NERON's core twice per day (Free Actions).",
-        "effects": "+2  per day (NERON project action points). Bonus for developing certain NERON projects",
+        "name": "Concepteur",
+        "description": "Le Concepteur dispose de deux actions gratuites chaque jour pour utiliser le Cœur de NERON.",
+        "effects": "+2  par jour. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/b/b2/Designer.png",
         "learnedBy": [
             {
@@ -776,9 +776,9 @@
         "mushStatus": "Kept"
     },
     "Detached Crewmember": {
-        "name": "Detached Crewmember",
-        "description": "The unconcerned crewmember is cold, hard, and unfeeling. They are unaffected by deaths of teammates.",
-        "effects": "You lose no Morale Points () when a crewmember dies. Zero risk of psychological illness if you witness a death.",
+        "name": "Détaché",
+        "description": "Le détaché est froid, dur, imperméable. Il n'est pas affecté par la mort de ses camarades.",
+        "effects": "Vous ne perdez pas de  lorsqu'un équipier meurt. Pas de risque de maladie psy si vous êtes témoin d'un décès.",
         "icon": "https://www.mushpedia.com/images/0/08/Detached_Crewmember.png",
         "learnedBy": [
             {
@@ -789,9 +789,9 @@
         "mushStatus": "Lost"
     },
     "Devotion": {
-        "name": "Devotion",
-        "description": "In the heat of the action, we can count on you",
-        "effects": "You earn an additional 3  when you accept a mission.",
+        "name": "Dévotion",
+        "description": "Dans le feu de l'action, on peut compter sur vous.",
+        "effects": "Vous gagnez 3  de plus quand vous acceptez une mission.",
         "icon": "https://www.mushpedia.com/images/6/6a/Devoted.png",
         "learnedBy": [
             {
@@ -802,9 +802,9 @@
         "mushStatus": "Kept"
     },
     "Determined": {
-        "name": "Determined",
-        "description": "Once they begin their task, nothing can distract the determined player",
-        "effects": "If an action fails, the % chance of subsequent success increases more rapidly",
+        "name": "Persévérant",
+        "description": "Une fois qu'il a commencé sa tâche, rien ne peut perturber l'équipier persévérant.",
+        "effects": "En cas d'échec sur une action, les chances de réussite augmentent plus vite.",
         "icon": "https://www.mushpedia.com/images/e/eb/Determined.png",
         "learnedBy": [
             {
@@ -819,9 +819,9 @@
         "mushStatus": "Kept"
     },
     "Diplomat": {
-        "name": "Diplomat",
-        "description": "A good diplomat knows how to communicate effectively with extra-terrestrials.",
-        "effects": "Eliminates the chance of encountering hostility from extra-terrestrials. Can declare a ceasefire once per game.",
+        "name": "Diplomatie",
+        "description": "Un bon diplomate sait comment entrer en contact avec les races extra-terrestres.",
+        "effects": "Expédition: Empêche l'évènement Combat lors des rencontres extra-terrestres. Ouvre de nouvelles possibilités d'échanges commerciaux. (Sauf Polyvalent) Peut déclarer un cessez-le-feu une fois par partie. Le cessez-le-feu dure 3 cycles.",
         "icon": "https://www.mushpedia.com/images/e/ee/Diplomat.png",
         "learnedBy": [
             {
@@ -841,8 +841,8 @@
     },
     "Expert": {
         "name": "Expert",
-        "description": "Your skills are impressive, but your disregard for your own safety is equally so!",
-        "effects": "Your chances of succeeding at a particular task are increased by 20% but so is the likelihood of injury and getting  Dirty.",
+        "description": "Vos compétences sont incroyables mais vous travaillez sans vraiment vous préoccuper de certaines conséquences...",
+        "effects": "Vos réussites aux actions sont améliorées de 20%, mais les blessures et les salissures le sont aussi.",
         "icon": "https://www.mushpedia.com/images/3/3e/Expert.png",
         "learnedBy": [
             {
@@ -853,9 +853,9 @@
         "mushStatus": "Kept"
     },
     "Firefighter": {
-        "name": "Firefighter",
-        "description": "The Firefighter has great experience which means they will always succeed when using the extinguisher.",
-        "effects": "The Extinguish Fire action is always successful. Bonus for developing certain NERON projects.",
+        "name": "Pompier",
+        "description": "Le Pompier a une grande carrière qui lui permet de toujours réussir les actions avec l'extincteur... et il peut aussi s'en sortir sans extincteur !",
+        "effects": "Éteindre le feu avec un  Extincteur réussit toujours. Peut tenter d'éteindre manuellement sans extincteur. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/3/3d/Firefighter.png",
         "learnedBy": [
             {
@@ -879,8 +879,8 @@
     },
     "Frugivore": {
         "name": "Frugivore",
-        "description": "You terrorize fruits, you adore them, they are your drug. When you make eye contact with a fruit, it over-ripens before you...",
-        "effects": "You gain an additional 2 when you eat alien fruits, 1  for  Bananas.",
+        "description": "Vous terrorisez les fruits, vous les adorez, c'est votre drogue. Quand vous croisez le regard d'un fruit, il blettit instantanément.",
+        "effects": "Vous gagnez 2  supplémentaires quand vous mangez des  Fruits alien, 1  pour les  Bananes.",
         "icon": "https://www.mushpedia.com/images/b/ba/Frugivore.png",
         "learnedBy": [
             {
@@ -891,9 +891,9 @@
         "mushStatus": "Lost"
     },
     "Genius": {
-        "name": "Genius",
-        "description": "When divinely enlighted by the flame of consciousness, the genius can find a solution to any problem encountered aboard the Daedalus.",
-        "effects": "The genius can carry out one piece of Resarch, one Project, or one Repair once per game.",
+        "name": "Génie",
+        "description": "Lorsqu'il est divinement éclairé par la flamme de la connaissance, le Génie peut trouver la solution à n'importe quel problème du Daedalus.",
+        "effects": "Peut achever une fois par partie une recherche, un projet ou une réparation.",
         "icon": "https://www.mushpedia.com/images/2/2d/Genius.png",
         "learnedBy": [
             {
@@ -904,9 +904,9 @@
         "mushStatus": "Kept"
     },
     "Green Thumb": {
-        "name": "Green Thumb",
-        "description": "Plants grow naturally in your presence, you only require to speak to them with a languishing gaze for them to bear beautiful fruit.",
-        "effects": "Begins the game with an additional two pots. Hybrids made by the Green Thumb start with a short growth cycle.",
+        "name": "Main verte",
+        "description": "Les plantes poussent naturellement en votre présence, vous n'avez qu'à leur adresser un regard langoureux pour qu'elles produisent leurs plus beaux fruits.",
+        "effects": "Commence la partie avec deux  Hydropots supplémentaires. Les greffes de la Main Verte commencent avec un cycle de maturation court.",
         "icon": "https://www.mushpedia.com/images/b/b4/Green_Thumb.png",
         "learnedBy": [
             {
@@ -917,9 +917,9 @@
         "mushStatus": "Kept"
     },
     "Gunner": {
-        "name": "Gunner",
-        "description": "At least someone will show them how it's done",
-        "effects": "Double the damages from you turret shoots. Double the odd of touching ennemies with turrets.",
+        "name": "Canonnier",
+        "description": "Quelqu'un va enfin leur montrer à quoi ça sert.",
+        "effects": "Double les dégâts de vos tirs aux tourelles. Double vos chances de toucher aux tourelles.",
         "icon": "https://www.mushpedia.com/images/d/d0/Gunner.png",
         "learnedBy": [
             {
@@ -930,9 +930,9 @@
         "mushStatus": "Kept"
     },
     "Intimidating": {
-        "name": "Intimidating",
-        "description": "When Chao stares at them with bloodlust in his eyes, even Mush can become paralyzed with fear.",
-        "effects": "Spend 1  to intimidate another crewmember, who will lose 2  and 4 .",
+        "name": "Intimidant",
+        "description": "Parfois la proie s'échappe seulement parce qu'elle en a l'occasion.",
+        "effects": "Journalier. Pour 1 , Permet d'intimider un joueur. Celui-ci perd 2  et 4 .",
         "icon": "https://www.mushpedia.com/images/c/c3/Intimidating.png",
         "learnedBy": [
             {
@@ -943,9 +943,9 @@
         "mushStatus": "Kept"
     },
     "IT Expert": {
-        "name": "IT Expert",
-        "description": "The IT Expert is at home as soon as they are in front of a screen. They manipulate the nexus, navigation and communications terminals with ease.",
-        "effects": "+2  per day (IT Action Points). Bonus for developing certain NERON projects. Chances of success are improved with the  Hacker Kit",
+        "name": "Informaticien",
+        "description": "L'Informaticien est à l'aise dès qu'il passe derrière un écran. Il manie à la perfection les interfaces des terminaux de NERON, d'astrophysique, et de communication.",
+        "effects": "+2  par jour. Chances de réussites doublées avec le  Bidouilleur. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/c/c0/IT_Expert.png",
         "learnedBy": [
             {
@@ -973,8 +973,8 @@
     },
     "Leader": {
         "name": "Leader",
-        "description": "A charismatic leader knows how to effectively lead a team and increase morale using powerful, passionate speeches.",
-        "effects": "Gives the action Motivational Speech which increases the Morale () of your crewmates.",
+        "description": "Un leader charismatique sait diriger efficacement l'équipage et monter le moral grâce à de furieux discours enflammés.",
+        "effects": "Pour 2 , vous pouvez faire un Discours Enflammé qui permet d'augmenter le  Moral des équipiers présents dans la pièce.",
         "icon": "https://www.mushpedia.com/images/5/50/Leader.png",
         "learnedBy": [
             {
@@ -989,9 +989,9 @@
         "mushStatus": "Kept"
     },
     "Lethargy": {
-        "name": "Lethargy",
-        "description": "You're only awake for 4h per day, but even in that short time, you can achieve miracles!",
-        "effects": "You will restore 3  every consecutive cycle in bed after you've slept for at least 4 cycles in a row. The maximum  in your gauge is doubled.",
+        "name": "Léthargie",
+        "description": "Vous n'êtes réveillé que 4 heures par jour, mais en si peu de temps, vous accomplissez des miracles !",
+        "effects": "Si vous restez allongé pendant 4 cycles au moins, vous gagnez 1  supplémentaire par cycle. Ce bonus est perdu si vous vous levez. La capacité maximum de votre jauge de  est doublée.",
         "icon": "https://www.mushpedia.com/images/f/f9/Lethargy.png",
         "learnedBy": [
             {
@@ -1002,9 +1002,9 @@
         "mushStatus": "N/A"
     },
     "Logistics Expert": {
-        "name": "Logistics Expert",
-        "description": "You personally oversee the organisation of every task aboard the Daedalus in order to maximize the efficiency of every one of your teammates.",
-        "effects": "Every cycle, 1  is given randomly to a crewmate in the same room as you.",
+        "name": "Logistique",
+        "description": "Vous veillez personnellement à l'organisation correcte du Daedalus afin de maximiser les possibilités de chacun de vos équipiers.",
+        "effects": "À chaque cycle, 1  est distribué à un coéquipier au hasard présent dans votre salle.",
         "icon": "https://www.mushpedia.com/images/1/11/Logistics_Expert.png",
         "learnedBy": [
             {
@@ -1023,9 +1023,9 @@
         "mushStatus": "Kept"
     },
     "Mankind's only hope": {
-        "name": "Mankind's only hope",
-        "description": "Her unique immune system makes her the last hope for humanity. As long as she stays alive, we'll have a shot at combating the Mush invasion",
-        "effects": "Daily morale loss is reduced by 1 point",
+        "name": "Seul espoir de l'humanité",
+        "description": "Son système immunitaire hors-norme fait d'elle le seul espoir de l'humanité. Tant qu'elle restera en vie, nous aurons une petite chance de combattre l'invasion Mush.",
+        "effects": "La perte de  moral journalière globale est réduite de 1 point.",
         "icon": "https://www.mushpedia.com/images/f/fe/Mankind%27s_only_hope.png",
         "learnedBy": [
             {
@@ -1036,9 +1036,9 @@
         "mushStatus": "N/A"
     },
     "Medic": {
-        "name": "Medic",
-        "description": "Medics have full medical training, allowing them to carry out rapid, appropriate procedures. They are also skilled in surgery",
-        "effects": "Heal actions earn an additional 2 . Can carry out Operations. Can read properties of medicines. +4% bonus' on all laboratory Research.",
+        "name": "Médecin",
+        "description": "Le médecin possède une formation médicale, ce qui permet d'effectuer des soins rapides et précis. Il est également habilité à la chirurgie.",
+        "effects": "Les actions Soins font gagner 2  supplémentaires. Peut effectuer des Opérations. Peut lire les propriétés des  Médicaments. +4% de bonus sur chacune des Recherches du Laboratoire.",
         "icon": "https://www.mushpedia.com/images/2/26/Medic.png",
         "learnedBy": [
             {
@@ -1053,9 +1053,9 @@
         "mushStatus": "Kept"
     },
     "Metalworker": {
-        "name": "Metalworker",
-        "description": "It seems pretty clear that you're a really productive person.",
-        "effects": "Daily if you find yourself in a Warehouse, you have a chance of finding scraps or better for 0 .",
+        "name": "Métalo",
+        "description": "Vous, on peut dire que vous êtes vraiment quelqu'un de productif !",
+        "effects": "Journalier : Si vous vous trouvez dans un Stockage, pour 0 , vous avez une chance de trouver des débris voire mieux.",
         "icon": "https://www.mushpedia.com/images/a/a3/Metalworker.png",
         "learnedBy": [
             {
@@ -1066,9 +1066,9 @@
         "mushStatus": "Kept"
     },
     "Motivator": {
-        "name": "Motivator",
-        "description": "Bla bla bla... Whatever",
-        "effects": "For 2AP you can give a motivation speech wich give 3MP to everyone in the room.",
+        "name": "Motivateur",
+        "description": "Bla bla bla... Pitiéééééé!",
+        "effects": "Journalier: Pour 2 , vous pouvez faire un Discours Barbant qui donne 3  aux équipiers présents dans la pièce.",
         "icon": "https://www.mushpedia.com/images/c/c3/Motivator.png",
         "learnedBy": [
             {
@@ -1079,9 +1079,9 @@
         "mushStatus": "Kept"
     },
     "Mycologist": {
-        "name": "Mycologist",
-        "description": "The mycologist can treat fungal infections in the Medlab or using a Medikit",
-        "effects": "When you heal a crewmate, they automatically lose a spore",
+        "name": "Mycologiste",
+        "description": "Le Mycologiste peut soigner les infections fongiques à l'Infirmerie ou à l'aide d'un  Médikit.",
+        "effects": "Vos soins retirent automatiquement un spore.",
         "icon": "https://www.mushpedia.com/images/6/66/Mycologist.png",
         "learnedBy": [
             {
@@ -1092,9 +1092,9 @@
         "mushStatus": "Lost"
     },
     "NERON's only friend": {
-        "name": "NERON's only friend",
-        "description": "As soon as you are aboard the ship, NERON is content, its programs run without a hitch and its performance is noticeably improved.",
-        "effects": "The rewards from all NEXUS research are maximized for everyone.",
+        "name": "Seule amie de NERON",
+        "description": "Lorsque vous êtes présente dans le vaisseau, NERON est apaisé, ses routines tournent sans erreurs et ses performances s'en trouvent grandement améliorées.",
+        "effects": "Les gains de chaque projet NERON sont maximisés pour tous.",
         "icon": "https://www.mushpedia.com/images/7/7d/NERON%27s_only_friend.png",
         "learnedBy": [
             {
@@ -1105,9 +1105,9 @@
         "mushStatus": "Kept"
     },
     "Nurse": {
-        "name": "Nurse",
-        "description": "Always ready to help",
-        "effects": "+1  every day (Free healing action) Can read properties of medicines",
+        "name": "Infirmier",
+        "description": "L'Infirmier est toujours prêt à rendre service.",
+        "effects": "+1  chaque jour. Peut lire les propriétés des  Médicaments. Bonus pour participer à certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/c/cc/Nurse.png",
         "learnedBy": [
             {
@@ -1122,9 +1122,9 @@
         "mushStatus": "Kept"
     },
     "Observant": {
-        "name": "Observant",
-        "description": "You use 1  less to discover hidden objects. You have a 25% chance of detecting covert activity in the room you are in.",
-        "effects": "The Search action costs 1  less. You have a 25% chance of detecting covert activity in your room.",
+        "name": "Observateur",
+        "description": "Vos capacités d'observation sont hors pair. Rien ne vous échappe, ni les tours de passe-passe, ni les cachettes faciles.",
+        "effects": "L'action Fouiller vous coûte un  de moins. Vous avez 25% de chances de détecter les actions  discrètes de votre pièce. Vous avez 25% de chances de révéler les actions  furtives réalisées en votre présence.",
         "icon": "https://www.mushpedia.com/images/5/52/Observant.png",
         "learnedBy": [
             {
@@ -1135,9 +1135,9 @@
         "mushStatus": "Kept"
     },
     "OCD": {
-        "name": "OCD",
-        "description": "Your work is clean, very clean, getting cleaner, ever cleaner. You are genuinely obsessed by cleanliness, but this has its advantages.",
-        "effects": "You will never make a mess carrying out any tasks aboard the ship",
+        "name": "Méticuleuse",
+        "description": "Vous travaillez propre, très propre, toujours plus propre, encore plus propre. Vous êtes proprement névrosé de la propreté mais ça a ses bons côtés.",
+        "effects": "Vous ne vous salissez jamais accidentellement en effectuant des actions sur le vaisseau.\nN'inclut pas les actions Super Salissantes. N'inclut pas les actions Super Salissantes.",
         "icon": "https://www.mushpedia.com/images/a/a9/OCD.png",
         "learnedBy": [
             {
@@ -1148,9 +1148,9 @@
         "mushStatus": "Kept"
     },
     "Opportunist": {
-        "name": "Opportunist",
-        "description": "The opportunist waits for any chance to ascend in the ship's hierarchy, they will miss no opportunity",
-        "effects": "+5  when you earn a title for the first time",
+        "name": "Arriviste",
+        "description": "L'arriviste attend la première occasion pour monter dans la hiérarchie du vaisseau, aucune opportunité ne lui échappe.",
+        "effects": "+5  lorsque vous gagnez un titre pour la première fois.\nS'active pour chaque titre. S'active pour chaque titre.",
         "icon": "https://www.mushpedia.com/images/2/25/Opportunist.png",
         "learnedBy": [
             {
@@ -1161,9 +1161,9 @@
         "mushStatus": "Lost"
     },
     "Panic": {
-        "name": "Panic",
-        "description": "Seeing the Mush take over his beloved ship drives Gioele to his limits.",
-        "effects": "Gives 1  and 1  in each cycle in which at least half the crew are Mush.",
+        "name": "Panique",
+        "description": "C'est lorsque tout va mal que vous révélez votre plein potentiel : Crier très fort et courir dans tous les sens.",
+        "effects": "Vous gagnez 1  et 1  supplémentaire à chaque cycle tant que le Mush contrôle plus de 50% de l'équipage actuellement en vie.",
         "icon": "https://www.mushpedia.com/images/4/4c/Panic.png",
         "learnedBy": [
             {
@@ -1174,9 +1174,9 @@
         "mushStatus": "Lost"
     },
     "Paranoid": {
-        "name": "Paranoid",
-        "description": "The paranoid crewmember always believes their crewmates to be potentially dangerous, they always watch their back using their extra cameras.",
-        "effects": "Starts out with 2 additional Cameras.",
+        "name": "Paranoïaque",
+        "description": "Le Paranoïaque pense que tous ses collègues sont potentiellement dangereux, il surveille toujours ses arrières grâce à ses caméras supplémentaires.",
+        "effects": "Commence avec 2 Caméras supplémentaires. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/b/b2/Paranoid.png",
         "learnedBy": [
             {
@@ -1187,9 +1187,9 @@
         "mushStatus": "Kept"
     },
     "Physicist": {
-        "name": "Physicist",
-        "description": "The Physicist is a high flier in the field of physics research. Their understanding of quantum mechanics and even the essence of the strings that make up our universe is their major talent. They also have the advantage when repairing PILGRED.",
-        "effects": "Gives 1  (PILGRED repair point) per day Bonus for repairing PILGRED Bonus for developing certain NERON projects",
+        "name": "Physicien",
+        "description": "Le physicien est un chercheur en physique de haut vol, sa compréhension des mécaniques quantiques et de l'essence même des cordes qui composent notre Univers est son atout. Il possède des avantages pour réparer PILGRED.",
+        "effects": "Accorde 1  par jour. Bonus pour développer certains Projets NERON et réparer PILGRED.",
         "icon": "https://www.mushpedia.com/images/0/01/Physicist.png",
         "learnedBy": [
             {
@@ -1200,9 +1200,9 @@
         "mushStatus": "Kept"
     },
     "Pilot": {
-        "name": "Pilot",
-        "description": "An expert in manoeuvring the Icarus, Pasiphae and Patroller craft. Their aerial mastery is impressive.",
-        "effects": "Has Mad Pilot Skills. Never misses landings or takeoffs. Bonus for developing certain NERON projects.",
+        "name": "Pilote",
+        "description": "Le pilote est un expert en manœuvre dans les vaisseaux Icarus, Pasiphae et Patrouilleur. Sa maîtrise aérienne est impressionnante.",
+        "effects": "Chances doublées de réussir ses tirs en Patrouilleur. Ne rate jamais les atterrissages et décollages.\nEn Expédition également. En Expédition également. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/8/8f/Pilot.png",
         "learnedBy": [
             {
@@ -1237,9 +1237,9 @@
         "mushStatus": "Kept"
     },
     "Politician": {
-        "name": "Politician",
-        "description": "Either they are with you or against you.",
-        "effects": "Unique: For 3  vyou(sic) can declare a Coup at the Nexus. On next cycle, NERON will consider as the new commander.",
+        "name": "Politicien",
+        "description": "Ils sont avec vous ou contre vous !",
+        "effects": "Unique : Pour 3  vous pouvez déclarer un Coup au Nexus. Au prochain cycle, NERON sera considéré comme le nouveau commandant.",
         "icon": "https://www.mushpedia.com/images/7/77/Politician_skill.png",
         "learnedBy": [
             {
@@ -1250,9 +1250,9 @@
         "mushStatus": "Kept"
     },
     "Polymath": {
-        "name": "Polymath",
-        "description": "Knowledge is always moving, state is overrated.",
-        "effects": "+2 private channels +1  per day. -10% to all you action tries.",
+        "name": "Polymathe",
+        "description": "La connaissance est en mouvement, l'état n'est déjà plus.",
+        "effects": "+2 canaux privés accessibles. +1  par jour. -10% à toutes vos tentatives d'action.",
         "icon": "https://www.mushpedia.com/images/f/f6/Polymath.png",
         "learnedBy": [
             {
@@ -1264,8 +1264,8 @@
     },
     "Polyvalent": {
         "name": "Polyvalent",
-        "description": "You have skills, they're always useful...",
-        "effects": "You are considered a  Botanist,  Diplomat and  Biologist but you don't have their actions or resources.",
+        "description": "Vous avez des connaissances... Ça peut toujours servir.",
+        "effects": "Vous êtes considéré comme Botaniste, Diplomate et Biologiste mais ne disposez pas de leurs actions et ressources:\nExpédition: Empêche l'évènement Combat lors des rencontres extra-terrestres. L'évènement Récolte donne un fruit de plus.\nPeut lire les propriétés des  Médicaments, des  Plantes et des  Fruits.\n+4% de bonus lors de vos contributions sur chacune des Recherches du Laboratoire.\nBonus pour développer certains Projets NERON.\nOuvre de nouvelles possibilités d'échanges commerciaux. Expédition: Empêche l'évènement Combat lors des rencontres extra-terrestres. L'évènement Récolte donne un fruit de plus. Peut lire les propriétés des  Médicaments, des  Plantes et des  Fruits. +4% de bonus lors de vos contributions sur chacune des Recherches du Laboratoire. Bonus pour développer certains Projets NERON. Ouvre de nouvelles possibilités d'échanges commerciaux.",
         "icon": "https://www.mushpedia.com/images/0/07/Skilful.png",
         "learnedBy": [
             {
@@ -1276,9 +1276,9 @@
         "mushStatus": "Kept"
     },
     "Premonition": {
-        "name": "Premonition",
-        "description": "Your intuition never fails, you can see the most recent activities of a teammate in the form of a vivid flashback. It's practical, but gives you a monster headache!",
-        "effects": "You can see the last action of a teammate. This action costs you one .",
+        "name": "Pressentiment",
+        "description": "Votre intuition ne vous trompe jamais, vous pouvez revoir les dernières activités d'un équipier sous forme de flashback lumineux. C'est pratique mais ça fait mal à la tête.",
+        "effects": "Pour 1 , vous pouvez voir la dernière action d'un équipier.",
         "icon": "https://www.mushpedia.com/images/4/40/Premonition.png",
         "learnedBy": [
             {
@@ -1289,9 +1289,9 @@
         "mushStatus": "Unknown"
     },
     "Radio Expert": {
-        "name": "Radio Expert",
-        "description": "The radio expert can decode the most complicated jumble of spatial waves in order to rebuild or send messages to the other end of the universe.",
-        "effects": "Twice as effective at establishing contact with Sol. Improves the quality of teammates attempts to contact Sol by 50% when they're in the same room. Bonus for developing certain NERON projects.",
+        "name": "Expert radio",
+        "description": "L'Expert radio peut décoder les enchevêtrements les plus complexes d'ondes spatiales afin de reconstituer ou envoyer des messages à l'autre bout de l'Univers.",
+        "effects": "Double efficacité pour rétablir le contact vers Sol. Améliore les tentatives de contact de Sol des équipiers dans la même pièce de 50%. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/f/f9/Radio_Expert.png",
         "learnedBy": [
             {
@@ -1314,9 +1314,9 @@
         "mushStatus": "Kept"
     },
     "Rebel": {
-        "name": "Rebel",
-        "description": "Your links to the anti-mush resistance allow you to understand and decode rebel transmissions much quicker than any other radio expert.",
-        "effects": "Doubles your chances of contacting a rebel base.",
+        "name": "Rebelle",
+        "description": "Vos liens avec la résistance anti-Mush vous permettent de comprendre et décoder les signaux rebelles bien plus rapidement que n'importe quel autre expert radio.",
+        "effects": "Double le progrès du décodage des bases rebelles.",
         "icon": "https://www.mushpedia.com/images/e/e3/Rebel.png",
         "learnedBy": [
             {
@@ -1327,9 +1327,9 @@
         "mushStatus": "Kept"
     },
     "Robotics Expert": {
-        "name": "Robotics Expert",
-        "description": "The Robotics Expert can create and operate drones in any way they see fit.",
-        "effects": "Starts out with a drone plan. Can upgrade drones. Bonus for developing certain NERON projects.",
+        "name": "Robotique",
+        "description": "L'expert en robotique peut créer et manipuler les drones comme bon lui semble.",
+        "effects": "Commence avec un Plan de Drone. Peut améliorer les drones. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/6/64/Robotics_Expert.png",
         "learnedBy": [
             {
@@ -1344,9 +1344,9 @@
         "mushStatus": "Kept"
     },
     "Self-sacrifice": {
-        "name": "Self-sacrifice",
-        "description": "Certain particularly resilient people can withstand the unthinkable, but this comes at a cost.",
-        "effects": "When your morale reaches 0, you will not die, but lose one  per cycle instead.",
+        "name": "Abnégation",
+        "description": "Certaines personnes particulièrement résilientes peuvent souffrir l'insupportable. Mais le prix est grand.",
+        "effects": "Si votre  moral tombe à 0, vous ne mourrez pas, mais vous perdez 1  par cycle.",
         "icon": "https://www.mushpedia.com/images/6/60/Self-sacrifice.png",
         "learnedBy": [
             {
@@ -1357,9 +1357,9 @@
         "mushStatus": "Unknown"
     },
     "Shooter": {
-        "name": "Shooter",
-        "description": "At ease handling all kinds of weapons",
-        "effects": "+2 Free Shots  per day. Your off-target shots cause 2 times fewer accidents. Your successful shots cause 2 times as many critical hits. Bonus : +1 to expedition combat strength. Bonus for developing certain NERON projects.",
+        "name": "Tireur",
+        "description": "Le Tireur manipule les armes de tout type avec beaucoup d'aisance.",
+        "effects": "+2  Par jour. Expédition : +1 à la force de votre équipe en cas de combat, si vous avez une arme à feu. Bonus pour développer certains Projets NERON. Augmente les chances de coups critiques et réduit les chances d'échec critique avec les armes à feu.",
         "icon": "https://www.mushpedia.com/images/e/ed/Shooter.png",
         "learnedBy": [
             {
@@ -1398,9 +1398,9 @@
         "mushStatus": "Kept"
     },
     "Shrink": {
-        "name": "Shrink",
-        "description": "The Shrink is in charge of psychological support. They are able to keep morale high and treat psychological illnesses.",
-        "effects": "On each cycle, 1 Morale Point () is regained by everyone lying down in the room. Treats psychological illnesses. Gives the action Comfort, which increases morale. Bonus for developing certain NERON projects",
+        "name": "Psy",
+        "description": "Le Psy occupe un poste de soutien psychologique. Il permet de garder le moral et soigne les maladies psychologiques.",
+        "effects": "A chaque cycle, 1  est régénéré à chaque personnage allongé dans sa pièce.\nSoigne passivement les maladies Psy de ces patients. Soigne passivement les maladies Psy de ces patients. Accorde l'action Réconforter: Pour 1 , donne 2  à un équipier. Bonus pour développer certains Projets NERON.",
         "icon": "https://www.mushpedia.com/images/6/65/Shrink.png",
         "learnedBy": [
             {
@@ -1415,9 +1415,9 @@
         "mushStatus": "Kept"
     },
     "Sneak": {
-        "name": "Sneak",
-        "description": "You are of a fearful nature and you instinctively know how to make yourself scarce in order to avoid any and all attempts at physical contact.",
-        "effects": "Hand-to-hand attacks are subject to a 25% penalty. You can move around freely regardless of how many Guards there are in the room.",
+        "name": "Fuyant",
+        "description": "Vous êtes d'un naturel craintif et savez naturellement vous dérober afin d'échapper à toutes les tentatives de contact physique.",
+        "effects": "Les attaques de corps-à-corps contre vous reçoivent une pénalité de 25%. Vous pouvez vous déplacer même si quelqu'un est en train de Garder la pièce.",
         "icon": "https://www.mushpedia.com/images/9/91/Sneak.png",
         "learnedBy": [
             {
@@ -1428,9 +1428,9 @@
         "mushStatus": "Unknown"
     },
     "Solid": {
-        "name": "Solid",
-        "description": "You'll incur no penalties for carrying heavy objects. Also useful for hand-to-hand combat.",
-        "effects": "Your hand-to-hand attacks inflict one additional damage point No penalties for carrying heavy objects. Undocumented: You can kick people out of a room.",
+        "name": "Robuste",
+        "description": "Vous n'avez aucune pénalité lorsque vous transportez un objet lourd. Pratique aussi pour les combats au corps-à-corps.",
+        "effects": "Vos attaques de corps-à-corps infligent un point de dégât supplémentaire. Pas de pénalité pour déplacer les objets lourds. Peut effectuer l'action Mettre à la porte.",
         "icon": "https://www.mushpedia.com/images/9/9b/Solid.png",
         "learnedBy": [
             {
@@ -1446,8 +1446,8 @@
     },
     "Sprinter": {
         "name": "Sprinter",
-        "description": "The Sprinter always puts their best foot forward! They get additional Movement Points.",
-        "effects": "You earn an additional 2  every time you convert - (Does not stack with  Anti-Grav Scooter). Expeditions involving a Sprinter will allow an additional planetary zone to be explored",
+        "description": "Le Sprinter débute toujours sa journée du bon pied ! Il profite de Points de Mouvement supplémentaires.",
+        "effects": "Vous gagnez 2  de plus à chaque conversion → (non cumulatif avec la  Trottinette). Expédition: +1 section visitée par expédition.",
         "icon": "https://www.mushpedia.com/images/0/06/Sprinter.png",
         "learnedBy": [
             {
@@ -1462,9 +1462,9 @@
         "mushStatus": "Kept"
     },
     "Strateguru": {
-        "name": "Strateguru",
-        "description": "After displaying a certain degree of megalomania, it can be mistaken for talent. You are an expert in intergalactic warfare, but everyone thinks you're crazy.",
-        "effects": "50% of chance of reducing each wave of Hunters by 33%.",
+        "name": "Stratéguerre",
+        "description": "À un certain degré de mégalomanie, on peut appeler ça du talent. Vous êtes expert en bataille spatiale mais tout le monde vous prend pour un fou.",
+        "effects": "50% de chances de réduire chaque vague de Hunters de 34%.",
         "icon": "https://www.mushpedia.com/images/5/5a/Strateguru.png",
         "learnedBy": [
             {
@@ -1475,9 +1475,9 @@
         "mushStatus": "Kept"
     },
     "Survivalist": {
-        "name": "Survivalist",
-        "description": "The Survivalist is great to have on exploration missions. They can defend themselves more effectively against extra-terrestrial life forms and generally deal with these encounters better than anyone else.",
-        "effects": "Expedition : All damage is reduced by one point. Expedition : The action Provision gives one additional steak. Expedition : Last to die if a team fatality occurs.",
+        "name": "Survie",
+        "description": "L'expert en survie est un bon atout dans les missions d'exploration. Il peut se défendre plus efficacement contre les formes de vie extraterrestre et s'en sortira mieux que les autres.",
+        "effects": "Expédition : Chaque dégât personnel est réduit d'un point. Expédition : L'évènement Provision donne un steak de plus. Expédition : Dernier à mourir en cas d'évènement fatal.",
         "icon": "https://www.mushpedia.com/images/c/c0/Survivalist.png",
         "learnedBy": [
             {
@@ -1496,9 +1496,9 @@
         "mushStatus": "Kept"
     },
     "Technician": {
-        "name": "Technician",
-        "description": "Qualified to repair materials, equipment and the hull of the Daedalus.",
-        "effects": "+1  (Repair Action Point) per day. Chance of success on Repairs doubled. Bonus for developing certain NERON projects. Can reinforce and dismantle objects",
+        "name": "Technicien",
+        "description": "Le Technicien est qualifié pour réparer le matériel, les équipements et la coque du Daedalus.",
+        "effects": "+1  par jour. Peut Démonter et Renforcer des objets. Chance de réussite doublée pour les Réparations (objets et équipements), Rénovations (vaisseaux). Bonus pour développer certains Projets NERON et réparer PILGRED.",
         "icon": "https://www.mushpedia.com/images/3/36/Technician.png",
         "learnedBy": [
             {
@@ -1529,9 +1529,9 @@
         "mushStatus": "Kept"
     },
     "The Optimist": {
-        "name": "The Optimist",
-        "description": "The end of humanity... worse things happen at sea, right?",
-        "effects": "The optimist loses one less  per day.",
+        "name": "Optimiste",
+        "description": "La fin de l'Humanité... Il y a pire non ?",
+        "effects": "L'Optimiste perd un  de moins par jour.",
         "icon": "https://www.mushpedia.com/images/a/a6/The_Optimist.png",
         "learnedBy": [
             {
@@ -1546,9 +1546,9 @@
         "mushStatus": "Lost"
     },
     "Torturer": {
-        "name": "Torturer",
-        "description": "The torturer knows all the pressure points and most sensitive areas with which they can convey their most important message... \"You WILL talk.\"",
-        "effects": "Enables the Torture action.",
+        "name": "Bourreau",
+        "description": "Le bourreau connait tous les circuits nerveux les plus sensibles pour arriver à faire parvenir son message le plus important... Tu VAS parler.",
+        "effects": "Pour 1 , peut Torturer les autres membres de l'équipage. Ils perdent 1 , puis vous révèlent leurs X dernières actions, où X est leur nombre de  manquants.",
         "icon": "https://www.mushpedia.com/images/d/d7/Torturer.png",
         "learnedBy": [
             {
@@ -1559,9 +1559,9 @@
         "mushStatus": "Kept"
     },
     "Tracker": {
-        "name": "Tracker",
-        "description": "The tracker can see the comings and going of every team member. Furthermore, they can print any research results during the game via the Tabulatrix. This provides a list of players of which at least one is Mush.",
-        "effects": "Full access to movement history. Able to print secret list on the Tabulatrix.",
+        "name": "Traqueur",
+        "description": "Le Traqueur voit les provenances et les directions de chaque mouvement de l'équipage. Il peut en outre imprimer un résultat d'enquête grâce à la tabulatrice durant la partie. Il s'agit d'une liste de personnes contenant au moins un infecté Mush.",
+        "effects": "Accès complet aux historiques de déplacement.\nPeut lire les registres de la pièce pour les 16 derniers cycles, au lieu de 8.\nPeut lire d'où viennent et vers où se déplacent les membres de l'équipage. Peut lire avec quels vaisseaux les pilotes ont décollé et atterri. Peut lire les registres de la pièce pour les 16 derniers cycles, au lieu de 8. Peut lire d'où viennent et vers où se déplacent les membres de l'équipage. Peut lire avec quels vaisseaux les pilotes ont décollé et atterri. Unique: Permet d'imprimer  LA Liste secrète sur la  Tabulatrice.",
         "icon": "https://www.mushpedia.com/images/c/c5/Tracker.png",
         "learnedBy": [
             {
@@ -1572,9 +1572,9 @@
         "mushStatus": "Kept"
     },
     "U-Turn": {
-        "name": "U-Turn",
-        "description": "You've got to know how to change your certitudes",
-        "effects": "When on an expedition, if there's an emergency, you can return to the Daedalus for 2 .",
+        "name": "Retour arrière",
+        "description": "Il faut savoir changer de certitudes.",
+        "effects": "Pour 2 , en Expédition, vous permet de retourner sur le Daedalus en urgence.",
         "icon": "https://www.mushpedia.com/images/6/6c/U-Turn.png",
         "learnedBy": [
             {
@@ -1585,9 +1585,9 @@
         "mushStatus": "Kept"
     },
     "Victimizer": {
-        "name": "Victimizer",
-        "description": "Certain well-targeted remarks can have unexpected results.",
-        "effects": "For 1 , you can chastise someone. This crewmate gains Pariah status. The Pariah's actions are 20% less likely to be successful. Covert actions become  Secret. If the Pariah dies and was  Mush, the Victimizer earns 8 . Otherwise they lose 8 .",
+        "name": "Persécuteur",
+        "description": "Certaines remarques bien senties peuvent avoir des répercussions inattendues.",
+        "effects": "Pour 1 , permet de jeter l'anathème sur un coéquipier. Ce coéquipier gagne le statut Paria.\nLe Paria perd 20% de réussite à ses actions.\nSes actions  furtives deviennent  discrètes.\nLe status Paria dure tant que le persécuteur est en vie, ou jusqu'à ce que le paria meurt ou devienne inactif. Le Paria perd 20% de réussite à ses actions. Ses actions  furtives deviennent  discrètes. Le status Paria dure tant que le persécuteur est en vie, ou jusqu'à ce que le paria meurt ou devienne inactif.",
         "icon": "https://www.mushpedia.com/images/e/ee/Victimizer.png",
         "learnedBy": [
             {
@@ -1598,9 +1598,9 @@
         "mushStatus": "Kept"
     },
     "Wrestler": {
-        "name": "Wrestler",
-        "description": "The wrestler's german suplex makes the vertebrae of your enemies tremble.",
-        "effects": "Your attacks in hand-to-hand combat inflict an additional 2 damage. Undocumented: You can kick people out of a room.",
+        "name": "Lutteur",
+        "description": "Les german suplex du Lutteur font trembler les vertèbres de tous ses adversaires.",
+        "effects": "Vos attaques de corps-à-corps infligent 2 dégâts supplémentaires si vous n'êtes pas muté. Vous disposez de l'action Mettre à la porte.",
         "icon": "https://www.mushpedia.com/images/2/26/Wrestler.png",
         "learnedBy": [
             {
