@@ -46,7 +46,7 @@
             "description" : "A strange odor lingers in the air. What exactly is Ian growing in there?",
             "elements" : [],
             "usual_suspects" : ["Ian Soulton", "Jiang Hua"],
-            "skills" : ["Botanist", "Mycologist", "Green Thumb", "Polyvalent"]
+            "skills" : ["Botanist", "Green Thumb", "Polyvalent"]
         },
         "Front Storage": {
             "name" : "Stockage Avant",
@@ -60,7 +60,7 @@
             "description" : "",
             "elements" : ["Lit", "Distilleur de Stupéfiants", "Plot Chirurgical", "Coeur de NERON (Terminal auxiliaire)"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
-            "skills" : ["Medic", "Biologist", "Mycologist", "Nurse", "Lethargy", "Shrink"]
+            "skills" : ["Medic", "Mycologist", "Nurse", "Lethargy", "Shrink"]
 
         },
         "Central Beta Tourelle": {
