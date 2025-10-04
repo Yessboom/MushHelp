@@ -143,7 +143,7 @@
         "Alpha Bay 2": {
             "name" : "Alpha Bay 2",
             "description" : "Ever wanted to scoop up the remains of the Hunters you've defeated ? This place is for you. Bring back a few scraps and Terrence will love you to the moon and back.",
-            "elements" : ["Pasiphae", "Patroll ship", "Dynacarde"],
+            "elements" : ["Pasiphae", "Patroll ship", "Dynacarde", "Jukebox"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
@@ -259,8 +259,8 @@
             "pixel": "",
             "traits": {
                 "name": "Chronic Vertigo",
-                "description": "Eleesha can contact any rebel bases she finds, and can trade with them.",
-                "icon": "Begins the game with the Chronic Vertigo illness, rendering her unable to pilot ships until cured by a Shrink."
+                "description": "Begins the game with the Chronic Vertigo illness, rendering her unable to pilot ships until cured by a Shrink.",
+                "icon": ""
             },
             "objectives" : {
                 "name": "Rebel Networks",
