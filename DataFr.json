@@ -2,21 +2,21 @@
         "Bridge": {
             "name" : "Pont",
             "description" : " ",
-            "elements" : ["Comms Center", "AstroTerminal", "Command Terminal"],
+            "elements" : ["Centre de Communication", "Terminal Astro", "Terminal de Commandement"],
             "usual_suspects" : ["Paola Rinaldo", "Kim Jin Su", "Frieda Bergmann"],
             "skills" : ["Astrophysicist", "IT Expert", "Polyvalent", "Radio Expert", "Rebel", "Tracker", "Diplomat"]
         },
-        "Front Beta Turret": {
+        "Front Beta Tourelle": {
             "name" : "Tourelle Beta Avant",
             "description" : "La Tourelle Beta Avant est nulle. Bien pire que la tourelle Alpha Avant",
-            "elements" : ["Turret"],
+            "elements" : ["Tourelle"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
-        "Front Alpha Turret": {
+        "Front Alpha Tourelle": {
             "name" : "Tourelle Alpha Avant",
             "description" : "La tourelle supérieur. Si vous voulez buter du Hunter, c'est le coin rêvé",
-            "elements" : ["Turret"],
+            "elements" : ["Tourelle"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
@@ -37,7 +37,7 @@
         "Laboratory": {
             "name" : "Laboratoire",
             "description" : "Rings a bell? Normal, you woke up there. Once defrosted, you'll be able to research the Mush here. Don't forget your apron, though.",
-            "elements" : ["Mycoscan", "Research Lab", "Gravity Simulator", "CryoModule"],
+            "elements" : ["Mycoscan", "Laboratoire de Recherche", "Simulateur de Gravité", "Module Cryo"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Polyvalent", "Genius", "IT Expert"]
         },
@@ -58,22 +58,22 @@
         "Medlab": {
             "name" : "Infirmerie",
             "description" : "",
-            "elements" : ["Lit", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
+            "elements" : ["Lit", "Distilleur de Stupéfiants", "Plot Chirurgical", "Coeur de NERON (Terminal auxiliaire)"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Biologist", "Mycologist", "Nurse", "Lethargy", "Shrink"]
 
         },
-        "Central Beta Turret": {
+        "Central Beta Tourelle": {
             "name" : "Tourelle Beta Centrale",
             "description" : "",
-            "elements" : ["Turret"],
+            "elements" : ["Tourelle"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
-        "Central Alpha Turret": {
+        "Central Alpha Tourelle": {
             "name" : "Tourelle Alpha Centrale",
             "description" : "",
-            "elements" : ["Turret"],
+            "elements" : ["Tourelle"],
             "usual_suspects" : ["Paola Rinaldo", "Raluca Tomescu", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
@@ -94,14 +94,14 @@
         "Central Beta Storage": {
             "name" : "Stockage Beta Central",
             "description" : "",
-            "elements" : ["Oxygen Tank"],
+            "elements" : ["Réservoir d'Oxygène"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu"],
             "skills" : ["Metalworker", "Technician"]
         },
         "Central Alpha Storage": {
             "name" : "Stockage Alpha Central",
             "description" : "",
-            "elements" : ["Oxygen Tank"],
+            "elements" : ["Réservoir d'Oxygène"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu", "Stephen Seagull"],
             "skills" : ["Metalworker", "Technician"]
         },
@@ -122,7 +122,7 @@
         "Nexus": {
             "name" : "Nexus",
             "description" : "Tired of speaking to other humans? Come and have a chat with NERON instead! He won't like you, but he'll have no choice to listen to you.",
-            "elements" : ["NERON's Core", "Bios Terminal", "Calculator"],
+            "elements" : ["Coeur de Neron", "Terminal BIOS", "Calculateur"],
             "usual_suspects" : ["Janice Kent", "Lai Kuan Ti", "Raluca Tomescu", "Terrence Archer"],
             "skills" : ["Designer", "IT Expert", "Politician", "Technician", "Genius", "Physicist"]
         },
@@ -143,28 +143,28 @@
         "Alpha Bay 2": {
             "name" : "Baie Alpha 2",
             "description" : "Ever wanted to scoop up the remains of the Hunters you've defeated ? This place is for you. Bring back a few scraps and Terrence will love you to the moon and back.",
-            "elements" : ["Pasiphae", "Patrouilleur", "Dynacarde"],
+            "elements" : ["Pasiphae", "Patrouilleur", "Dynacarde", "Jukebox"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Engine Room": {
             "name" : "Salle des Moteurs",
             "description" : "Sometimes, late at night, you can hear hear the Pilgred Reactor humming a little tune. It's probably nothing.",
-            "elements" : ["Pilgred Reactor", "Emergency Reactor","Lateral Reactor", "Lateral Reactor", "Antenna", "Combustion Chamber", "Planet Scanner", "Auxiliary Neron Terminal"],
+            "elements" : ["Pilgred", "Réacteur d'Urgence","Réacteur Latéral", "Réacteur Latéral", "Antenne", "Chambre de Combustion", "Scanner de Planète", "Coeur de NERON (Terminal auxiliaire)"],
             "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"],
             "skills" : ["Technician", "Physicist"]
         },
-        "Rear Beta Turret": {
+        "Rear Beta Tourelle": {
             "name" : "Tourelle Beta Arrière",
-            "description" : "The Rear Beta Turret sucks. Way worst that the Rear Alpha Turret",
-            "elements" : ["Turret"],
+            "description" : "The Rear Beta Tourelle sucks. Way worst that the Rear Alpha Tourelle",
+            "elements" : ["Tourelle"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan", "Raluca Tomescu"],
             "skills" : ["Gunner", "Shooter"]
         },
-        "Rear Alpha Turret": {
+        "Rear Alpha Tourelle": {
             "name" : "Tourelle Alpha Arrière",
-            "description" : "Legends say no one has set foot in the Rear Alpha Turret for years. Even drones avoid it.",
-            "elements" : ["Turret"],
+            "description" : "Legends say no one has set foot in the Rear Alpha Tourelle for years. Even drones avoid it.",
+            "elements" : ["Tourelle"],
             "usual_suspects" : ["Kim Jin Su", "Raluca Tomescu", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         }, 
@@ -178,14 +178,14 @@
         "Rear Beta Storage": {
             "name" : "Stockage Beta Arrière",
             "description" : "",
-            "elements" : ["Fuel Tank"],
+            "elements" : ["Réservoir de Fuel"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Technician", "Metalworker"]
         },
         "Rear Alpha Storage": {
             "name" : "Stockage Alpha Arrière",
             "description" : "",
-            "elements" : ["Fuel Tank"],
+            "elements" : ["Réservoir de Fuel"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Technician", "Metalworker"]
 
@@ -203,14 +203,14 @@
     "character" : {
         "Andie Graham": {
             "name" : "Andie Graham",
-            "description" : "Genuinely gifted, and capable of taking any task on, Andie is ready to do anything for the good of the Federation... or not?",
+            "description" : "Fayot de la Fédération. Sur-doué(e) capable de mener à bien différentes tâches, Andie est prêt(e) à tout pour le bien de la fédération... ou pas ?",
             "skills" : ["Pilot", "Devotion", "Polyvalent", "Confident", "Expert"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Andie.png",
             "pixel": "",
             "traits": {
-                "name": "Androgynous",
-                "description": "Can flirt and do the thing with characters of both genders. Cannot become Pregnant, but can impregnate women.",
+                "name": "Androgyne",
+                "description": "Peut flirter et le faire avec les deux sexes.",
                 "icon": ""
             },
             "objectives" : {
@@ -222,7 +222,7 @@
 
         "Derek Hogan": {
             "name" : "Derek Hogan",
-            "description" : "A true force of nature, and a lifelong fan of Bowie and skin-tight clothing, Derek is capable of restoring order aboard the Daedalus.",
+            "description" : "Héros malgré lui. Véritable force de la nature, Derek est capable de faire régner l'ordre à bord du Daedalus.",
             "skills" : ["Shooter", "Wrestler", "Firefighter", "Motivator", "Hygienist"],
             "biography" : [{
                 "date" : "3115",
@@ -239,8 +239,8 @@
             "image": "Derek.png",
             "pixel": "",
             "traits": {
-                "name": "First Time ",
-                "description": "The first time Derek does the thing, his Morale gauge is re-filled to the maximum.",
+                "name": "Première Fois",
+                "description": "La 1ère fois que Derek Le Fait, il regagne l'intégralité de son Moral.",
                 "icon": ""
             },
             "objectives" : {
@@ -252,15 +252,15 @@
 
         "Eleesha Williams": {
             "name" : "Eleesha Williams",
-            "description" : "Former investigative journalist, her goal is to contact any rebel bases still operating. One of the most observant crewmembers, she is as brilliant as she is honest, but don't worry – that can be cured!",
+            "description" : "Investigatrice déchue de premier plan. Elle est journaliste de formation et n'a pas oublié d'être brillante dans ce domaine. Son passé de Grand Reporter et de journaliste d’investigation en atteste.",
             "skills" : ["Tracker", "Determined", "Observant", "IT Expert", "Technician", "Polymath"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Eleesha.png",
             "pixel": "",
             "traits": {
-                "name": "Chronic Vertigo",
-                "description": "Eleesha can contact any rebel bases she finds, and can trade with them.",
-                "icon": "Begins the game with the Chronic Vertigo illness, rendering her unable to pilot ships until cured by a Shrink."
+                "name": "Vertiges Chroniques",
+                "description": "Commence la partie avec la maladie mentale vertige chronique qui empêche de piloter. Peut être soignée par un psy.",
+                "icon": ""
             },
             "objectives" : {
                 "name": "Rebel Networks",
@@ -271,14 +271,14 @@
 
         "Finola Keegan": {
             "name" : "Finola Keegan",
-            "description" : "A doctor of both medicine and biology, Finola's life's work revolves around making the world a better place. Her research and healing skills make her invaluable on board.",
+            "description": "Biologiste de renommée internationale, pionnière dans l'étude du Mush. Biologiste de premier plan, ses découvertes sur le Mush et ses connaissances des organismes extra-terrestre sont uniques.",
             "skills" : ["Biologist", "Medic", "Nurse", "Diplomat", "OCD"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Finola.png",
             "pixel": "",
             "traits": {
                 "name": "Germaphobe",
-                "description": "Loses 1 Morale per cycle if Dirty, and cannot caress Schrödinger.",
+                "description": "Finola perd 1 Moral au changement de cycle si elle est sale. Ne peut pas caresser Schrödinger.",
                 "icon": ""
             },
             "objectives" : {
@@ -290,7 +290,7 @@
 
         "Frieda Bergmann": {
             "name" : "Frieda Bergmann",
-            "description" : "Frieda is Humanity's most experienced astrophysicist. Her life's work has been discovering new planets and systems. She was born over 1000 years ago and is a true survivor!",
+            "description" : "Scientifique millénaire. Avec son millier d'années bien tassé, Frieda est la personne la plus expérimentée de l'Humanité en matière d'astrophysique. Elle a aussi acquis des savoirs annexes particulièrement utiles en milieux hostiles.",
             "skills" : ["Astrophysicist", "Pilot", "Survivalist", "IT Expert", "Radio Expert", "Antique Perfume"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Frieda.png",
@@ -315,7 +315,7 @@
 
         "Gioele Rinaldo": {
             "name" : "Gioele Rinaldo",
-            "description" :"An eccentric billionaire, caffeine-junkie and owner of the Daedalus, his fortune is threatened by the Mush menace. He will do everything in his power to wipe it out. Not to be underestimated!",
+            "description" :"Armateur philantrophobe. Parvenu sur le vaisseau grâce à sa roublardise, il est plein de ressources et saura vous surprendre.",
             "skills" : ["Solid", "Paranoid", "Caffeine Junkie", "Astrophysicist", "Panic", "Victimizer"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Gioele.png",
@@ -333,14 +333,14 @@
 
         "Ian Soulton": {
             "name" : "Ian Soulton",
-            "description" : "A passionate and dedicated researcher whose knowledge of alien plant-life is unparalleled. A strict pacifist, he's the 'nice guy' on board.",
+            "description" : "Chercheur frugivore flexible. Chercheur passionné et dévoué, ses avancés sur le Mush peuvent tout changer à bord.",
             "skills" : ["Botanist", "Biologist", "Mycologist", "Green Thumb", "Firefighter", "Frugivore"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Ian.png",
             "pixel": "",
             "traits": {
-                "name": "Pacifist",
-                "description": "All aggressive actions cost +2 AP when Ian is in the room",
+                "name": "Pacifiste",
+                "description": "Les actions agressives coûtent 2 PA supplémentaires dans la pièce où Ian se trouve.",
                 "icon": ""
             },
             "objectives" : {
@@ -351,7 +351,7 @@
 
         "Janice Kent": {
             "name" : "Janice Kent",
-            "description" : "In charge of communication in a global sense, she has highest-level access to NERON. Her solid IT and psychoanalytical skills are crucial for the voyage",
+            "description" : "Psychologue Digitale aux atouts certains. En charge de la communication au sens large. Elle a un lien privilégiée avec NERON. Ses solides acquis en informatique et psychanalyse sont cruciaux pour le voyage.",
             "skills" : ["Shrink", "IT Expert", "NERON's only friend", "Diplomat", "Radio Expert", "Self-sacrifice"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Janice.png",
@@ -369,7 +369,7 @@
 
         "Jiang Hua": {
             "name" : "Jiang Hua",
-            "description" : "Chief pilot of the Daedalus, Hua specializes in exploration missions. They say she can land where she wants, when she wants, and in any conditions you care to dream up.",
+            "description" : "Exploratrice de l'extrême. Pilote en chef du Daedalus. Elle est spécialisé dans les missions d'exploration. On dit qu'elle atterri où elle veut, quand elle veut, et à n'importe quelle heure.",
             "skills" : ["Pilot", "Botanist", "Survivalist", "Technician", "Determined", "U-Turn"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Hua.png",
@@ -389,7 +389,7 @@
 
         "Kim Jin Su": {
             "name" : "Kim Jin Su",
-            "description" : "A born leader, Jin Su is the supreme commander of the Daedalus. He is in charge of piloting the ship. - Towards planets for expeditions and, most importantly, towards Eden.",
+            "description" : "Kim est le commandant suprême du Daedalus. Il mène l'équipage vers de glorieux horizons au péril de sa vie.",
             "skills" : ["Leader", "Pilot", "Cold Blooded", "Shooter", "Logistics Expert", "Strateguru"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "JinSu.png",
@@ -413,7 +413,7 @@
 
         "Lai Kuan Ti": {
             "name" : "Lai Kuan Ti",
-            "description" : "An astrophycisist and the ship's designer, Kuan Ti knows it like the back of his hand and has privileged access to NERON. If a Nexus project is underway, you can be sure he is involved!",
+            "description" : "Grand architecte du Daedalus. Lai est le concepteur du vaisseau. Il en connaît tous les coins et recoins et a une relation privilégiée avec NERON.",
             "skills" : ["Designer", "The Optimist", "Astrophysicist", "Technician", "Leader", "Politician"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "KuanTi.png",
@@ -431,7 +431,7 @@
 
         "Paola Rinaldo": {
             "name" : "Paola Rinaldo",
-            "description" : "Brilliant biologist and hardcore rebel markswoman, she is driven by the need to recontact Kivanç Terzi. Her technical and logistical skills are highly prized",
+            "description" : "Officier principal des Communication du Daedalus. Brillante étude de biologie, professionnelle de la rebellion, elle se retrouve sur le Daedalus grâce à son père…",
             "skills" : ["Radio Expert", "Logistics Expert", "Shooter", "Biologist", "Rebel", "Gunner"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Paola.png",
@@ -451,14 +451,14 @@
 
         "Raluca Tomescu": {
             "name" : "Raluca",
-            "description" : "Quantum Physics genius, her vast skillset renders her indispensable on board. Some say her tears are flammable and that she once kicked a giraffe to death. All we know is that she's called Raluca.",
+            "description" : "Génie de la physique quantique félinophile. Ses compétences vastes la rendent indispensable à bord.",
             "skills" : ["Physicist", "Detached Crewmember", "Technician", "Genius", "Designer"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Raluca.png",
             "pixel": "",
             "traits": {
                 "name": "Antisocial",
-                "description": "Cannot flirt, and loses 1 Morale if anybody else is present in the same room during cycle change.",
+                "description": "Raluca perd 1 Moral au changement de cycle si au moins un autre équipier est présent dans la même pièce. Ne peut pas flirter.",
                 "icon": ""
             },
             "objectives" : {
@@ -469,7 +469,7 @@
 
         "Roland Zuccali": {
             "name" : "Roland Zuccali",
-            "description" : "Roland is a brilliant pilot who is not nearly as funny as he thinks he is. However, his dogfighting skills are no laughing matter. He's got a gift, and he's never happier than when he's shooting down Hunters.",
+            "description" : "Humoriste pilote de chasse à ses heures. Roland est un brillant pilote pas toujours aussi drôle qu'il ne veut bien le croire. C'est surtout un génie du combat rapproché.",
             "skills" : ["Sprinter", "Pilot", "Shooter", "Firefighter", "The Optimist", "Creative"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Roland.png",
@@ -481,13 +481,13 @@
             },
             "objectives" : {
                 "name": "Flying Nemesis",
-                "description": "Roland gains +1 Glory for every 2 Hunters he kills in a patroller or turret (with diminishing returns)."
+                "description": "Roland gains +1 Glory for every 2 Hunters he kills in a patroller or Tourelle (with diminishing returns)."
             }
         },
 
         "Stephen Seagull": {
             "name" : "Stephen Seagull",
-            "description" : "The most dangerous cook in the galaxy is on board. He has more black-belts than pairs of trousers and he collects roadkill. Alien flesh is like catnip to Stephen. We thought you should know.",
+            "description" : "Le cuisinier le plus dangereux de la Galaxie est parmi vous. Qu'on se le dise.",
             "skills" : ["Chef", "Solid", "Opportunist", "Shooter", "Apprentice", "Creative"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Stephen.png",
@@ -511,14 +511,14 @@
 
         "Terrence Archer": {
             "name" : "Terrence Archer",
-            "description" : "Don't be fooled by his appearance, Terrence is amongst the most agile crew members, albeit mentally. Next-generation robotics and UAVs are his bread and butter.",
+            "description" : "Technophile désabusé motorisé. Certes handicapé, Terrence a aussi des compétences uniques dans les sciences de l'ingénieur.",
             "skills" : ["Robotics Expert", "Technician", "Pilot", "Shooter", "IT Expert", "Metalworker"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Terrence.png",
             "pixel": "",
             "traits": {
-                "name": "Disabled",
-                "description": "Gains 2 MP less during AP-MP conversions. Moving between rooms is free if somebody else is present in the room.",
+                "name": "Handicapé moteur",
+                "description": "En se déplaçant, Terrence gagne 2 Point de Mouvement en moins à chaque conversion Point d'Action - Point de Mouvement. En revanche, il ne dépense pas de Point de Mouvement si au moins un équipier est présent dans la pièce qu'il quitte.",
                 "icon": ""
             },
             "objectives" : {
@@ -529,14 +529,14 @@
 
         "Wang Chao": {
             "name" : "Wang Chao",
-            "description" : "Hyperactive head of the security team, Chao insists that sleep is for the weak. A trigger happy lunatic, the story goes that he once tore a man's arms off for suggesting his choice of weaponry was 'a bit camp'...",
+            "description" : "Chef de la sécurité du Daedalus. Il a la gâchette facile mais est un atout puissant et caractériel.",
             "skills" : ["Shooter", "Survivalist", "Wrestler", "Torturer", "Crazy Eye", "Intimidating"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Chao.png",
             "pixel": "",
             "traits": {
-                "name": "Hyperactive",
-                "description": "Gains +1 Movement Point every cycle, however sleeping in a Lit grants no additional Action Point.",
+                "name": "Hyperactif",
+                "description": "S'allonger ne confère aucun Point d'Action supplémentaire à Chao mais il gagne 1 Point de Mouvement supplémentaire à chaque cycle.",
                 "icon": ""
             },
             "objectives" : {
@@ -547,14 +547,14 @@
 
         "Zhong Chun" : {
             "name" : "Zhong Chun",
-            "description" : "Our last hope. She must survive and make the journey to Eden. She inspires the crew to achieve more, and when misfortune befalls her comrades she is always there to patch them up.",
+            "description" : "Dernier espoir de l'Humanité. Elle doit survivre. Elle possède quelques compétences médicales qui pourront aider.",
             "skills" : ["Mankind's only hope", "Nurse", "Premonition", "Sneak", "Lethargy"],
             "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
             "image": "Chun.png",
             "pixel": "",
             "traits": {
-                "name": "Immunized",
-                "description": "Chun is completely immune to the Mush parasite, and thus always a confirmed human.",
+                "name": "Immunisée",
+                "description": "Chun est complétement immunisée au mush, elle est toujours certifiée humaine.",
                 "icon": ""
             },
             "objectives" : [
