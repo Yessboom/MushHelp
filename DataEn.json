@@ -205,7 +205,36 @@
             "name" : "Andie Graham",
             "description" : "Genuinely gifted, and capable of taking any task on, Andie is ready to do anything for the good of the Federation... or not?",
             "skills" : ["Pilot", "Devotion", "Polyvalent", "Confident", "Expert"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3130",
+                    "event": "Born somewhere on Earth."
+                },
+                {
+                    "date": "3136",
+                    "event": "Abandoned by his/her parents in the first months of his/her existence, Andie is saved by a commission of the SDF. (S)he is promptly placed in a specialized home as SDF protegé, where his/her innate abilities are soon discovered. (S)he is then swiftly planted in an SDF-controlled school and enters the Federation Youth Program."
+                },
+                {
+                    "date": "3145",
+                    "event": "(S)he remains brilliant in his/her studies and enters the most prestigious university of the Federation. Constantly indoctrinated during his/her studies, Andie heeds nothing other than the way of the Federation. Despite his/her naiveté, Andie is very popular and never has any trouble making friends. With his/her angelic face, (s)he unwittingly attracts the sympathy of all. His/her roommate, Viktor Carlsson, secretly planted in the university by his father Nils, dearly pays for their friendship. For confiding his secret mission to him/her during conversation, he soon finds himself arrested for conspiracy. Andie innocently thinks that he just switched courses..."
+                },
+                {
+                    "date": "3151",
+                    "event": "Andie makes the acquaintance of sergeant instructor  Derek Hogan who, being portrayed as a national hero, spends the entirety of his lessons telling stories of his fantastic life. Andie discovers the father figure (s)he's been missing in his/her instructor and begins to idolize him. (S)he believes every word of his tales and stories and begins to dream of travelling through space as well."
+                },
+                {
+                    "date": "3153",
+                    "event": "Andie fervently studies subject after subject in order to best serve the Federation. (S)he brilliantly attains three Ph.Ds: in botany for his/her dissertation on the healing properties of Tau-Ceti's Bachean bulb, in biology with his/her study on the social behavior of polarized amoeba in the Aegean Sea of the third planet on the Sol system, and finally in diplomacy with his/her mediation report which, according to the jury, could have inspired the negotiators who failed to prevent Sol's great battle. (S)he becomes the first triple laureate in the Federation."
+                },
+                {
+                    "date": "3154",
+                    "event": "With his/her studies over, Andie decides to become a pilot, joining the Federation's airforce and easily obtaining his/her license. (S)he asks to be posted on Xyloph-17 and is soon noticed by  Kim Jin Su. Derek, however, does not recognize him/her."
+                },
+                {
+                    "date": "3154",
+                    "event": "Oblivious to what's coming from the shadows, and believing to still be serving the Federation, Andie boards the Daedalus."
+                }
+         ],
             "image": "Andie.png",
             "pixel": "",
             "traits": {

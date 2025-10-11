@@ -500,8 +500,74 @@ const objectivesList = document.getElementById("objectives-list");
         }
     }
 
-
-
+function populateCharacterBiographyList(characterName, data) {
+    const biographySection = document.getElementById("character-biography");
+    const biographyList = document.getElementById("biography-list");
+    
+    // Clear existing content
+    biographyList.innerHTML = "";
+    
+    // Set up the main biography title with accordion functionality
+    const biographyTitle = biographySection.querySelector("h3");
+    biographyTitle.innerHTML = `
+        Biography:
+        <span class="biography-title-arrow">▼</span>
+    `;
+    
+    // Add click event to the biography title
+    biographyTitle.onclick = () => {
+        const isOpen = biographyList.style.display === "block";
+        biographyList.style.display = isOpen ? "none" : "block";
+        const arrow = biographyTitle.querySelector('.biography-title-arrow');
+        arrow.textContent = isOpen ? "▼" : "▲";
+    };
+    
+    if (data["character"][characterName].biography && data["character"][characterName].biography.length > 0) {
+        data["character"][characterName].biography.forEach((entry, index) => {
+            const li = document.createElement("li");
+            li.className = "biography-item";
+            
+            // Create biography header (clickable date)
+            const biographyHeader = document.createElement("div");
+            biographyHeader.className = "biography-header";
+            
+            const dateSpan = document.createElement("span");
+            dateSpan.className = "biography-date";
+            dateSpan.textContent = entry.date;
+            
+            const arrowSpan = document.createElement("span");
+            arrowSpan.className = "biography-arrow";
+            arrowSpan.textContent = "▼";
+            
+            biographyHeader.appendChild(dateSpan);
+            biographyHeader.appendChild(arrowSpan);
+            
+            // Create biography content (initially hidden)
+            const biographyContent = document.createElement("div");
+            biographyContent.className = "biography-content";
+            biographyContent.style.display = "none";
+            biographyContent.textContent = entry.event;
+            
+            // Add click event to toggle individual date accordion
+            biographyHeader.addEventListener('click', (e) => {
+                e.stopPropagation(); // Prevent triggering parent accordion
+                const isOpen = biographyContent.style.display === "block";
+                biographyContent.style.display = isOpen ? "none" : "block";
+                arrowSpan.textContent = isOpen ? "▼" : "▲";
+            });
+            
+            li.appendChild(biographyHeader);
+            li.appendChild(biographyContent);
+            biographyList.appendChild(li);
+        });
+    } else {
+        const li = document.createElement("li");
+        li.textContent = "No biography available.";
+        li.style.color = "#ccc";
+        li.style.padding = "10px";
+        biographyList.appendChild(li);
+    }
+}
 
 
     
@@ -523,14 +589,14 @@ async function showCharacterCard(characterName) {
         //Populate Character Skills
         populateCharacterSkillList(characterName, data);
 
-
-
         // Populate Trait
         populateCharacterTraitList(characterName, data);
 
-
         // Populate Objectives
         populateCharacterObjectiveList(characterName, data);
+
+        // Populate Biography
+        populateCharacterBiographyList(characterName, data);
 
         // Set character image
         if (data["character"][characterName].image) {

@@ -133,14 +133,22 @@ img {
 }
 
 .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     background: #dc3545;
     color: white;
     border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    width: 100%;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
 }
 
 .close-btn:hover {
@@ -212,6 +220,12 @@ img {
     transform: translateX(0);
 }
 
+
+
+
+
+
+
 .character-card h2 {
     margin-top: 0;
     margin-bottom: 15px;
@@ -223,11 +237,6 @@ img {
     font-size: 18px;
 }
 
-.character-description {
-    color: #555;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
 
 .character-skills {
     margin-bottom: 20px;
@@ -305,6 +314,96 @@ img {
     padding: 6px 10px;
     border-radius: 4px;
     border-left: 3px solid #008ee5;
+    font-size: 14px;
+    color: white;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+    font-weight: 500;
+
+}
+
+/* Biography title accordion styles */
+.character-biography h3 {
+    margin-bottom: 8px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background: #6C40A5;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+
+.biography-title-arrow {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+/* Biography container that will be hidden/shown */
+.biography-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Initially hidden */
+    margin-top: 8px;
+}
+
+/* Individual biography items (dates) */
+.biography-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 4px;
+}
+
+
+.biography-date {
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.biography-arrow {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.biography-content {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
+
+}
+
+.character-biography {
+    margin-bottom: 20px;
+}
+
+.biography-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.biography-list li {
+    background: #6C40A5;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    border-left: 3px solid #6C40A5;
     font-size: 14px;
     color: white;
     font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
