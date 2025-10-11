@@ -253,18 +253,44 @@
             "name" : "Derek Hogan",
             "description" : "A true force of nature, and a lifelong fan of Bowie and skin-tight clothing, Derek is capable of restoring order aboard the Daedalus.",
             "skills" : ["Shooter", "Wrestler", "Firefighter", "Motivator", "Hygienist"],
-            "biography" : [{
-                "date" : "3115",
-                "event" : "Born on Earth"
-            },
-            {
-                "date" : "3127",
-                "event" : "Derek first cut himself when he wanted to shave his adolescent face fuzz for the first time. The scar has never healed but he swears blind to anyone who'll listen (and especially to future conquests), that he picked the wound up on the battlefields of Tau-Ceti."
-            },
-            {
-                "date" : "3139",
-                "event" : "Derek joins the SDF (Sol Defence Force) after receiving some propaganda literature. His mother forbids him to leave home, Derek decided to burn his bridges, and from then on, Derek's been flying solo."
-            }],
+"biography": [
+        {
+            "date": "3115",
+            "event": "Born on Earth."
+        },
+        {
+            "date": "3127",
+            "event": "Derek first cut himself when he wanted to shave his adolescent face fuzz for the first time. The scar has never healed but he swears blind to anyone who'll listen (and especially to future conquests), that he picked the wound up on the battlefields of Tau-Ceti."
+        },
+        {
+            "date": "3139",
+            "event": "Derek joins the SDF (Sol Defence Force) after receiving some propaganda literature. His mother forbids him to leave home, Derek decided to burn his bridges, and from then on, Derek's been flying solo."
+        },
+        {
+            "date": "3145",
+            "event": "Derek climbs the ladder slowly but surely, as since his childhood he's always been a dogsbody which means his superiors quickly notice him. He is sent to Sol and takes part in the Great Battle. A battlefield scout, he surprises the powers that be by taking a forward enemy position single-handedly. By his own admission, he didn't notice the communications tower before plowing into it... In recognition of his bravery on the field of battle, Derek was promoted to sergeant."
+        },
+        {
+            "date": "3146",
+            "event": "After several missions of limited scope, Derek is moved to Xyloph-17 to supervise the Magellan project, reporting all the details and actions of the scientists orbiting Jupiter. He meets Wang Chao, but didn't become friends with him, preferring the company of travelers on Xyloph-17. Poor Derek, his poor relationships and his increasingly problematic relationships with the station's female personnel earned him a trip back to the field."
+        },
+        {
+            "date": "3151",
+            "event": "Derek was charged with many small missions, and always managed to get good results. His colleagues often complained about his dreadful decision making, but also acknowledging that the guy has a lucky streak a mile wide. With a small squad, he successfully rescued Wang Chao who had been sent to Encelade. In the upper echelons of the SDF, he was seen by some as a rising star, but by others as a taker of unnecessary risks. Unfortunately the latter were more common and more senior, which meant he swiftly became the training sergeant in an SDF affiliated school."
+        },
+        {
+            "date": "3151",
+            "event": "Faced with the catastrophic results produced by the students under Hogan's tutelage, his superiors sent him back into the field."
+        },
+        {
+            "date": "3153",
+            "event": "Commander Jin-su took Derek under his wing, and soon entrusted him with an unofficial extraction mission. Unfortunately he turned out to be unable to disarm the scientist Finola Keagan's home security system. In her wisdom, she left her toybox open, exposing Derek to weaponry the likes of which he'd never imagined, causing the sergeant to lose his memory and some potency. His companion in this mission, Wang Chao, was killed by a squad of vigilante quadrupeds. He experienced a mighty pain in the butt before he eventually gave in to his injuries."
+        },
+        {
+            "date": "3154",
+            "event": "Derek manages to get on board the Daedalus alongside the other 15 crew members. Never again will he be manipulated by the SDF!"
+        }
+    ],
             "image": "Derek.png",
             "pixel": "",
             "traits": {
@@ -283,7 +309,72 @@
             "name" : "Eleesha Williams",
             "description" : "Former investigative journalist, her goal is to contact any rebel bases still operating. One of the most observant crewmembers, she is as brilliant as she is honest, but don't worry – that can be cured!",
             "skills" : ["Tracker", "Determined", "Observant", "IT Expert", "Technician", "Polymath"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+        {
+            "date": "3124",
+            "event": "Born on Earth."
+        },
+        {
+            "date": "3132",
+            "event": "Death of Daryn Williams, Eleesha's father, in suspicious circumstances during an expedition on Tamina. The family were only given a few details regarding his death. As she grew up, Eleesha became convinced that he was still alive."
+        },
+        {
+            "date": "3140",
+            "event": "Eleesha studied computer science at university in Mexico. She got good grades, but spent most of her time searching for information on the Tamina incident on the school's network. She eventually discovered that every member of the expedition team in question disappeared, which seemed to support her theory."
+        },
+        {
+            "date": "3141",
+            "event": "Eleesha showed the results of her research to a friend who suggested she make a documentary for the SNC. Eleesha accepts and spreads her findings throughout the world of space exploration.."
+        },
+        {
+            "date": "3142",
+            "event": "When going through her research data, Eleesha managed to locate Zhong Chun, the only surviving member of the Tamina exploration medical corps. Zhong told her that she had been present, and witnessed first hand the agony suffered by the team. Eleesha learns for certain that her father actually died on Tau Ceti, and now wants to know why."
+        },
+        {
+            "date": "3143",
+            "event": "Interview with Kim Jin-Su upon his return from the Tau-Ceti expedition. Eleesha questioned the famous explorer thoroughly, but he denied having any information about the events. This sequence marked the end of her documentary which was broadcast the following year by the SNC."
+        },
+        {
+            "date": "3144",
+            "event": "The documentary made the citizens of Earth aware of the opacity of the Federation's expedition system. Faced with this crisis, the minister for space exploration resigned from his post and was replaced by the explorer GL Maubrick. In continuing her research into the Tamina incident, Eleesha began compiling a report into working conditions in the mines."
+        },
+        {
+            "date": "3145",
+            "event": "Following the rebellion on Tau-Ceti, Eleesha had to cancel her trip. Throughout the years, she will report on the events of the war on Sol in sometimes dangerous situations."
+        },
+        {
+            "date": "3146",
+            "event": "An unplanned parachute jump whilst following a team of SDF paratroopers, resulted in Eleesha developing an abject fear of flying. Every flight she takes has now become a genuine ordeal which doesn't make her job as a journalist any easier."
+        },
+        {
+            "date": "3147",
+            "event": "Fortunately, Eleesha stumbled upon the work of biologist Finola Keegan. The descriptions of observed myceliums named Mush were identical to those of Chun. She got in touch with Finola immediately and set about publishing her findings on the SNC. Her report was broadcast for the most part, but Maubrick considered Eleesha a dissident and neutralised the effect of her work by producing a series of broadcasts which ridiculed the work of these women."
+        },
+        {
+            "date": "3149",
+            "event": "After the uprising on Ross154, the federation finally accepted the Mush theory but became stricter when dealing with dissidents. Finola and Eleesha are put under constant surveillance, but nobody interferes with their research."
+        },
+        {
+            "date": "3150",
+            "event": "Eleesha escapes from SDF surveillance and manages to sneak in to an official office at Valparaiso. There she discovers incriminating documents proving that a Mush alert was declared on the 4th of January 3150 within the federation itself. According to these figures, the number of infected and the spread of the disease is dizzying, and President Maubrick is clearly involved. The fact that there has been no subsequent action taken to this alert is particularly worrying to Eleesha who tries again to air a report on the subject. When this one is taken off the air at the last minute, she realises that it is too late, and the only choice she has left is to flee."
+        },
+        {
+            "date": "3152",
+            "event": "After two years of civilian life, Eleesha joined the crew on Xyloph-17. She met the Daedalus team to whom she told her secret. Kim Jin-Su, leader of the project, offered her a space aboard the ship. Eleesha accepts, but still doesn't trust the man she still believes to be responsable for the Tamina catastrophe."
+        },
+        {
+            "date": "3152",
+            "event": "Eleesha really wants Finola to join the team. She managed to build a Mush detector which would allow for any mistrust in the team to quickly be dealt with. Unfortunately Finola declines."
+        },
+        {
+            "date": "3153",
+            "event": "Finola finally lands on Xyloph-17. Handcuffed. Eleesha is up in arms about their methods, but secretly hopes that she is capable of building a detector herself."
+        },
+        {
+            "date": "3154",
+            "event": "Following a regrettable diplomatic error, the federation takes control of Xyloph-17. Eleesha takes part in the expedition to retake the Daedalus in order to flee. Once they are in orbit, the team decides to fly the ship towards the Magellan cloud. Eleesha is cryogenically frozen for the first time in her life."
+        }
+    ],
             "image": "Eleesha.png",
             "pixel": "",
             "traits": {
@@ -302,7 +393,48 @@
             "name" : "Finola Keegan",
             "description" : "A doctor of both medicine and biology, Finola's life's work revolves around making the world a better place. Her research and healing skills make her invaluable on board.",
             "skills" : ["Biologist", "Medic", "Nurse", "Diplomat", "OCD"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+        {
+            "date": "3106",
+            "event": "Born on Earth."
+        },
+        {
+            "date": "3132",
+            "event": "Finola takes a position in the Rinaldo prison corporation to ensure the medical well-being of detainees on Tau-Ceti. She took her place in a cryo-wagon in the last interstellar convoy heading for Antemis."
+        },
+        {
+            "date": "3140",
+            "event": "The extreme working conditions in which the miners worked combined with the outdated tools they worked with made accidents much more commonplace. Finola's emergency room is always full. Neither the corporation nor the federation are willing to allocate more funding. Finola is furious."
+        },
+        {
+            "date": "3145",
+            "event": "A massive vaccination campaign against space flu begins on Tau-Ceti. Finola analyses a sample of the vaccine and proves that it doesn't contain a single anti-flu component. She asked for more information from the laboratories on Earth, but her requests fell on deaf ears. At the same time as the slave vaccine rumour was coming out, the rebellion erupted and seized control of Tau Ceti. Finola, who supported the miners, tried to calm their rage. She wanted to dissuade the leaders of the rebellion from declaring war on Sol."
+        },
+        {
+            "date": "3146",
+            "event": "Baranov's armed forces were neutralized on Sol. When she tried to operate on the wounded rebels, Finola detected significant anomalies in their nervous system. She put together a study cell to analyze these cases but her superiors forced her to stop the research. After narrowly escaping being killed twice in suspicious lab accidents, she made up her mind to flee the rebel base at Antemis and rejoin the Federation. Before she left, she entrusted an infected bone-marrow sample to her botanist colleague Ian Soulton so that he could continue her secret research on Antemis."
+        },
+        {
+            "date": "3147",
+            "event": "Once back in the federation, Finola continued her research and rapidly established a link between the Tamina incident and the mycelium strains found in the bone marrow retrieved during the autopsies of the dead soldiers. Ian Soulton's findings confirm the theory that this is an intelligent invasion. Following his work, references to Mush began to appear in scientific literature, but the government paid no attention."
+        },
+        {
+            "date": "3150",
+            "event": "Back on Antemis, Finola finds her colleague Ian Soulton. Convinced that the leaders of the rebellion are infected, and acting clandestinely, she decides to build a mycoscanner. If the project gets completed, the scanner will be able to detect the presence of Mush in any individual in real time thus forming another rebellion."
+        },
+        {
+            "date": "3152",
+            "event": "Eleesha Williams, a clandestine journalist who had already published some of Finola's research, contacts her to warn her of the degradation of the Federation's situation. Several members of the parliament including GL Maubrick were infected by Mush. She proposes that Finola join the team aboard the Daedalus, a ship headed for another galaxy, but Finola finds the idea of abandoning the majority of human lives in favour of a few well-placed individuals scandalous. Her colleague Ian Soulton doesn't share that sentiment and sets off for Jupiter."
+        },
+        {
+            "date": "3153",
+            "event": "Finola is kidnapped from outside her home by henchmen from the Magellan project. She is cryogenically frozen on Jupiter without being given a chance to speak."
+        },
+        {
+            "date": "3170",
+            "event": "When she awakens aboard the Daedalus, Finola is more than 170,000 light years from Earth. While she slept, Mush has no doubt taken control of all officials on Sol. This might explain the presence of federation fighters surrounding the ship."
+        }
+    ],
             "image": "Finola.png",
             "pixel": "",
             "traits": {
