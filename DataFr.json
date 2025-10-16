@@ -23,7 +23,7 @@
                 "Diplomat"
             ]
         },
-        "Front Beta Tourelle": {
+        "Front Beta Turret": {
             "name": "Tourelle Beta Avant",
             "description": "La Tourelle Beta Avant est nulle. Bien pire que la tourelle Alpha Avant",
             "elements": [
@@ -38,7 +38,7 @@
                 "Shooter"
             ]
         },
-        "Front Alpha Tourelle": {
+        "Front Alpha Turret": {
             "name": "Tourelle Alpha Avant",
             "description": "La tourelle supérieur. Si vous voulez buter du Hunter, c'est le coin rêvé",
             "elements": [
@@ -146,7 +146,7 @@
                 "Shrink"
             ]
         },
-        "Central Beta Tourelle": {
+        "Central Beta Turret": {
             "name": "Tourelle Beta Centrale",
             "description": "",
             "elements": [
@@ -161,7 +161,7 @@
                 "Shooter"
             ]
         },
-        "Central Alpha Tourelle": {
+        "Central Alpha Turret": {
             "name": "Tourelle Alpha Centrale",
             "description": "",
             "elements": [
@@ -383,7 +383,7 @@
                 "Physicist"
             ]
         },
-        "Rear Beta Tourelle": {
+        "Rear Beta Turret": {
             "name": "Tourelle Beta Arrière",
             "description": "The Rear Beta Tourelle sucks. Way worst that the Rear Alpha Tourelle",
             "elements": [
@@ -399,7 +399,7 @@
                 "Shooter"
             ]
         },
-        "Rear Alpha Tourelle": {
+        "Rear Alpha Turret": {
             "name": "Tourelle Alpha Arrière",
             "description": "Legends say no one has set foot in the Rear Alpha Tourelle for years. Even drones avoid it.",
             "elements": [
