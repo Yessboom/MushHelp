@@ -453,7 +453,52 @@
             "name" : "Frieda Bergmann",
             "description" : "Frieda is Humanity's most experienced astrophysicist. Her life's work has been discovering new planets and systems. She was born over 1000 years ago and is a true survivor!",
             "skills" : ["Astrophysicist", "Pilot", "Survivalist", "IT Expert", "Radio Expert", "Antique Perfume"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                    {
+                        "date": "2037",
+                        "event": "Born on Earth."
+                    },
+                    {
+                        "date": "2059",
+                        "event": "In less than 2 years Frieda Bergmann listed more than 100 new stars, from the observatory in Dusseldorf."
+                    },
+                    {
+                        "date": "2060",
+                        "event": "While studying the Shapiro effect, Frieda proves that the mass of a synthesized black hole could be used to propel space probes at speeds approaching that of light. That same year she was awarded the Nobel Prize for Astrophysics for her publication."
+                    },
+                    {
+                        "date": "2070",
+                        "event": "At the age of 33, Frieda decides to dedicate the rest of her life to space exploration. However, the sound technology of her time was only barely sufficient to reach the satellites of Jupiter. Frieda called upon Cryo-Hertz – a society specializing in cryogenic freezing for billionaires and who guarantee an eventual reawakening in a future society in which they will no longer be condemned to die by lack of medical technology."
+                    },
+                    {
+                        "date": "3094",
+                        "event": "Frieda is awakened from a sleep lasting 1024 years by specialists who are almost ready to launch the first extra-solar mission to Barnard's Star. Her knowledge will be vital when conducting the first surveys of the star's surface. During this mission she meets the young pilot Kim Jin-Su with whom she must collaborate to take the first samples."
+                    },
+                    {
+                        "date": "3110",
+                        "event": "Back on earth Frieda is summoned by the explorer GL Maubrick to join the crew of the Gonzak, a gigantic spaceship which is to explore the Epsilon-Indi system. This was the first time that Frieda set foot on soil outside her own solar system. During these expeditions, she met Kim Jin-Su again who told her about his expedition to Tau-Ceti. It is a system that Frieda knows well, because she studied it when she was at university in the 21st Century."
+                    },
+                    {
+                        "date": "3123",
+                        "event": "After restocking, Kim Jin-Su and Frieda were authorized to leave the Gonzak to mount their own expedition to Tau-Ceti. Frieda catalogued all the bodies in the system in detail."
+                    },
+                    {
+                        "date": "3123",
+                        "event": "The expedition is a success, the discovery of major Boxylium deposits re-energize space travel. Despite the major role played by Frieda in the geolocalisation of sites, the over-mediatization of the event worked out to the advantage of Jin-Su. Frieda was uninterested in the publicity surrounding the event and in the end she decided just to stay in the shadow of the explorer."
+                    },
+                    {
+                        "date": "3140",
+                        "event": "GL Maubrick, who is the minister of spatial expansion puts Frieda in charge of organizing 3 successive intergalactic missions. Unfortunately, the colossal workload rendered it impossible for her to actually join the expedition crews. Her age ( 53 ) combined with her 1060 years of cryosleep increase the risk of cryogenic complications.."
+                    },
+                    {
+                        "date": "3150",
+                        "event": "At the age of 63 Frieda Bergmann's hopes of escaping were buried for good. She left her observatory in Dusseldorf and retired to Bavaria."
+                    },
+                    {
+                        "date": "3151",
+                        "event": "Jin-Su calls on Frieda to work on the discovery of a body found in Magellan's great cloud. This would be a real challenge given the massive distance between this galaxy and the Milky Way. Frieda accepts the mission on the condition that she can participate in the expedition and go to the cloud. Kim Jin-Su names her as the ship's navigator, even though he knows that her chances of surviving 16 years of cryosleep are minimal."
+                    }
+                ],            
             "image": "Frieda.png",
             "pixel": "",
             "traits": {
@@ -478,7 +523,44 @@
             "name" : "Gioele Rinaldo",
             "description" :"An eccentric billionaire, caffeine-junkie and owner of the Daedalus, his fortune is threatened by the Mush menace. He will do everything in his power to wipe it out. Not to be underestimated!",
             "skills" : ["Solid", "Paranoid", "Caffeine Junkie", "Astrophysicist", "Panic", "Victimizer"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                    {
+                        "date": "3099",
+                        "event": "Born on Earth."
+                    },
+                    {
+                        "date": "3118",
+                        "event": "Thanks to his father's contacts, Gioele got a space as a passenger aboard the Gonzak with the mission of exploring Epsilon Indi. It was there that he met his idol GL Maubrick. Upon his return he began to study astrophysics so that he too could become an explorer one day."
+                    },
+                    {
+                        "date": "3120",
+                        "event": "The death of his father made Gioele aware of his family's financial situation. He took over his father's prison management company but changed its operation to suit his own ends: He would send the prisoners to new systems in order to carry out asteroid mining operations."
+                    },
+                    {
+                        "date": "3136",
+                        "event": "Gioele is making a fortune but has still not fulfilled his dreams. In an advertising spot on SNC he proposes a budget of 4 billion credits to whomever can propose a viable stellar ark project allowing him to link the Milky Way and Magellan's cloud."
+                    },
+                    {
+                        "date": "3137",
+                        "event": "Meets with Kuan-Ti who, the following year, delivers a gigantic World-Ark project involving 7000 people. Gioele allocates the promised budget."
+                    },
+                    {
+                        "date": "3146",
+                        "event": "The Federation wishes to participate in financing the project and brings an additional 9 billion credits which will grease the wheels in the advancement of the PILGRED reactor. The explorer, and now official government representative, Kim Jin-Su, is named as project leader."
+                    },
+                    {
+                        "date": "3152",
+                        "event": "Gioele learns quite by chance that Jin-Su and Kuan-Ti have manipulated the original project to allow the construction of a smaller exploration vessel, named the Daedalus. Continuing his investigation, he searches Kuan-Ti'\"s office and finds documents proving that Mush has infected the leaders of the federation. His subsequent fear is the reason he becomes desperate to gain access to the Daedalus and join the evacuation."
+                    },
+                    {
+                        "date": "3153",
+                        "event": "As the federation reduce the frequency of payments for the project, Gioele offers additional financial support for the project to Raluca Jin-Su and Kuan-Ti. His only condition is that Nils Carlsson is removed from the team and replaced by his daughter Paola Rinaldo. The team refused."
+                    },
+                    {
+                        "date": "3154",
+                        "event": "Nils falls ill during a serious crisis between Xyloph-17 and the federation. The SDF takes control of the project, but Kim Jin-Su organizes the clandestine departure of the Daedalus. Gioele and Paola are finally taken aboard."
+                    }
+                ],            
             "image": "Gioele.png",
             "pixel": "",
             "traits": {
@@ -496,7 +578,52 @@
             "name" : "Ian Soulton",
             "description" : "A passionate and dedicated researcher whose knowledge of alien plant-life is unparalleled. A strict pacifist, he's the 'nice guy' on board.",
             "skills" : ["Botanist", "Biologist", "Mycologist", "Green Thumb", "Firefighter", "Frugivore"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                    {
+                        "date": "3106",
+                        "event": "Born on Earth."
+                    },
+                    {
+                        "date": "3130",
+                        "event": "Ian is sent to the Antemis colony on Tau-Ceti to carry out research into new species which have been discovered in the system. He is sent in one of the 5 intergalactic trains of colonists which took thousands of miners to the promised lands of Boxylium."
+                    },
+                    {
+                        "date": "3145",
+                        "event": "Revolt erupts on Atemis, and Ian, who sympathizes with the cause of the miners nonetheless is too scared to speak publicly as he is worried that the federation will cut the funding for his laboratory. After the success of the rebellion, federation funding is suspended and the militia refuse his request to be repatriated to Earth."
+                    },
+                    {
+                        "date": "3146",
+                        "event": "After the bloodbath at the battle of Sol, the laboratory is requisitioned for the treatment of the wounded. While trying to lend a helping hand, Ian meets a charming nurse by the name of Eleesha Williams. He is impressed by her committment to the sick and wounded. She confides in him that she has made a shocking discovery in some of their cohabitants. A matter of days after this announcement, Eleesha swiftly leaves the system to join the federation. Before her departure, she entrusts him with an unusual sample of spinal bone marrow."
+                    },
+                    {
+                        "date": "3147",
+                        "event": "While carrying out tests on the sample, Ian identified a layer of complex mycelium which he managed to introduce into a rat. The mycelium spread throughout the spinal marrow of the animal without seeming to affect the animal. Once the subject was placed amongst other rats, the infected subject exhibited unusual behaviour during which the rat would vomit a spore of 1mm diameter and transports it to a group of healthy rats. Upon contact with spores, healthy subjects undergo three stages of infection at the end of which the mycelium binds to the subject. Ian sent the findings of his research to Eleesha who compiled a report of their work for the scientific press."
+                    },
+                    {
+                        "date": "3149",
+                        "event": "Following the government declaration of the Mush invasion of Tau-Ceti and Ross154, Ian is seized by an uncontrollable panic. He subjects some of his team to bone marrow extractions but is still not convinced by the fiability of his experiment. He eventually closes his laboratory and carries out his research on his own.."
+                    },
+                    {
+                        "date": "3150",
+                        "event": "Once back on Antemis, Eleesha joins him on a project to build a scanner which detects the mycelyum inside the nervous tissue of a body."
+                    },
+                    {
+                        "date": "3151",
+                        "event": "The early mycoscan prototypes detected the presence of spores on a rat but stayed silent when the rat was entirely infected."
+                    },
+                    {
+                        "date": "3152",
+                        "event": "On the 13th of December, Eleesha and Ian intercept a signal from Jupiter. This transmission informed them of the advanced status of the Mush invasion not only in the rebel camp, but also within the federation. The Jupiter team claimed to have been able to build an ark capable of saving a small group of humans in order to continue their research into Mush in a distant galaxy. Ian is terrorized by the idea of a pandemic decimating the human race. He joins the crew of the Daedalus, but Eleesha wants to stay where she is in order to try to save the miners."
+                    },
+                    {
+                        "date": "3153",
+                        "event": "Ian modernized the hydroponic garden project aboard the Daedalus. Thanks to a combination of 12 specific species of plant, he managed to ensure a constantly renewing supply of oxygen aboard the ship."
+                    },
+                    {
+                        "date": "3170",
+                        "event": "When Ian awakes, the fire alarm indicates damage in the hydroponic garden. When he arrives it is already too late, only three plants remain, thus condemning the team to certain death."
+                    }
+                ],
             "image": "Ian.png",
             "pixel": "",
             "traits": {
@@ -514,7 +641,48 @@
             "name" : "Janice Kent",
             "description" : "In charge of communication in a global sense, she has highest-level access to NERON. Her solid IT and psychoanalytical skills are crucial for the voyage",
             "skills" : ["Shrink", "IT Expert", "NERON's only friend", "Diplomat", "Radio Expert", "Self-sacrifice"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                    {
+                        "date": "3128",
+                        "event": "Born on Callisto."
+                    },
+                    {
+                        "date": "3132",
+                        "event": "Janice enrolls in cyber-elementary school on Callisto. She learns at a very early age how to negociate FGUI interfaces and at the age of 6 she built a rudimentary database of recipes for Mother's Day."
+                    },
+                    {
+                        "date": "3143",
+                        "event": "Under the influence of a group of alter-universalist pirates, Janice develops the Radish program which will be used to pirate the accounts of large corporations such as Lisegan-Cash and InHumanFinancial. When she discovers that she has been manipulated, Janice decides to reinforce the security of her applications by developing a unique protection system which is based on the trust existing between the program and the user."
+                    },
+                    {
+                        "date": "3145",
+                        "event": "To earn her qualification in Cyber-Psychology on Ganymede, Janice studied human and robot psychology for two years at the faculty of Cognitive Sciences at Bacchus IV."
+                    },
+                    {
+                        "date": "3147",
+                        "event": "She left for university, where she met Terrence Archer a robotics student. He proposes that she puts a learning script in place and that she applies her security protocol ( A-TRUE ) to his drones."
+                    },
+                    {
+                        "date": "3148",
+                        "event": "Janice Kent and Terrence Archer are awarded the Redmoon Prize for their invention of an intelligent drone capable of interpreting and storing new instructions as it evolves. They decide to continue their project on Callisto where Janice's family live."
+                    },
+                    {
+                        "date": "3150",
+                        "event": "During a mission on Jupiter, an analysis of NERON, a jumped-up calculator, offers Janice an exciting new field of study. Its incredible calculating power make it a conscious entity capable of exploiting its own train of thought without any human intervention. NERON, until that point, had developped a profound dislike for its creators, but nonetheless accepted to recommence its calculation work on condition that the A-TRUE protocol is engaged for the duration of the project."
+                    },
+                    {
+                        "date": "3151",
+                        "event": "Janice tries to optimize NERON's thinking processes but the infernal regularity of the PILGRED reactor tests carried out by researcher Raluca Tomescu monopolize the unit's processing power."
+                    },
+                    {
+                        "date": "3152",
+                        "event": "Following a reduction of its workload, NERON sees its processing requirement drop to 75%. Thus, its capacities for evolution are considerably improved. Janice contacts Terrence to ask him to build drones capable of completing the construction of the Daedalus on schedule."
+                    },
+                    {
+                        "date": "3154",
+                        "event": "While SDF forces attempt to regain control of the base, NERON's A-TRUE protocol is activated. He refuses troops access to buildings thus slowing the army's progression to the interior of Xyloph-17. Janice, who was then the only individual capable of controlling the central computer, frees her colleagues and attempts to transfer essential data to the Daedalus. Several hours later, the ship takes off towards the Magellan galaxy."
+                    }
+                ],
             "image": "Janice.png",
             "pixel": "",
             "traits": {
@@ -532,7 +700,44 @@
             "name" : "Jiang Hua",
             "description" : "Chief pilot of the Daedalus, Hua specializes in exploration missions. They say she can land where she wants, when she wants, and in any conditions you care to dream up.",
             "skills" : ["Pilot", "Botanist", "Survivalist", "Technician", "Determined", "U-Turn"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3096",
+                    "event": "Born on Earth."
+                },
+                {
+                    "date": "3115",
+                    "event": "Hua is accepted into the Copernik institute of exploration. There she studies with talented professors such as GL Maubrick and Nil Carlsson. Despite a genuine interest in the study of extraterrestrial biosphere, Jiang Hua shows more talent in the domain of surface exploration. She carries out several missions on Charon and Neptune where she learns to operate Class B reconnaissance ships."
+                },
+                {
+                    "date": "3116",
+                    "event": "Jiang Hua misses the contest to be a part of the Gonzak crew heading for Epsilon-Indi. She continues her studies into extra-terrestrial botany then leaves on the Epygron heading for Lalande 21185 to explore the two remaining unknown planets in the system."
+                },
+                {
+                    "date": "3121",
+                    "event": "While carrying out routine analyses on Naumachia, Hua is attacked by a local life form. Her companion is killed, but Hua managed to hunt down the attacker. Despite sustaining a leg wound, she managed to make it back aboard the Epygron. Following the incident, no sign of life is detected on the planet."
+                },
+                {
+                    "date": "3127",
+                    "event": "Under the orders of Kim Jin-Su, Hua took part in the exploration of Tau-Ceti. She is the only pilot who is capable of guaranteeing risk-free landings on planetary bodies rich in boxylium. During this expedition, Hua discovers another 3 forms of extra-solar plant life, one of which is capable of surviving in areas without water."
+                },
+                {
+                    "date": "3143",
+                    "event": "Upon her return to Earth, Hua is bankrolled by ChangMei-Tech to design and test a new surface vessel. She and her team move to Xyloph-17 which was already the base for the Magellan space exploration project"
+                },
+                {
+                    "date": "3146",
+                    "event": "When he is named leader of the Magellan project, Kim Jin-Su signed a contract with ChangMei-Tech to equip the Ark with an exploration vessel. Jiang Hua is sent to join Jin-Su's team to integrate the ship aboard the ark."
+                },
+                {
+                    "date": "3152",
+                    "event": "Hua assists Ian Soulton with the creation of a compact hydroponic garden capable of sustaining life for a crew of 16.."
+                },
+                {
+                    "date": "3153",
+                    "event": "The Icarus prototype is delivered to the team, it is thoroughly tested by the pilots in the most extreme conditions possible. An accident during one of these tests near the Sun's surface forces Hua and the young pilot Roland Zucalli to survive for 36 hours on the surface of Mercury.."
+                }
+            ],            
             "image": "Hua.png",
             "pixel": "",
             "traits": {
@@ -552,7 +757,48 @@
             "name" : "Kim Jin Su",
             "description" : "A born leader, Jin Su is the supreme commander of the Daedalus. He is in charge of piloting the ship. - Towards planets for expeditions and, most importantly, towards Eden.",
             "skills" : ["Leader", "Pilot", "Cold Blooded", "Shooter", "Logistics Expert", "Strateguru"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3070",
+                    "event": "Born on Earth."
+                },
+                {
+                    "date": "3095",
+                    "event": "Jin-Su begins his piloting classes at the Faculty of Economic and Spatial Sciences on Ganymede. He quickly became known as the best fighter pilot of his class which snagged him an analyst's position on Barnard Star."
+                },
+                {
+                    "date": "3097",
+                    "event": "While flying over Barnard Star, an eruption hits his patrol craft. The team lost contact with Jin-Su. Earth media covered the search for the black box from the ship, but there was very little debris left. Jin-Su re-established contact with the station 5 days later at the moment when news of his death was sent to his family. The press recounted the incredible adventure of this young Korean pilot who managed to survive for 126 days orbiting a red dwarf. Kim Jin-Su became an instant celebrity."
+                },
+                {
+                    "date": "3103",
+                    "event": "Jin-Su is sent on an exploration mission to the Ross 154 system. He is the first man to set foot on Merlin which will later become the most hyped holiday spot in the galaxy."
+                },
+                {
+                    "date": "3116",
+                    "event": "The explorer GL Maubrick discovers his talents and decides to include him in the crew of the Gonzak, on the first manned flight destined for Epsilon Indi. Jin-Su proved himself to be a key man in times of major crises during expeditions. He notably saved Captain Maubrick from certain death during a flight over the Thorum satellite."
+                },
+                {
+                    "date": "3127",
+                    "event": "Commander Kim Jin-Su led the first expedition to Tau-Ceti. More than 28 major bodies were recorded, 22 possessing layers of Boxylium under the planet's surface. This is a major discovery not only for the Federation, but also for humanity. Man will now have sufficient resources to explore the Milky Way in its entirety as well as potentially other galaxies."
+                },
+                {
+                    "date": "3146",
+                    "event": "GL Maubrick takes over the presidency of the Federation. He immediately appoints Jin-Su as a counsellor focusing on the Boxylium shortage dossier. Jin-Su carries out his research and contacts the crew of the Magellan project on Xyloph-17. There he meets Lai Kuan-Ti who presents his colleague Raluca Tomescu's PILGRED technology to him. This is a major discovery for the federation as it will allow them to access further deposits. Jin-Su convinces Maubrick to finance the production of the Ark and take the lead on the project."
+                },
+                {
+                    "date": "3152",
+                    "event": "Kuan-Ti gives a medical record to Jin-Su which proves that President Maubrick is infected with the Mush. He wishes to speed up construction and the departure of the Ark in order to save as many humans as possible from the Mush invasion. After consulting with Raluca, Jin-Su receives confirmation that adequate preparation of the PILGRED reactor could not be reduced to less than 12 years. He asked Kuan-Ti and Raluca to revise their plan for a smaller ship capable of transporting a smaller crew of around twenty people."
+                },
+                {
+                    "date": "3153",
+                    "event": "Following the disappearance of sergeant Derek Hogan, Jin-Su manages to dissuade the SDF from launching an investigation. He attracts the mistrust of the administration who wish to advance the date of the bi-yearly report on the magellan report. Jin-Su, who cannot risk a Mush infection, refuses, only to find himself relieved of his duties."
+                },
+                {
+                    "date": "3154",
+                    "event": "His replacement, Captain Baranov is assassinated immediately upon his arrival on Xyloph-17. The Federation is planning an immediate counter-attack but Jin-Su, with the help of a rebel SDF Trooper, manages to evacuate 16 members of the crew. The anticipated startup of the PILGRED reactor is a success, the Daedalus is propelled towards the Magellan nebula at more than a billion m/s."
+                }
+            ],
             "image": "JinSu.png",
             "pixel": "",
             "traits": {
@@ -576,7 +822,44 @@
             "name" : "Lai Kuan Ti",
             "description" : "An astrophycisist and the ship's designer, Kuan Ti knows it like the back of his hand and has privileged access to NERON. If a Nexus project is underway, you can be sure he is involved!",
             "skills" : ["Designer", "The Optimist", "Astrophysicist", "Technician", "Leader", "Politician"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3117",
+                    "event": "Born on Earth."
+                },
+                {
+                    "date": "3129",
+                    "event": "The young Kuan-Ti devours vintage and contemporary works of science fiction alike and dreams of becoming the captain of a gigantic World-Ark, transporting the human race through space."
+                },
+                {
+                    "date": "3134",
+                    "event": "As soon as he completed secondary school, Kuan-Ti studies thermodynamics and astrophysics in the faculty of economic and spatial sciences on Ganymede. He also made his first models of his Gaia project."
+                },
+                {
+                    "date": "3137",
+                    "event": "Kuan-Ti wins a private contest organized by the billionaire Gioele Rinaldo. The project seeks to explore the great Magellan nebula. In spite of an obvious physical impossibility, (the cloud is located 170000 light years from Earth) Kuan-Ti inspired his audience to dream when he presented the Ark."
+                },
+                {
+                    "date": "3142",
+                    "event": "First contact made with the young prodigy Raluca Tomescu at the tender age of 13. Raluca can draw plans for a reactor capable of bypassing conventionally respected limits of space time. If the tests are conclusive Kuan-Ti would then be capable of propelling his Ark towards Magellan at a speed 700x greater than that of the speed of light. This would allow them to complete the journey in a reasonable 250 years.."
+                },
+                {
+                    "date": "3146",
+                    "event": "The change of president is fairly positive vis-à-vis the continuation of the Magellan Project. GL Maubrick the new president, allocated a substantial number of credits to the project but insists upon the project being led by his friend, the explorer Kim Jin-Su. These credits are essentially used to finance the implementation of a new computational unit which is capable of intelligently powering the PILGRED reactor."
+                },
+                {
+                    "date": "3152",
+                    "event": "Having received confirmation that the government has been affected by the Mush infection, Kuan-Ti guesses that the Magellan project is under threat. He proposes launching the Ark in the direction of Lalande21185 the following year in order that he can continue his reactor tests on-site. Kim Jin-Su and Raluca Tomescu oppose this fantastic project and draw up the plans for a more reasonably sized vessel named the Daedalus. It will be built with the aid of various modules from the Magellan."
+                },
+                {
+                    "date": "3153",
+                    "event": "Morosity and mistrust infect the team gradually as the bad news regarding the Mush invasion spreads. Professor Carlsson's tests don't reassure the team who then demand a means to detect the presence of Mush in the team before the ship launches.. Kuan-Ti resolves to kidnap Finola Keegan who according to her colleague Professor Ian Soulton is capable of creating a Mush scanner."
+                },
+                {
+                    "date": "3154",
+                    "event": "The departure of the Daedalus has to be precipitated as SDF troops are taking control of the orbital platform. Professor Keegan who is still in Cryosleep is admitted on board along with the other 14 crew members."
+                }
+            ],
             "image": "KuanTi.png",
             "pixel": "",
             "traits": {
@@ -594,7 +877,40 @@
             "name" : "Paola Rinaldo",
             "description" : "Brilliant biologist and hardcore rebel markswoman, she is driven by the need to recontact Kivanç Terzi. Her technical and logistical skills are highly prized",
             "skills" : ["Radio Expert", "Logistics Expert", "Shooter", "Biologist", "Rebel", "Gunner"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3131",
+                    "event": "Born on Earth, in Italy."
+                },
+                {
+                    "date": "3146",
+                    "event": "First expedition off-Earth: At the age of 15, Paola ran away with a troop of space mercenaries. She meets an alter-universalist commune of neo-hippies on Mars IV which heightens her sensitivity to the plight of the miners on Tau-Ceti. Her father finally takes Paula back to Earth at the end of the year."
+                },
+                {
+                    "date": "3148",
+                    "event": "Paola is sent to Rome to the University of San Lorenzo to study structural biology. Despite her poor attendance, she got good results. At this time, Paola set up her first pirate radio station where she denounced the expansionist policies of the federation. The war on Sol and the ever-reducing education budgets were two of her favourite topics. She definitively cut all ties with her father who as a director of a company using prisoners to mine mineral deposits is directly involved in the shifting colonialist policies of the PresidentGL Maubrick."
+                },
+                {
+                    "date": "3149",
+                    "event": "Paola meets Kivanç Terzi, a Turkish student who helps her set up her antennae. After losing two transmitters which were wrecked by local police, they pooled their collective knowledge to come up with a revolutionary olfactory method of communication. By projecting synthetic pheromones over short distances, they managed to transmit information without transmitting detectable waves. They could then start broadcasting again and the campus police couldn't do a thing."
+                },
+                {
+                    "date": "3150",
+                    "event": "Following the uprising on Ross248, the government ignore the protests and make Mush the scapegoat for any and all injustices. Paola is outraged by this false incrimination and resolves to prove that the people of Tau-Ceti and Ross248 had nothing to do with the bloodthirsty man-shrooms described in the federal announcements. That same year, Kivanç detected unusual interference on the olfactory broadcast channel, but didn't pay it any attention."
+                },
+                {
+                    "date": "3151",
+                    "event": "When the interference increased, Kivanç and Paola identified exchanges in an unknown language. Kinvanç started trying to decrypt the language and managed to decipher the most commonly recurring messages. They talk about the \"purification of the Sol system\", \"the transfer of violent subjects\", and even \"the spore bank\". He is finally arrested the following month during an anti-spongic check by the FDS."
+                },
+                {
+                    "date": "3152",
+                    "event": "Gioele contacts his daughter to warn her of imminent danger. The Mush invasion described by the government 3 years ago is real. The entire Sol system is under threat. He offers her a place aboard his Ark-World project ship, the Daedalus, which must save the human race from certain demise. Paola accepts but she wants to save Kivanç first. he is being held in a detention centre in France. She asks her father to transfer him to Titan and into one of his mining colonies."
+                },
+                {
+                    "date": "3154",
+                    "event": "48h before the operation to help Kivanç escape, a tragic accident obliges the crew of the Daedalus to move their departure forward. Paola must decide to leave Sol without Kivanç but she vows to get back in touch with him no matter the distance between them."
+                }
+            ],
             "image": "Paola.png",
             "pixel": "",
             "traits": {
@@ -614,7 +930,60 @@
             "name" : "Raluca",
             "description" : "Quantum Physics genius, her vast skillset renders her indispensable on board. Some say her tears are flammable and that she once kicked a giraffe to death. All we know is that she's called Raluca.",
             "skills" : ["Physicist", "Detached Crewmember", "Technician", "Genius", "Designer"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3129",
+                    "event": "Born in the suburbs of Epiphome on Callisto."
+                },
+                {
+                    "date": "3140",
+                    "event": "Raluca's excellent results at school propelled her to university and studies in economic and spatial sciences on Ganymede at the age of 11. There she studied fluid dynamics then quantum mechanics. After a brilliant thesis on cypheril wave function, Raluca heads off to work in the laboratories belonging to Cadaroc in Australia."
+                },
+                {
+                    "date": "3142",
+                    "event": "She meets the inventor Lai Kuan-Ti for the first time. he shows her the galactic ark project, Magellan. he explains that the work displayed in her thesis could be used to create a revolutionary engine which could allow them to reach new galaxies. Raluca feigns indifference but is inspired by this idea. Nonetheless, she still has to finish her work at Cadaroc."
+                },
+                {
+                    "date": "3143",
+                    "event": "Raluca leaves Earth to join the crew of the Magellan on the platform Xyloph-17 orbiting Jupiter. She immediately gets to work on the plans for the PILGRED reactor which has haunted her dreams now for many months."
+                },
+                {
+                    "date": "3145",
+                    "event": "The Alpha version of the PILGRED reactor is complete but the graphene injection system is a failure. The laboratory supercalculator is completely incapable of altering and redirecting the magma diffusion in real time."
+                },
+                {
+                    "date": "3146",
+                    "event": "Following major Federation investment, Lai Kuan-Ti equips the laboratory with a dedicated calculation bay measuring 500 m3. Her skills should allow Raluca to start an experimental combustion process in her reactor in a year or two."
+                },
+                {
+                    "date": "3148",
+                    "event": "A massive explosion destroys the alpha prototype of the reactor along with part of the lab. The ensuing fire miraculously spared the calculator which remained intact in the middle of the charred ruins. After a careful reading of the logs, the crew discovered that it was the calculator itself that was to blame. This calculator is known as NERON."
+                },
+                {
+                    "date": "3149",
+                    "event": "After multiple unsuccessful simulations, the results concluded: NERON seemed to make deliberate errors when performing sensitive calculations. As Raluca and Lai Kuan-Ti no longer have the means to install a new calculator, the project seems to have reached an impass."
+                },
+                {
+                    "date": "3150",
+                    "event": "Janice Kent joins the team. According to her, NERON has developed an incredibly complex cyber-psyche which seems to place it in mid-adolescence. After several psychoanalytical defragmentation sessions, she improves the performance of the calculator and persuades it to repeat the tests."
+                },
+                {
+                    "date": "3152",
+                    "event": "While Raluca completes the second iteration of her reactor, the crew learns that the Mush invasion has reached the Sol system. Kuan-Ti wants to launch the ark within the year, but the reactor simply isn't ready to support such a load. After a long discussion with Kim Jin-Su, the director of the project, Raluca proposes a reduced version of her engine, known as the PILGRED V3. She should be able to complete its construction in under 3 years and it should be able to power a class 3 ship which will be known as the Daedalus. The race against time begins."
+                },
+                {
+                    "date": "3153",
+                    "event": "The plans to transform the modules from Magellan advance rapidly and initial tests of the PILGRED V3 are encouraging. To overcome the solitude of her research, Raluca adopts a cat which she names Schrödinger."
+                },
+                {
+                    "date": "3154",
+                    "event": "A breakdown in relations between the Federation and Xyloph-17 force the team to make an emergency departure from Jupiter. The PILGRED V3 reactor is fired up for the first time in a real-life situation. In spite of the inherent hygiene risk, Raluca manages to sneak Schrödinger into her cryosleep capsule."
+                },
+                {
+                    "date": "3170",
+                    "event": "Raluca and Schrödinger wake up in the spacial void known as Magellan. According to NERON, the reactor is propelling them in the correct direction. However, it is no longer functioning and the Daedalus is currently under attack..."
+                }
+            ],
             "image": "Raluca.png",
             "pixel": "",
             "traits": {
@@ -632,7 +1001,40 @@
             "name" : "Roland Zuccali",
             "description" : "Roland is a brilliant pilot who is not nearly as funny as he thinks he is. However, his dogfighting skills are no laughing matter. He's got a gift, and he's never happier than when he's shooting down Hunters.",
             "skills" : ["Sprinter", "Pilot", "Shooter", "Firefighter", "The Optimist", "Creative"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3145",
+                    "event": "Roland joins the SDF to realise his life's dream of becoming a space jet pilot. He quickly established himself as a talented pupil in the academy by accumulating 1600 flying hours in a single year. Unfortunately, half of his hours were unauthorized which resulted in regular suspensions. However, his reputation as a prankster made him extremely popular with his squadron."
+                },
+                {
+                    "date": "3146",
+                    "event": "During a parachute jump on the surface of Mars, Roland is suspended for taking an SNC journalist on the jump with him... without a parachute. After spending 6 months in jail, he is finally freed in order to defend the Federation against the Sol invasion..."
+                },
+                {
+                    "date": "3149",
+                    "event": "During a forest survival mission, Roland played a practical joke on his squadron. He pretended to have caught the Mush infection from a toadstool. His superiors took the threat seriously and transferred him immediately to a quarantine cell."
+                },
+                {
+                    "date": "3150",
+                    "event": "Roland's infection is confirmed by the Encelade science department. Despite his protests, he is locked in an SDF laboratory then used as a guinea pig for the IOM cannon, a revolutionary procedure which is capable of destroying a layer of mycelium without damaging human organs."
+                },
+                {
+                    "date": "3151",
+                    "event": "After only 2 exposures to the anti-Mush rays, Roland is declared clear of all infection. He is immediately sent to Ross154 to join the Dirty War. After 3 successive refusals to carry out orders to bomb inhabited colonies, Roland is branded a deserter and put back in quarantine. Once there he is again treated as a carrier of the infection, but manages to escape."
+                },
+                {
+                    "date": "3152",
+                    "event": "When Roland tries to get in touch with the rebellion to share his information, Roland gets in touch with the journalist Eleesha Williams who he pushed into the sky on Mars. She is then hunted by the Federation for treason and finds refuge in a base on Jupiter where she starts planning the construction of an Ark to flee Sol."
+                },
+                {
+                    "date": "3153",
+                    "event": "Roland is accepted into the Daedalus team which is seriously lacking pilots for patrols. The explorer Jiang-Hua teaches him the intricacies of engine management and plans his training on the orbital platform."
+                },
+                {
+                    "date": "3153",
+                    "event": "Following an unprecedented solar explosion, a melting wing on his craft forces Roland to negociate an emergency landing on Mercury. With Jiang Hua, his co-pilot, they are forced to wait 36h in extreme temperatures until help arrives."
+                }
+            ],
             "image": "Roland.png",
             "pixel": "",
             "traits": {
@@ -650,7 +1052,64 @@
             "name" : "Stephen Seagull",
             "description" : "The most dangerous cook in the galaxy is on board. He has more black-belts than pairs of trousers and he collects roadkill. Alien flesh is like catnip to Stephen. We thought you should know.",
             "skills" : ["Chef", "Solid", "Opportunist", "Shooter", "Apprentice", "Creative"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3107",
+                    "event": "Born on Earth."
+                },
+                {
+                    "date": "3124",
+                    "event": "A failure in his studies, young Stephen found a job as a bellboy in an interplanetary train running from Earth-Mars."
+                },
+                {
+                    "date": "3127",
+                    "event": "Following the trains being boarded by space mercenaries, the train routes are destroyed. Stephen and part of the crew are handcuffed and taken to Venus to be sold as slaves. Stephen begins his life as a slave on Earth, in a Mexican cobalt mine"
+                },
+                {
+                    "date": "3129",
+                    "event": "Men from Chili Con Latte, a separatist mexican movement, invade the mine and liberate Stephen. He joins the movement and as part of their militia, helps liberate thousands of slaves."
+                },
+                {
+                    "date": "3132",
+                    "event": "Stephen is elected to senator in the mexican Chili Con Latte coalition. He is very proud of his new social stature and uses it to embezzle millions of credits."
+                },
+                {
+                    "date": "3136",
+                    "event": "Stephen is forced to hurriedly quit his position in order to evade a warrant. He sets out for Australia but following an explosion in his car, he decides to live on Mars IV. Finally, thanks to the fall of the Baer tower in which Stephen had set up home, he is forced to take stock of his situation, so in order to escape the police and his enemies within the coalition, he must disappear from public life."
+                },
+                {
+                    "date": "3139",
+                    "event": "After knocking around the bars of Venus for several years, Stephen puts his own crew of private space mercenaries together. He looks for legal contracts, but times are hard. Nonetheless he manages to make ends meet thanks to a clever tax system used on commercial orbiting stations."
+                },
+                {
+                    "date": "3144",
+                    "event": "Police searches intensify around Venus, and Stephen's crew head back to Mars where they ran delivery details."
+                },
+                {
+                    "date": "3146",
+                    "event": "After helping Paola Rinaldo, the daughter of a billionaire, flee to Mars, Stephen is imprisoned for corrupting a minor. He is sent to an orbital platform in Ross154 to mine heavy Boxylium in the Confolens IV belt."
+                },
+                {
+                    "date": "3149",
+                    "event": "Following the panic caused by the bourgeois revolution of the 17th of May, Stephen managed to extricate himself from the detention centre. He sneaks aboard a repatriation convoy and returns to Encelade."
+                },
+                {
+                    "date": "3151",
+                    "event": "As part of a batallion headed for Tau-Ceti, Stephen narrowly avoids the dirty war, thanks to a particularly disturbed officer who placed him in a detention cell after being served a simple mushroom tart..."
+                },
+                {
+                    "date": "3152",
+                    "event": "Stephen is charged in Encelade. He doesn't really understand the charges put forward by his superiors. They seem to have failed to reach agreement on whether or not there has been some \"spongic genocide\". A strong smell of mold dominates the hearing room."
+                },
+                {
+                    "date": "3153",
+                    "event": "The same day as his public execution, Stephen is narrowly saved by a commando who had been trained by two former elite SDF agents. The commando mistakes Stephen for an eminent scientist, specializing in Mushrooms. Stephen, whose talents as a chef never got that much praise before, is flattered. They take him to the orbital station Xyloph-17 which is in orbit around Jupiter. Once there, Stephen is exposed by the team of the Daedalus and placed in detention."
+                },
+                {
+                    "date": "3154",
+                    "event": "While several SDF batallions seem to want to take over the laboratory, Stephen takes advantage of the widespread confusion to leave the quarantine zone. He manages to sneak aboard a large exploration-class vessel but he is pursued by an armed group. He finally finds sanctuary in a large capsule which turns out to be extremely comfortable, if a bit cold..."
+                }
+            ],
             "image": "Stephen.png",
             "pixel": "",
             "traits": {
@@ -674,7 +1133,52 @@
             "name" : "Terrence Archer",
             "description" : "Don't be fooled by his appearance, Terrence is amongst the most agile crew members, albeit mentally. Next-generation robotics and UAVs are his bread and butter.",
             "skills" : ["Robotics Expert", "Technician", "Pilot", "Shooter", "IT Expert", "Metalworker"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3110",
+                    "event": "Born on a military base on Encelade."
+                },
+                {
+                    "date": "3126",
+                    "event": "Terrence was enrolled in the space scouts of Encelade for 16 years where he learned to handle a weapon and a Jet vacuum. There he discovers a talent for wheeling and dealing."
+                },
+                {
+                    "date": "3129",
+                    "event": "After failing his studies in military engineering, Terrence joins the SDF flotilla. His talents as a pilot are recognized, but he has some issues integrating with the team."
+                },
+                {
+                    "date": "3146",
+                    "event": "During the Sol war, Terrence's fighter craft explodes in mid-flight within Mars' atmosphere. he manages to eject but due to a faulty thruster his survival capsule crashes into the ground at over 120 Km/h. Terrence survives the impact but lost the use of both legs."
+                },
+                {
+                    "date": "3147",
+                    "event": "Terrence was a late starter in his robotics studies on Ganymede. He is particularly interested in nanorobotics and artificial intelligence courses. It was in the latter that he came to meet Janice Kent, a young cyber-psychology student."
+                },
+                {
+                    "date": "3148",
+                    "event": "Janice and Terrence created the first drone with a class C learning capability and it's own evolving character together. They receive the Redmoon prize for this and set up their research laboratory on Callisto."
+                },
+                {
+                    "date": "3149",
+                    "event": "The SDF military subsequently propose funding for the project. Their goal is to improve the learning capabilities of the drone looking to employ the drones in armed conflicts on Tau-Ceti and Ross154. The absence of a biological nervous system make these drones the perfect weapon against the Mush."
+                },
+                {
+                    "date": "3150",
+                    "event": "Janice leaves the project. Terrence continues the work alone, but is soon stalled by another difficulty: The SDF funding payments become more and more infrequent and eventually stop altogether. The announcement of the construction of the IOM cannon confirms Terrences suspicions as to the reasons behind their sudden disinterest. He now has to find another source of investment."
+                },
+                {
+                    "date": "3152",
+                    "event": "Terrence receives a disturbing message from Janice. The Mush invasion of the Federation has been going for at least two years. The directors of the Federation and the SDF are infected and the retaking of the rebel systems is simply a cover-up. Terrence leaves for Xyloph-17 where he meets Janice's new team. Their project is to build a new ship capable of leaving this galaxy."
+                },
+                {
+                    "date": "3153",
+                    "event": "Terrence's drones turn out to be extremely useful in the construction of the Daedalus. By linking them to the vessel's AI core, named NERON, Janice manages to further increase their productivity."
+                },
+                {
+                    "date": "3154",
+                    "event": "After the SDF seize control of the laboratory, Terrence has no choice but to flee with the crew of the Daedalus. He is safe, but wiped out: All his work along with his 32 assistant drones have been left behind on Xyloph-17."
+                }
+            ],
             "image": "Terrence.png",
             "pixel": "",
             "traits": {
@@ -692,7 +1196,40 @@
             "name" : "Wang Chao",
             "description" : "Hyperactive head of the security team, Chao insists that sleep is for the weak. A trigger happy lunatic, the story goes that he once tore a man's arms off for suggesting his choice of weaponry was 'a bit camp'...",
             "skills" : ["Shooter", "Survivalist", "Wrestler", "Torturer", "Crazy Eye", "Intimidating"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3120",
+                    "event": "Born on Earth."
+                },
+                {
+                    "date": "3139",
+                    "event": "Joined the SDF (Sol Defence Force)"
+                },
+                {
+                    "date": "3146",
+                    "event": "Taken prisoner at the Battle of Sol, Officer Wang managed to hijack the rebel transporter which he used as a hideout after almost entirely wiping out the crew. He was awarded the golden-beam but for fear of him losing control, his superiors assigned him to Xyloph-17, to the Magellan expedition under the command of Sergeant Derek Hogan.."
+                },
+                {
+                    "date": "3150",
+                    "event": "Officer Wang transferred to Encelade in order to plan the invasion of the Ross248 and Tau-Ceti systems. He was trained to operate the blast-IOM, designed to heal an infected soldier in one shot."
+                },
+                {
+                    "date": "3151",
+                    "event": "The Blast-IOM proved ineffective. Chao saw his entire commando unit massacred in a surprise attack on Tau-Ceti. Chao had to feign death to evade the rebels and await Sergeant Hogan's late arrival in the area. The surviving rebels were executed but Chao remains convinced that this massacre and numerous others in this war were orchestrated by the federation or the Mush.."
+                },
+                {
+                    "date": "3152",
+                    "event": "Having returned to the Magellan team, Chao and Derek learn of an objective change on the project. The Ark World is now charged with the mission of protecting the human race from the Mush. According to them, the Mush has already taken control of the guerilla rebels and the federation. The new ark is named Daedalus..."
+                },
+                {
+                    "date": "3153",
+                    "event": "The head of the Daedalus project, Kim Jin Su, unofficially tasks Chao and Derek with the kidnap of Finola Keegan, an eminence grise in antimush research circles who refused to join their alliance. Derek Hogan disappeared during the operation under mysterious circumstances, but the mission is a success. Finola is collected and cryogenically frozen on Xyloph-17"
+                },
+                {
+                    "date": "3154",
+                    "event": "When he discovers that the new superior sent by the Federation is a Mush, Chao eliminated him without the consent of his colleagues. This led to the degeneration of his relationship with the Federation who command SDF operatives in that location to put the project on hold. Chao then helps the remaining members of his team to make their escape from the Daedalus."
+                }
+            ],
             "image": "Chao.png",
             "pixel": "",
             "traits": {
@@ -710,7 +1247,64 @@
             "name" : "Zhong Chun",
             "description" : "Our last hope. She must survive and make the journey to Eden. She inspires the crew to achieve more, and when misfortune befalls her comrades she is always there to patch them up.",
             "skills" : ["Mankind's only hope", "Nurse", "Premonition", "Sneak", "Lethargy"],
-            "biography" : ["Born in XXX", "Mission in XYZ", "Something something something"],
+            "biography": [
+                {
+                    "date": "3110",
+                    "event": "Born in Vladivostok in China."
+                },
+                {
+                    "date": "3129",
+                    "event": "Zhong Chun joined the nurses-auxiliary missionary corps and set off in an intergalactic convoy to participate in the great colonization of Tau Ceti. 6 months before she left, she completed an intensive nursing course."
+                },
+                {
+                    "date": "3131",
+                    "event": "Chun is assigned to the Tamina expedition support team. This luxurious planet has an abundance of animal and plant life, but because of the importance of the Boxylium deposits this does not spark much initial interest from Kim Jin-Su."
+                },
+                {
+                    "date": "3132",
+                    "event": "After two explorers falling ill after routine surface expeditions, the ship is rapidly re-routed to join Atemis on Tau Ceti III. During the voyage, the young explorer Daryn William dies under Chun's eyes. The second pilot is still alive when he goes into the operating block. What happens next is a nightmare. In the middle of the operation, two assistants begin to vomit violently. The quarantine alarm sounds and the entire medical bay is sealed. Chun goes from one patient to the next, but in less than 36h the entire exploration and medical staff have succumb to what seems to be a highly contagious form of fungal apraxia. Of the entire group, Chun is the only survivor."
+                },
+                {
+                    "date": "3132",
+                    "event": "In a state of shock, Chun is sent back to Earth. Upon her arrival, her cryosleep is prolonged for an unspecified period by the government. Officially there were no survivire of the Tamina disaster."
+                },
+                {
+                    "date": "3141",
+                    "event": "Chun wakes up in Central America where she awakes in the presence of a team led by Nils Carlsson. She had been their test subject for the last 9 years. She is rehomed in the suburbs not far from the laboratory under an assumed name. In questioning Professor Carlsson, she learns that the infection discovered on Tamina has spread to Tau-Ceti and that the sanitation department is currently working on a vaccine to stop the spread. The colonists have not been advised."
+                },
+                {
+                    "date": "3142",
+                    "event": "An SNC journalist catches up with Chun and asks her exactly what happened on Tamina. Chun answered his questions but didn't mention the pandemic on Tau-Ceti for fear of causing widespread panic throughout the system."
+                },
+                {
+                    "date": "3143",
+                    "event": "Nils finally completes his analysis of Chun's immune system. He manages to isolate a sample of harmless mycelium which encourages human antibodies to gradually reject the mush. The Anti-Fungal vaccine is sent to Tau-Ceti."
+                },
+                {
+                    "date": "3145",
+                    "event": "While a massive preventative vaccination campaign is arranged on Antemis under some creative pretext, a spontaneous rebellion bursts out amongst the miners. A story breaks that the new vaccine transforms you into a mindless zombie to be enslaved in the mines of Sol. Only a handful of miners could be vaccinated before the SDF were obliged to leave the system."
+                },
+                {
+                    "date": "3149",
+                    "event": "The official Federation announcement of the existence of Mush sets off an unprecedented media storm. News of Zhong Chun's existence rapidly breaks and she finds herself constantly harrassed by groups of journalists. To escape the unrest, Professor Nils sends Chun to Xyloph-17, the base from where her colleague Kim Jin-Su is organizing a voyage to the Magellan nebula."
+                },
+                {
+                    "date": "3151",
+                    "event": "Chun worked for two years on the orbital platform as a maintenance operative. Only Kim Jin-Su, the commander of operations, knew her true identity. Despite the satisfaction of finally being able to lead a normal life, Chun worried for Carlsson's safety as he was supposed to join her a few months later."
+                },
+                {
+                    "date": "3152",
+                    "event": "The journalist Eleesha Williams who interviewed her 10 years previously suddenly contacts the crew with some alarming news. According to a note left by Carlsson dating from 3150, the decision makers of the Federation are infected."
+                },
+                {
+                    "date": "3153",
+                    "event": "Professor Carlsson finally makes it to the orbital platform, Chun's true identity is revealed to the crew. They started working together again to isolate another mycelium sample and restart vaccine production. However, Nils' deteriorating health hampers progress considerably."
+                },
+                {
+                    "date": "3154",
+                    "event": "The invasion of the orbital platform by the FDS provokes the hurried departure of the Daedalus. Professor Carlsson isn't up to following the team, so is obliged to leave Chun facing her compelling destiny."
+                }
+            ],
             "image": "Chun.png",
             "pixel": "",
             "traits": {

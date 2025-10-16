@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;    
+    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
 }
 
 html, body {
@@ -11,13 +11,12 @@ html, body {
     overflow: hidden;
 }
 
-
 .image-container {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     width: 100vw;
     height: 100vh;
-    overflow: auto; /* Enable scrolling inside the container */
+    overflow: auto; 
     background: #000; 
 }
 
@@ -25,6 +24,15 @@ img {
     display: block;
     width: 100%;
     height: 100%;
+}
+
+#ship-image {
+    display: block;
+    /* Show image at its natural size, allow scrolling if too big */
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
 }
 
 .polygon-overlay {
@@ -55,18 +63,10 @@ img {
     stroke-width: 3;
 }
 
-#Info {
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #f0f0f0;
-    border: 1px solid #ccc;
-    min-height: 20px;
-}
-
 .area-card {
     position: fixed;
     top: 5%;
-    right: -25px;
+    right: 0;
     width: 20%;
     background: white;
     border: 2px solid #13134e;
@@ -80,17 +80,8 @@ img {
     overflow-y: auto;
 }
 
-#ship-image {
-    display: block;
-    /* Show image at its natural size, allow scrolling if too big */
-    width: auto;
-    height: auto;
-    max-width: none;
-    max-height: none;
-}
-
 .area-card.visible {
-    transform: translateX(100%);
+    transform: translateX(0);
 }
 
 .area-card h2 {
@@ -100,7 +91,6 @@ img {
     border-bottom: 2px solid #13134e;
     padding-bottom: 8px;
     font-size: 18px;
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
 }
 
 .area-card h3 {
@@ -108,7 +98,6 @@ img {
     color: #333;
     font-size: 14px;
     text-transform: uppercase;
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
 }
 
 .area-description {
@@ -116,47 +105,6 @@ img {
     line-height: 1.5;
     margin-bottom: 20px;
 }
-
-.usual-suspects {
-    margin-bottom: 20px;
-}
-
-.usual-suspects h3 {
-    margin-bottom: 8px;
-    color: #333;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #dc3545;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}
-
-.close-btn:hover {
-    background: #c82333;
-}
-
-.elements-description {
-    margin-bottom: 20px;
-}
-
-
-
 .elements-list {
     list-style: none;
     padding: 0;
@@ -172,28 +120,7 @@ img {
     font-size: 14px;
 }
 
-.suspects-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.suspects-list li {
-    background: #f8f9fa;
-    margin: 4px 0;
-    padding: 6px 10px;
-    border-radius: 4px;
-    border-left: 3px solid #13134e;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.suspects-list li:hover {
-    background: #e9ecef;
-    text-decoration: underline;
-}
-
+/*Desktop Version*/
 .character-card {
     position: fixed;
     top: 5%;
@@ -211,31 +138,18 @@ img {
     overflow-y: auto;
 }
 
-
 .character-card.visible {
     transform: translateX(0);
 }
-
-
-
-
-
-
 
 .character-card h2 {
     margin-top: 0;
     margin-bottom: 15px;
     color: white;
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
     font-weight: 5000;    
     border-bottom: 2px solid #008ee5;
     padding-bottom: 8px;
     font-size: 18px;
-}
-
-
-.character-skills {
-    margin-bottom: 20px;
 }
 
 .character-skills h3 {
@@ -259,12 +173,7 @@ img {
     border-left: 3px solid #008ee5;
     font-size: 14px;
     color: white;
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
     font-weight: 500; 
-}
-
-.character-history {
-    margin-bottom: 20px;
 }
 
 .character-history h3 {
@@ -274,22 +183,6 @@ img {
     text-transform: uppercase;
 }
 
-.history-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.history-list li {
-    background: #008ee5;
-    margin: 4px 0;
-    padding: 6px 10px;
-    border-radius: 4px;
-    font-size: 14px;
-    color: white; 
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
-    font-weight: 500;
-}
 
 .characterColumn {
     float: left;
@@ -311,12 +204,10 @@ img {
     border-left: 3px solid #008ee5;
     font-size: 14px;
     color: white;
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
     font-weight: 500;
 
 }
 
-/* Biography title accordion styles */
 .character-biography h3 {
     margin-bottom: 8px;
     color: white;
@@ -332,13 +223,11 @@ img {
     transition: background-color 0.2s ease;
 }
 
-
 .biography-title-arrow {
     font-size: 12px;
     transition: transform 0.3s ease;
 }
 
-/* Biography container that will be hidden/shown */
 .biography-list {
     list-style: none;
     padding: 0;
@@ -359,7 +248,6 @@ img {
     margin-bottom: 4px;
 }
 
-
 .biography-date {
     font-weight: bold;
     color: #ffc107;
@@ -379,12 +267,7 @@ img {
     color: white;
     font-size: 14px;
     font-weight: 500;
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
 
-}
-
-.character-biography {
-    margin-bottom: 20px;
 }
 
 .biography-list {
@@ -401,14 +284,7 @@ img {
     border-left: 3px solid #6C40A5;
     font-size: 14px;
     color: white;
-    font-family: eKanit,Segoe UI,Lucida Grande,Trebuchet MS,Arial,lucida sans unicode,sans-serif;
     font-weight: 500;
-
-}
-
-
-.character-traits {
-    margin-bottom: 20px;
 }
 
 .character-traits h3 {
@@ -470,47 +346,41 @@ img {
     display: inline-block;
 }
 
-.rowtrait, .rowobjective {
-    cursor: pointer;
-}
-
-.rowtrait:hover, .rowobjective:hover {
-    opacity: 0.8;
-}
-
-.skill-header:hover {
-    background-color: #e9ecef !important;
-}
-
-.skill-accordion-content {
-    animation: slideDown 0.3s ease;
-}
-
-@keyframes slideDown {
-    from {
-        opacity: 0;
-        max-height: 0;
-    }
-    to {
-        opacity: 1;
-        max-height: 300px;
-    }
-}
-
-.arrow {
-    transition: transform 0.3s ease;
-}
-
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
 
-/* Mobile styles - screens smaller than 768px */
-@media (max-width: 767px) {
-    /* Make cards take full width on mobile */
-    .area-card {
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+
+
+.close-btn:hover {
+    background: #c82333;
+}
+
+
+/* Mobile Version */
+@media (max-width: 768px) {
+        .area-card {
         position: fixed;
         top: 10px;
         left: 10px;
@@ -520,12 +390,10 @@ img {
         transform: translateY(-100%); /* Slide from top instead of right */
         transition: transform 0.3s ease;
     }
-    
     .area-card.visible {
-        transform: translateY(0);
+        transform: translateY(0); /* Slide down into view */
     }
-    
-    .character-card {
+        .character-card {
         position: fixed;
         top: 10px;
         left: 10px;
@@ -539,128 +407,6 @@ img {
     .character-card.visible {
         transform: translateY(0);
     }
-    
-    /* Stack character card columns vertically on mobile */
-    .characterColumn, .skillsColumn {
-        float: none;
-        width: 100%;
-        padding: 2px;
-    }
-
-    .row{
-        display: flex;
-        align-items: flex-start;
-
-    }
-    
-    /* Adjust character image for mobile */
-    .characterColumn {
-        order: 1; /* Image first */
-        margin-bottom: 15px;
-    }
-    
-    .skillsColumn {
-        order: 2; /* Skills below image */
-    }
-    
-    /* Make biography items more mobile-friendly */
-    .biography-header {
-        padding: 12px 10px; /* Larger touch targets */
-    }
-    
-    .biography-content {
-        padding: 15px 10px;
-        font-size: 16px; /* Larger text for readability */
-    }
-    
-    /* Adjust list items for mobile */
-    .skills-list li,
-    .trait-list li,
-    .objectives-list li,
-    .biography-list li,
-    .elements-list li,
-    .suspects-list li {
-        padding: 10px 12px; /* Larger padding for touch */
-        font-size: 16px; /* Larger text */
-        margin: 6px 0; /* More spacing */
-    }
-    
-    /* Make close button larger for mobile */
-    .close-btn {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-        top: 15px;
-        right: 15px;
-    }
-    
-    /* Adjust card headers for mobile */
-    .area-card h2,
-    .character-card h2 {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-    
-    .area-card h3,
-    .character-card h3 {
-        font-size: 16px;
-        margin-bottom: 12px;
-    }
 }
 
-/* Tablet styles - screens between 768px and 1024px */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .area-card {
-        width: 25%;
-        right: 10px;
-    }
-    
-    .character-card {
-        width: 35%;
-        left: 10px;
-    }
-    
-    .characterColumn {
-        width: 60%;
-    }
-    
-    .skillsColumn {
-        width: 40%;
-    }
-}
-
-/* Large desktop styles - screens larger than 1400px */
-@media (min-width: 1400px) {
-    .area-card {
-        width: 18%;
-        right: 20px;
-    }
-    
-    .character-card {
-        width: 25%;
-        left: 20px;
-    }
-}
-
-/* Touch device optimizations */
-@media (hover: none) and (pointer: coarse) {
-    /* Increase touch targets for touch devices */
-    .suspects-list li,
-    .biography-header,
-    .rowtrait,
-    .rowobjective {
-        min-height: 44px; /* iOS recommended minimum touch target */
-        display: flex;
-        align-items: center;
-    }
-    
-    /* Remove hover effects on touch devices */
-    .suspects-list li:hover,
-    .skill-header:hover,
-    .rowtrait:hover,
-    .rowobjective:hover {
-        background-color: initial;
-        opacity: 1;
-    }
-}
 
