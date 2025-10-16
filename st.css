@@ -378,11 +378,13 @@ img {
 }
 
 
+
+
 /* Mobile Version */
 @media (max-width: 768px) {
         .area-card {
         position: fixed;
-        top: 10px;
+        top: 0px;
         left: 10px;
         right: 10px;
         width: calc(100% - 20px);
@@ -395,7 +397,7 @@ img {
     }
         .character-card {
         position: fixed;
-        top: 10px;
+        top: -0px;
         left: 10px;
         right: 10px;
         width: calc(100% - 20px);
