@@ -546,7 +546,7 @@ function populateCharacterBiographyList(characterName, data) {
             const biographyContent = document.createElement("div");
             biographyContent.className = "biography-content";
             biographyContent.style.display = "none";
-            biographyContent.textContent = entry.event;
+            biographyContent.innerHTML = parseMarkdownBold(entry.event);
             
             // Add click event to toggle individual date accordion
             biographyHeader.addEventListener('click', (e) => {
@@ -769,7 +769,12 @@ function toggleLanguage(language) {
     localStorage.setItem('preferredLanguage', language);
 }
 
-
+function parseMarkdownBold(text) {
+    if (!text) return text;
+    
+    // Replace ***text*** with <strong>text</strong>
+    return text.replace(/\*\*\*(.*?)\*\*\*/g, '<strong>$1</strong>');
+}
 
 
 
