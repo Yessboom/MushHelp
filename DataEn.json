@@ -58,7 +58,7 @@
         "Medlab": {
             "name" : "Medlab",
             "description" : "",
-            "elements" : ["Bed", "Dispensary", "Surgery Pod", "Auxiliary Neron Terminal"],
+            "elements" : ["Bed", "Narcotic Distiller", "Surgery Pod", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Mycologist", "Nurse", "Lethargy", "Shrink"]
 
@@ -80,14 +80,14 @@
         "Refectory": {
             "name" : "Refectory",
             "description" : "You can cook food here, and there's also a coffee machine! Watch your back when you take the daily coffee though, or the last thing you will ever see is a very angry Gioele.",
-            "elements" : [ "Coffee Machine"],
+            "elements" : [ "Coffee Machine", "Kitchen"],
             "usual_suspects" : ["Stephen Seagull", "Derek Hogan"],
             "skills" : ["Chef", "Caffeine Junkie"]
         },
         "Beta Bay": {
             "name" : "Beta Bay",
             "description" : "",
-            "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
+            "elements" : ["Patrol Ship", "Patrol Ship", "Patrol Ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
@@ -108,7 +108,7 @@
         "Alpha Bay 1": {
             "name" : "Alpha Bay 1",
             "description" : "Pew pew pew. Fly away and hunt those pesky hunters. ",
-            "elements" : ["Patroll ship", "Patroll ship", "Patroll ship"],
+            "elements" : ["Patrol Ship", "Patrol Ship", "Patrol Ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
@@ -122,7 +122,7 @@
         "Nexus": {
             "name" : "Nexus",
             "description" : "Tired of speaking to other humans? Come and have a chat with NERON instead! He won't like you, but he'll have no choice to listen to you.",
-            "elements" : ["NERON's Core", "Bios Terminal", "Calculator"],
+            "elements" : ["NERON's Core", "BIOS Terminal", "Calculator"],
             "usual_suspects" : ["Janice Kent", "Lai Kuan Ti", "Raluca Tomescu", "Terrence Archer"],
             "skills" : ["Designer", "IT Expert", "Politician", "Technician", "Genius", "Physicist"]
         },
@@ -143,14 +143,14 @@
         "Alpha Bay 2": {
             "name" : "Alpha Bay 2",
             "description" : "Ever wanted to scoop up the remains of the Hunters you've defeated ? This place is for you. Bring back a few scraps and Terrence will love you to the moon and back.",
-            "elements" : ["Pasiphae", "Patroll ship", "Dynacarde", "Jukebox"],
+            "elements" : ["Pasiphae", "Patrol Ship", "Dynarcade", "Jukebox"],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Roland Zuccali", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Engine Room": {
             "name" : "Engine Room",
             "description" : "Sometimes, late at night, you can hear hear the Pilgred Reactor humming a little tune. It's probably nothing.",
-            "elements" : ["Pilgred Reactor", "Emergency Reactor","Lateral Reactor", "Lateral Reactor", "Antenna", "Combustion Chamber", "Planet Scanner", "Auxiliary Neron Terminal"],
+            "elements" : ["PILGRED Reactor", "Emergency Reactor","Lateral Reactor", "Lateral Reactor", "Antenna", "Combustion Chamber", "Planet Scanner", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"],
             "skills" : ["Technician", "Physicist"]
         },
@@ -2369,6 +2369,361 @@
         ],
         "mushStatus": "Kept"
     }
+
+    }, 
+    "Equipments": {
+        "Patrol Ship": {
+            "name": "Patrol Ship",
+            "description": "[Hull and Charges levels] It's no longer all shiny and new, but it does the job",
+            "effects": "",
+            "actions": "",
+            "repair": "24%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/c/c8/Patrol.jpg"
+        },
+        "Dynarcade": {
+            "name": "Dynarcade",
+            "description": "Dynarcade, this old war machine originally put together to train rookies can easily be converted into a video game.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/9/91/Arcade.png"
+        },
+        "Jukebox": {
+            "name": "Jukebox",
+            "description": "The jukebox is great for a little relaxation session from time to time.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "?",
+            "info": "An awesome jukebox from back in the day. Even better, it comes pre-loaded with the crew's favorite tunes!",
+            "icon": "https://www.mushpedia.com/images/d/d5/Jukebox.jpg"
+        },
+        "Oxygen Tank": {
+            "name": "Oxygen Tank",
+            "description": "The Oxygen tank stores the oxygen necessary for the crew to continue with their asphyxiation avoidance strategy.  Daedalus oxygen reservoir, operate with caution. DO NOT EMPTY for a laugh.",
+            "effects": "",
+            "actions": "",
+            "repair": "25%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/e/e2/Oxygen_1.jpg"
+        },
+        "Bed": {
+            "name": "Bed",
+            "description": "The bed allows you to sleep to restore . Sweet dreams!",
+            "effects": "",
+            "actions": "",
+            "repair": "/",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/3/30/Bed.jpg"
+        },
+        "Shower": {
+            "name": "Shower",
+            "description": "Hygiene allows you to stay healthy. Anything can happen in space, and sometimes a good shower gets you back in the game after intergalactic life throws you one curveball after another.",
+            "effects": "",
+            "actions": "",
+            "repair": "25%",
+            "dismantle": "25%",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/8/84/Shower.jpg"
+        },
+        "Thalasso": {
+            "name": "Thalasso",
+            "description": "Hygiene allows you to stay healthy. Anything can happen in space, and sometimes a good shower gets you back in the game after intergalactic life throws you one curveball after another.",
+            "effects": "",
+            "actions": "",
+            "repair": "25%",
+            "dismantle": "",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/1/11/Goldshower.png"
+        },
+        "Antenna": {
+            "name": "Antenna",
+            "description": "This impressive piece of kit reduces the cost of communications actions by 1. The manual states that the stellar antenna is the \"must have\" communications device, with a bandwidth of 24 Baud, it allows you to effortlessly communicate with the other end of the universe.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/7/76/Antenna.jpg"
+        },
+        "Auxiliary Neron Terminal": {
+            "name": "Auxiliary NERON Terminal",
+            "description": "NERON's Core gives access to NERON projects",
+            "effects": "",
+            "actions": "",
+            "repair": "6%",
+            "dismantle": "/",
+            "info": "NERON's core is where it is possible to modify programs to improve functionality.",
+            "icon": "https://www.mushpedia.com/images/d/d0/Auxiliary.jpg"
+        },
+        "Combustion Chamber": {
+            "name": "Combustion Chamber",
+            "description": "The combustion chamber is found in the Engine Room. This is used to supply the reactors with fuel for the journey.  Fuel reserve for a diesel engine. Sublime technology with a very particular purpose. The fuel transfer channels don't work any more, the liquid must be moved from the reservoir nozzles to the combustion chamber. The designers might as well have powered it with coal...",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/0/05/Combustion_chamber.jpg"
+        },
+        "Emergency Reactor": {
+            "name": "Emergency Reactor",
+            "description": "Allows the Daedalus to proceed in the case of a PILGRED failure. There is some life left in the old diesel technology dog yet. In any case, it's the only way to get the Daedalus moving. Each reactor is capable of burning 2 units of fuel per journey.",
+            "effects": "",
+            "actions": "",
+            "repair": "6%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/8/8a/Reactor.jpg"
+        },
+        "Lateral Reactor": {
+            "name": "Lateral Reactor",
+            "description": "Located in the Engine Room, the lateral reactor allows the Daedalus to turn.",
+            "effects": "",
+            "actions": "",
+            "repair": "6%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/8/8a/Reactor.jpg"
+        },
+        "PILGRED Reactor": {
+            "name": "PILGRED Reactor",
+            "description": "The PILGRED Reactor. When the Daedalus set off, these were the only means of travelling faster than the speed of light. Getting it working again could allow you to return to Sol. Tear through space-time in complete safety.",
+            "effects": "",
+            "actions": "",
+            "repair": "/",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/7/7d/Pilgred.jpg"
+        },
+        "Planet Scanner": {
+            "name": "Planet Scanner",
+            "description": "Significantly upgrades the Astro Terminal. +30% chance of finding a planet Music plays when you start it up. The engineers responsible for this were eccentric at best... Who would have thought that Verdi could have inspired this glorified calculator..",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/4/42/Scanner.jpg"
+        },
+        "CryoModule": {
+            "name": "CryoModule®",
+            "description": "The Cryosleep module is where you take long sleeps. It's your responsibility never to go back there.",
+            "effects": "",
+            "actions": "",
+            "repair": "/",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/9/95/Cryo.jpg"
+        },
+        "Gravity Simulator": {
+            "name": "Gravity Simulator",
+            "description": "This device allows gravity to be artificially simulated. This makes it a lot easier for the crew to move around the ship.",
+            "effects": "",
+            "actions": "",
+            "repair": "6%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/a/ac/Gravity.jpg"
+        },
+        "Mycoscan": {
+            "name": "Mycoscan",
+            "description": "Allows traces of Mush spores to be detected in living organisms.  Prototype Mush detector, originally designed by Eleesha then perfected during the Magellan project.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/0/03/Mycoscan_installed.jpg"
+        },
+        "Research Lab": {
+            "name": "Research Lab",
+            "description": "The laboratory allows the crew to carry out the most ground-breaking research on Mush.  A super ultra modern lab with computers with compact fluorescent lights and high density perforated cards.",
+            "effects": "",
+            "actions": "",
+            "repair": "6%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/f/fc/Research_lab.jpg"
+        },
+        "Camera": {
+            "name": "Camera",
+            "description": "In the presence of a camera, secret and covert actions are revealed.  When a camera is installed in a room, all logs are saved in the history and displayed publicly. The camera also logs covert and furtive activity. It doesn't work if it is in your personal inventory.",
+            "effects": "",
+            "actions": "",
+            "repair": "",
+            "dismantle": "",
+            "info": "Hover: The camera is an extremely useful tool for spying, observing your neighbors.",
+            "icon": "https://www.mushpedia.com/images/5/5a/Doorcamera.png"
+        },
+        "Door": {
+            "name": "Door",
+            "description": "The doors of the Daedalus are fragiles and have the infuriating habit of jamming... If you find a broken one, report it to an engineer. Whatever it's made of, regardless of its density or condition , a door always leads somewhere.",
+            "effects": "",
+            "actions": "",
+            "repair": "25%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/5/5a/Doorcamera.png"
+        },
+        "Swedish Sofa": {
+            "name": "Swedish Sofa",
+            "description": "Who would have thought that a plywood structure and a few cushions could be so relaxing...",
+            "effects": "",
+            "actions": "",
+            "repair": "25%",
+            "dismantle": "25%",
+            "info": "Hover: A superb sofa in hand-stitched Nubuck leather. Designed in Sweden but produced cheaply on Encalade.",
+            "icon": "https://www.mushpedia.com/images/d/dd/Sofa.jpg"
+        },
+        "BIOS Terminal": {
+            "name": "BIOS Terminal",
+            "description": "Allows the NERON admin to alter certain AI behaviors aboard the ship.During NERON's psychotherapy, its interface was opened to make it more flexible. The input-output interface remains available to a handful of people..",
+            "effects": "",
+            "actions": "",
+            "repair": "3%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/6/63/Bios.jpg"
+        },
+        "Calculator": {
+            "name": "Calculator",
+            "description": "Lets you calculate stuff... All that remains is to find out what...  Allows you to calculate something #NO_BG here",
+            "effects": "",
+            "actions": "",
+            "repair": "6%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/2/23/Calculator.png"
+        },
+        "NERON's Core": {
+            "name": "NERON's Core",
+            "description": "NERON's Core gives access to NERON projects.  NERON's core is where it is possible to modify programs to improve functionality.",
+            "effects": "",
+            "actions": "",
+            "repair": "6%",
+            "dismantle": "",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/c/c5/Core.jpg"
+        },
+        "Fuel Tank": {
+            "name": "Fuel Tank",
+            "description": "The Fuel tank is where the valuable carburant is stored and is also equipped with a distributor.  Daedalus fuel tank, operate with caution. DO NOT SMOKE.",
+            "effects": "",
+            "actions": "",
+            "repair": "25%",
+            "dismantle": "",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/a/a0/Fuel_1.jpg"
+        },
+        "Coffee Machine": {
+            "name": "Coffee Machine",
+            "description": "This fantastic coffee machine produces pure Arabica coffee at a speed approaching that of light. Unfortunately the machine has a similar energy consumption to a failing nuclear power station, and in the absence of the PILGRED reactor you'll have to make do with a cup every 24 hours.  The coffee machine is man's best friend. After cats.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/3/32/Cofee.jpg"
+        },
+        "Kitchen": {
+            "name": "Kitchen",
+            "description": "A domain reserved for a certain mustachioed celebrity. Also occasionally used for cooking.  Intergalactic elite chef's post. Certain martial arts skills may be necessary.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/d/d3/Kitchen.jpg"
+        },
+        "Surgery Pod": {
+            "name": "Surgery Pod",
+            "description": "This pod contains all necessary automated medical equipment for effective healthcare. In the event of hard knocks, you should probably know where this is.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/a/a5/Surgery.jpg"
+        },
+        "Comms Center": {
+            "name": "Comms Center",
+            "description": "The Comms Center allows contact to be made with distant networks. This ultra-modern Comms Center is where research findings are analysed, collated and combined with radar information etc. It also allows you to establish long-distance communication channels.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/5/56/Com.jpg"
+        },
+        "AstroTerminal": {
+            "name": "AstroTerminal",
+            "description": "Enables a player to search for and scan planets. The Astro Terminal lets you scan nearby space in search of planets to explore. The information contained within is strictly reserved for navigators as to keep the crew's morale up.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/0/06/Astro.jpg"
+        },
+        "Command Terminal": {
+            "name": "Command Terminal",
+            "description": "The Command Terminal is uniquely available to the Commandant. Access Forbidden. Allows the Commandant to do his duty. The Piloting module contains loads of tools to make the daily running of the Daedalus simpler.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/e/e8/Command.jpg"
+        },
+        "Turret": {
+            "name": "Turret",
+            "description": "Defense against the Hunters is a priority comrade ! Firing post for the Thingumatron 3000. Cutting edge design with toughened glass shields and a teslatron make it a formidable weapon against the Hunters.",
+            "effects": "",
+            "actions": "",
+            "repair": "12%",
+            "dismantle": "/",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/4/4f/Turret.jpg"
+        },
+        "Narcotic Distiller": {
+            "name": "Narcotic Distiller",
+            "description": "The distiller is used for manufacturing pharmaceutical products. Alas, its erratic behaviour means that the final product is of varying efficacy. Happiness dispenser approved by Albus Haxley.",
+            "effects": "",
+            "actions": "",
+            "repair": "/",
+            "dismantle": "50%",
+            "info": "",
+            "icon": "https://www.mushpedia.com/images/b/b5/Distiller.jpg"
+        },
+        "Icarus": {
+            "name": "Icarus",
+            "description": "Allows you to take the Icarus on new adventures. The Icarus was an elite exploration vehicle... a few hundred years ago!",
+            "effects": "",
+            "actions": "",
+            "repair": "/",
+            "dismantle": "/",
+            "info": "",
+            "icon": ""
+        },
+        "Pasiphae": {
+            "name": "Pasiphae",
+            "description": "It's no longer all shiny and new, but it does the job",
+            "effects": "",
+            "actions": "",
+            "repair": "24%",
+            "dismantle": "/",
+            "info": "",
+            "icon": ""
+
+
+        }
 }
 }
 

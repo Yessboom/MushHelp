@@ -136,6 +136,24 @@ function populateElementList(area, data) {
         data["area"][area].elements.forEach(element => {
             const li = document.createElement("li");
             li.textContent = element;
+            li.style.cursor = "pointer";
+            li.style.padding = "8px 12px";
+            li.style.margin = "4px 0";
+            li.style.backgroundColor = "rgba(19, 19, 78, 0.1)";
+            li.style.borderRadius = "4px";
+            li.style.transition = "background-color 0.2s ease";
+            
+            // Add hover effect
+            li.addEventListener('mouseenter', () => {
+                li.style.backgroundColor = "rgba(19, 19, 78, 0.3)";
+            });
+            
+            li.addEventListener('mouseleave', () => {
+                li.style.backgroundColor = "rgba(19, 19, 78, 0.1)";
+            });
+            
+            // Add click event to show equipment card
+            li.onclick = () => showEquipmentCard(element);
             elementsList.appendChild(li);
         });
     } else {
@@ -668,6 +686,83 @@ async function showSkillCard(skillName) {
     card.classList.add("visible");
 }
 
+async function showEquipmentCard(equipmentName) {
+    const card = document.getElementById("equipment-card");
+    const title = document.getElementById("equipment-title");
+    const description = document.getElementById("equipment-description");
+    const equipmentImage = document.getElementById("equipment-img");
+    //const effectsText = document.getElementById("equipment-effects-text");
+    //const actionsText = document.getElementById("equipment-actions-text");
+    const repairText = document.getElementById("equipment-repair-text");
+    //const infoText = document.getElementById("equipment-info-text");
+    
+    try {
+        // Get data from Json
+        const response = await fetch(`./${documentLanguage}`);
+        const data = await response.json();
+        
+        // Find equipment in the data
+        const equipment = data["Equipments"] && data["Equipments"][equipmentName];
+        
+        if (equipment) {
+            // Update card content
+            title.textContent = equipment.name || equipmentName;
+            description.innerHTML = parseMarkdownBold(equipment.description) || "No description available.";
+            
+            // Set equipment image
+            if (equipment.icon) {
+                equipmentImage.src = equipment.icon;
+                equipmentImage.style.display = "block";
+                equipmentImage.alt = equipmentName;
+            } else {
+                equipmentImage.style.display = "none";
+            }
+            
+            // Set effects
+            //effectsText.innerHTML = parseMarkdownBold(equipment.effects) || "No effects listed.";
+            
+            // Set actions
+            //actionsText.innerHTML = parseMarkdownBold(equipment.actions) || "No actions available.";
+
+            // Set repair info
+            repairText.textContent = equipment.repair || "No repair information available.";
+            
+            // Set additional info
+            //infoText.innerHTML = parseMarkdownBold(equipment.info) || "No additional information available.";
+            
+        } else {
+            // Equipment not found in data
+            title.textContent = equipmentName;
+            description.textContent = "Equipment information not available.";
+            equipmentImage.style.display = "none";
+            effectsText.textContent = "No effects listed.";
+            actionsText.textContent = "No actions available.";
+            repairText.textContent = "No repair information available.";
+            infoText.textContent = "No additional information available.";
+        }
+        
+        // Show the equipment card
+        card.classList.add("visible");
+    } catch (error) {
+        console.error("Error loading equipment data:", error);
+        
+        // Show error in card
+        title.textContent = equipmentName;
+        description.textContent = "Error loading equipment information.";
+        equipmentImage.style.display = "none";
+        effectsText.textContent = "Unable to load effects.";
+        actionsText.textContent = "Unable to load actions.";
+        repairText.textContent = "Unable to load repair info.";
+        infoText.textContent = "Unable to load additional info.";
+        
+        card.classList.add("visible");
+    }
+}
+
+function closeEquipmentCard() {
+    const card = document.getElementById("equipment-card");
+    card.classList.remove("visible");
+}
 
 
 
@@ -759,6 +854,9 @@ function updatePolygonOverlay() {
         image.addEventListener('load', updateViewBox);
     }
 }
+
+
+
 
 function toggleLanguage(language) {
     closeCard();

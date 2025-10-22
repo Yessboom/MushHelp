@@ -87,19 +87,47 @@
     <button class="close-btn" onclick="closeCharacterCard()">X</button>
   </div>
 
-  <!-- Skill Info Card -->
-  <!-- <div class="skill-card" id="skill-card">
-    <h2 id="skill-title">Skill Name</h2>
-    <div class="skill-description" id="skill-description">
-      Skill description will appear here.
+   <!-- Equipment Info Card -->
+<div class="equipment-card" id="equipment-card">
+  <h2 id="equipment-title">Equipment Name</h2>
+  <div class="row" >
+    <div class="equipment-image" id="equipment-image">
+      <!-- Equipment image will be displayed here -->
+      <img src="" alt="Equipment Image" id="equipment-img" style="width:100%; height:auto; display:none;" />
     </div>
-    <div class="related-characters">
-      <h3>Characters with this skill:</h3>
-      <ul class="related-characters-list" id="related-characters-list">
-      </ul>
+    <div class="equipment-description" id="equipment-description">
+      Equipment description will appear here.
     </div>
-    <button class="close-btn" onclick="closeSkillCard()">Close</button>
-  </div>   -->
+  </div>
+  <div class="row">
+    <div class="equipment-dismantle" id="equipment-dismantle">
+      <h3>Dismantle:</h3>
+      <p id="equipment-dismantle-text">/</p>
+    </div>
+    <div class="equipment-repair" id="equipment-repair">
+      <h3>Repair:</h3>
+      <p id="equipment-repair-text">/</p>
+    </div>
+
+  </div>
+  <!-- <div class="equipment-details">
+    <div class="equipment-effects" id="equipment-effects">
+      <h3>Effects:</h3>
+      <p id="equipment-effects-text">No effects listed.</p>
+    </div>
+    <div class="equipment-actions" id="equipment-actions">
+      <h3>Actions:</h3>
+      <p id="equipment-actions-text">No actions listed.</p>
+    </div>
+
+    <div class="equipment-info" id="equipment-info">
+      <h3>Additional Info:</h3>
+      <p id="equipment-info-text">No additional information.</p>
+    </div>
+  </div> -->
+  <button class="close-btn" onclick="closeEquipmentCard()">X</button>
+</div>
+
 
     <div class="image-container">
       <img src="public/images/FullShip.png" usemap="#image-map" id="ship-image" />
