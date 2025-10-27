@@ -477,6 +477,7 @@ img {
     display: block;
 }
 
+
 .equipment-description {
     float: none;
     width: auto;
@@ -489,10 +490,17 @@ img {
     border-left: 4px solid #4CAF50;
     line-height: 1.6;
 }
+.info-row {
+    gap: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
 
 .equipment-repair {
-    float: left;
-    width: 49%;
+    float: none;
+    width: 30%;
     background: rgba(76, 175, 80, 0.1);
     padding: 5px;
     border-radius: 6px;
@@ -502,8 +510,19 @@ img {
 }
 
 .equipment-dismantle {
-    float: right;
-    width: 49%;
+    float: none;
+    width: 30%;
+    background: rgba(76, 175, 80, 0.1);
+    padding: 5px;
+    border-radius: 6px;
+    margin: 5px 0;
+    border: 1px solid #4CAF50;
+    border-left: 4px solid #4CAF50;
+}
+
+.equipment-sabotage {
+    float: none;
+    width: 30%;
     background: rgba(76, 175, 80, 0.1);
     padding: 5px;
     border-radius: 6px;

@@ -2379,6 +2379,7 @@
             "actions": "",
             "repair": "24%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/c/c8/Patrol.jpg"
         },
@@ -2389,6 +2390,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/9/91/Arcade.png"
         },
@@ -2399,6 +2401,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "?",
+            "sabotage": "12%",
             "info": "An awesome jukebox from back in the day. Even better, it comes pre-loaded with the crew's favorite tunes!",
             "icon": "https://www.mushpedia.com/images/d/d5/Jukebox.jpg"
         },
@@ -2409,6 +2412,7 @@
             "actions": "",
             "repair": "25%",
             "dismantle": "/",
+            "sabotage": "25%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/e/e2/Oxygen_1.jpg"
         },
@@ -2419,6 +2423,7 @@
             "actions": "",
             "repair": "/",
             "dismantle": "/",
+            "sabotage": "/",
             "info": "",
             "icon": "https://www.mushpedia.com/images/3/30/Bed.jpg"
         },
@@ -2429,6 +2434,7 @@
             "actions": "",
             "repair": "25%",
             "dismantle": "25%",
+            "sabotage": "25%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/8/84/Shower.jpg"
         },
@@ -2449,6 +2455,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/7/76/Antenna.jpg"
         },
@@ -2459,6 +2466,7 @@
             "actions": "",
             "repair": "6%",
             "dismantle": "/",
+            "sabotage": "6%",
             "info": "NERON's core is where it is possible to modify programs to improve functionality.",
             "icon": "https://www.mushpedia.com/images/d/d0/Auxiliary.jpg"
         },
@@ -2469,6 +2477,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/0/05/Combustion_chamber.jpg"
         },
@@ -2479,6 +2488,7 @@
             "actions": "",
             "repair": "6%",
             "dismantle": "/",
+            "sabotage": "6%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/8/8a/Reactor.jpg"
         },
@@ -2489,6 +2499,7 @@
             "actions": "",
             "repair": "6%",
             "dismantle": "/",
+            "sabotage": "6%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/8/8a/Reactor.jpg"
         },
@@ -2499,6 +2510,7 @@
             "actions": "",
             "repair": "/",
             "dismantle": "/",
+            "sabotage": "/",
             "info": "",
             "icon": "https://www.mushpedia.com/images/7/7d/Pilgred.jpg"
         },
@@ -2509,6 +2521,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/4/42/Scanner.jpg"
         },
@@ -2519,6 +2532,7 @@
             "actions": "",
             "repair": "/",
             "dismantle": "/",
+            "sabotage": "/",
             "info": "",
             "icon": "https://www.mushpedia.com/images/9/95/Cryo.jpg"
         },
@@ -2529,6 +2543,7 @@
             "actions": "",
             "repair": "6%",
             "dismantle": "/",
+            "sabotage": "6%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/a/ac/Gravity.jpg"
         },
@@ -2539,6 +2554,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/0/03/Mycoscan_installed.jpg"
         },
@@ -2549,6 +2565,7 @@
             "actions": "",
             "repair": "6%",
             "dismantle": "/",
+            "sabotage": "6%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/f/fc/Research_lab.jpg"
         },
@@ -2559,6 +2576,7 @@
             "actions": "",
             "repair": "",
             "dismantle": "",
+            "sabotage": "",
             "info": "Hover: The camera is an extremely useful tool for spying, observing your neighbors.",
             "icon": "https://www.mushpedia.com/images/5/5a/Doorcamera.png"
         },
@@ -2569,6 +2587,7 @@
             "actions": "",
             "repair": "25%",
             "dismantle": "/",
+            "sabotage": "25%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/5/5a/Doorcamera.png"
         },
@@ -2579,6 +2598,7 @@
             "actions": "",
             "repair": "25%",
             "dismantle": "25%",
+            "sabotage": "25%",
             "info": "Hover: A superb sofa in hand-stitched Nubuck leather. Designed in Sweden but produced cheaply on Encalade.",
             "icon": "https://www.mushpedia.com/images/d/dd/Sofa.jpg"
         },
@@ -2589,6 +2609,7 @@
             "actions": "",
             "repair": "3%",
             "dismantle": "/",
+            "sabotage": "3%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/6/63/Bios.jpg"
         },
@@ -2599,6 +2620,7 @@
             "actions": "",
             "repair": "6%",
             "dismantle": "/",
+            "sabotage": "6%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/2/23/Calculator.png"
         },
@@ -2609,6 +2631,7 @@
             "actions": "",
             "repair": "6%",
             "dismantle": "",
+            "sabotage": "6%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/c/c5/Core.jpg"
         },
@@ -2629,6 +2652,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/3/32/Cofee.jpg"
         },
@@ -2639,6 +2663,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/d/d3/Kitchen.jpg"
         },
@@ -2649,6 +2674,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/a/a5/Surgery.jpg"
         },
@@ -2659,6 +2685,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/5/56/Com.jpg"
         },
@@ -2669,6 +2696,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/0/06/Astro.jpg"
         },
@@ -2679,6 +2707,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/e/e8/Command.jpg"
         },
@@ -2689,6 +2718,7 @@
             "actions": "",
             "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": "https://www.mushpedia.com/images/4/4f/Turret.jpg"
         },
@@ -2699,6 +2729,7 @@
             "actions": "",
             "repair": "/",
             "dismantle": "50%",
+            "sabotage": "/",
             "info": "",
             "icon": "https://www.mushpedia.com/images/b/b5/Distiller.jpg"
         },
@@ -2717,8 +2748,9 @@
             "description": "It's no longer all shiny and new, but it does the job",
             "effects": "",
             "actions": "",
-            "repair": "24%",
+            "repair": "12%",
             "dismantle": "/",
+            "sabotage": "12%",
             "info": "",
             "icon": ""
 

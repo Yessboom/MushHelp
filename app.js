@@ -696,6 +696,7 @@ async function showEquipmentCard(equipmentName) {
     const repairText = document.getElementById("equipment-repair-text");
     //const infoText = document.getElementById("equipment-info-text");
     const dismantleText = document.getElementById("equipment-dismantle-text");
+    const sabotageText = document.getElementById("equipment-sabotage-text");
     
     try {
         // Get data from Json
@@ -730,6 +731,10 @@ async function showEquipmentCard(equipmentName) {
 
             // Set dismantle info
             dismantleText.textContent = equipment.dismantle || "No dismantle information available.";
+
+            //set sabotage info
+            sabotageText.textContent = equipment.sabotage || "No sabotage information available.";
+
             
             // Set additional info
             //infoText.innerHTML = parseMarkdownBold(equipment.info) || "No additional information available.";
