@@ -247,8 +247,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Andie's Fate",
-                "description": "Andie earns 4 Triumph for every successful trade with the merchants"
+                "name": "Destin d'Andie",
+                "description": "Andie gagne 4 Triomphes pour chaque échange réussi avec des marchands aliens."
             }
         },
         "Derek Hogan": {
@@ -307,8 +307,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Lover",
-                "description": "Derek earns 2 Glory for every reciprocal act of love."
+                "name": "Amoureux",
+                "description": "Derek gagne 2 triomphe pour chaque acte d'amour réciproque."
             }
         },
         "Eleesha Williams": {
@@ -396,8 +396,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Rebel Networks",
-                "description": "Eleesha gains +2 Glory per Rebel Base that she (or anyone else) contacts."
+                "name": "Réseaux Rebelles",
+                "description": "Eleesha gagne 2 triomphes à chaque fois qu'une base rebelle est contactée."
             }
         },
         "Finola Keegan": {
@@ -460,8 +460,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Mush Specialist",
-                "description": "Finola earns +3 Glory for every completed piece of Mush research."
+                "name": "Spécialité Mush",
+                "description": "Finola gagne 3 triomphes pourchaque recherche sur le Mush complétée"
             }
         },
         "Frieda Bergmann": {
@@ -531,11 +531,11 @@
             "objectives": [
                 {
                     "name": "Terra Incognita",
-                    "description": "Frieda earns +2 Glory for every planet she discovers using the AstroTerminal (with diminishing returns)."
+                    "description": "Frieda gagne 2 Triomphe à chaque plan!te qu'elle découvre sur le terminal Astro. Passé un certain gain, ces gains seront de moins en moins fréquents"
                 },
                 {
-                    "name": "Second objectives Name",
-                    "description": "Frieda earns +1 Glory for arriving in orbit of a new planet."
+                    "name": "Exo Chercheuse",
+                    "description": "Frieda gagne 1 triomphe à chaque fois qu'elle arrive en orbite d'une nouvelle planète."
                 }
             ]
         },
@@ -596,8 +596,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Fear of the Mush",
-                "description": "Gioele earns +3 Glory every time a Icon Mush is killed."
+                "name": "Peur du Mush",
+                "description": "Gioele gagne 3 Triomphe à chaque fois qu'un Mush meurt."
             }
         },
         "Ian Soulton": {
@@ -665,8 +665,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Naturalist",
-                "description": "Ian gains +3 Glory for every alien fruit he plants in an empty HydroPot."
+                "name": "Naturaliste",
+                "description": "Ian gagne 3 Triomphes à chaque fruit alien planté"
             }
         },
         "Janice Kent": {
@@ -730,8 +730,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Part-time Ethnologist",
-                "description": "Janice earns +3 Glory every time you meet any extra-terrestrial creature"
+                "name": "Ethnologue à mi-temps",
+                "description": "janice gagne 3 Triomphes à chaque fois qu'lle rencontre des extr-terrestres sensibles"
             }
         },
         "Jiang Hua": {
@@ -791,8 +791,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Explorer",
-                "description": "Hua gains an extra +3 Glory every time she goes on an expedition."
+                "name": "Exploratrice",
+                "description": "Hua gagne 3 Triomphes à chaque fois qu'elle part en exploration sur une planète."
             }
         },
         "Kim Jin Su": {
@@ -857,12 +857,12 @@
             },
             "objectives": [
                 {
-                    "name": "Fast Forward",
-                    "description": "Jin Su earns +3 Glory for every Command Console voyage carried out (with diminishing returns after +6 Glory)."
+                    "name": "Avance Rapide",
+                    "description": "Jin Su gagne 3 Triomphes à chaque voyage interstellaire effectué sous son commandement. Passé 6 gains, ces gains seront de moins en moins fréquents."
                 },
                 {
-                    "name": "Savior",
-                    "description": "Jin Su earns +8 Glory upon leading the crew to Eden."
+                    "name": "Sauveur",
+                    "description": "jin Su gagne 8 Triomphes lorsqu'il atteint Eden"
                 }
             ]
         },
@@ -923,8 +923,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Magellan Ark",
-                "description": "Kuan Ti earns +2 Glory for every NERON Project taken to completion."
+                "name": "L'Arche de Magellan",
+                "description": "Kuan Ti gagne 2 Triomphes pour chaque projet NERON complété."
             }
         },
         "Paola Rinaldo": {
@@ -980,8 +980,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Rebel Scum",
-                "description": "Paola earns +2 Glory for every Rebel Base that she (or anyone else) contacts."
+                "name": "Kivanç, Mon Amour",
+                "description": "Paola gagne 8 Triomphe lorsque le contact avec Kivanç est rétabli au Centre de Communication"
             }
         },
         "Raluca Tomescu": {
@@ -1056,8 +1056,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Mother",
-                "description": "Raluca earns +2 Glory for every 20% of the PILGRED repairs successfully completed."
+                "name": "Maman",
+                "description": "Raluca gagne 2 Triomphes pour chaque tranche de 20% de réparation de Pilgred effectuée."
             }
         },
         "Roland Zuccali": {
@@ -1117,8 +1117,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Flying Nemesis",
-                "description": "Roland gains +1 Glory for every 2 Hunters he kills in a patroller or Tourelle (with diminishing returns)."
+                "name": "Némesis Volant",
+                "description": "Roland gagne 1 triomphe à chaque hunter qu'il avat. Passé un certain nombre de gains, ces derniers sont moins de moins en moins fréquents"
             }
         },
         "Stephen Seagull": {
@@ -1193,18 +1193,18 @@
             "image": "Stephen.png",
             "pixel": "",
             "traits": {
-                "name": "Roadkill Enthusiast",
-                "description": "Stephen can cook alien meat. When he does, he gains +1 Morale.",
+                "name": " ",
+                "description": "",
                 "icon": ""
             },
             "objectives": [
                 {
-                    "name": "Ambitious",
-                    "description": "Stephen gets +4 Glory for any titles earned (for the first time)."
+                    "name": "Ambitieux",
+                    "description": "Stephen gagne 4 Triomphes à chaque titre reçu (pour la 1ère fois)"
                 },
                 {
-                    "name": "Extreme Chef",
-                    "description": "Stephen gets +2 Glory for every fight with an alien creature"
+                    "name": "Cuistot de l'extrême",
+                    "description": "Stephen gagne 2 Triomphes à chaque alien cuisiné"
                 }
             ]
         },
@@ -1273,8 +1273,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Robotic Grail",
-                "description": "Terrence gains +4 Glory for each Icon Support Drone upgrade he performs."
+                "name": "Graal Robotique",
+                "description": "Terrence gagne 4 Triomphes à chaque fois qu'il améliore un drone."
             }
         },
         "Wang Chao": {
@@ -1330,8 +1330,8 @@
                 "icon": ""
             },
             "objectives": {
-                "name": "Psy-Chao-path",
-                "description": "Chao gains +3 Glory from killing anybody, even including Icon Schrödinger."
+                "name": "Psy-Chao-pate",
+                "description": "Chao gagne 3 Triomphes à chaque coup fatal porté"
             }
         },
         "Zhong Chun": {
@@ -1411,16 +1411,16 @@
             },
             "objectives": [
                 {
-                    "name": "Chun Lives!",
-                    "description": "Chun gains +1 Glory per day."
+                    "name": "Chun vit ! !",
+                    "description": "Chun gagne 1 triomphe à chaque jour de survie."
                 },
                 {
-                    "name": "The Precious",
-                    "description": "Chun gains +4 Glory for each completed Research that required her presence."
+                    "name": "Le Précieux",
+                    "description": "Chun gagne 4 Triomphes à chaque fois qu'une recherche nécessitant sa présence aboutit."
                 },
                 {
                     "name": "Remedy",
-                    "description": "Chun gains +4 Glory for reaching Eden alive."
+                    "description": "Chun gagne 4 Triomphes lorsqu'elle atteint Eden"
                 }
             ]
         }

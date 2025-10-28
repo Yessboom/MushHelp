@@ -512,7 +512,7 @@
                     "description": "Frieda earns +2 Glory for every planet she discovers using the AstroTerminal (with diminishing returns)."
                 },
                 {
-                    "name": "Second objectives Name",
+                    "name": "Exoresearcher",
                     "description": "Frieda earns +1 Glory for arriving in orbit of a new planet."
                 }
             ]
@@ -919,8 +919,8 @@
                 "icon": ""
             },
             "objectives" : {
-                "name": "Rebel Scum",
-                "description": "Paola earns +2 Glory for every Rebel Base that she (or anyone else) contacts."
+                "name": "Looking for Kivanç",
+                "description": "Paola earns +8 Glory when contact is made with Kivanç via the Comms Terminal"
             }
         },
 
@@ -1113,8 +1113,8 @@
             "image": "Stephen.png",
             "pixel": "",
             "traits": {
-                "name": "Roadkill Enthusiast",
-                "description": "Stephen can cook alien meat. When he does, he gains +1 Morale.",
+                "name": "",
+                "description": "",
                 "icon": ""
             },
             "objectives" : [
