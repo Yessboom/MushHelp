@@ -2797,7 +2797,7 @@
         },
         "Command Terminal": {
             "name": "Terminal de Commandement",
-            "description": "Le module de commandement sert uniquement au Commandant. Accès Interdit. // Permet au Commandant de déplacer le Daedalus. // Le module de pilotage possède plein d'outils facilitant la gestion quotidienne du Daedalus.",
+            "description": "Le module de commandement sert uniquement au Commandant. Accès Interdit. Permet au Commandant de déplacer le Daedalus. Le module de pilotage possède plein d'outils facilitant la gestion quotidienne du Daedalus.",
             "effects": "",
             "actions": "",
             "repair": "12%",
