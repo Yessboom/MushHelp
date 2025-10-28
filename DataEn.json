@@ -15,21 +15,21 @@
         },
         "Front Alpha Turret": {
             "name" : "Front Alpha Turret",
-            "description" : "",
+            "description" : "The superior front Turret. If you want to shoot some Hunters, this is the place to be.",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Front Corridor": {
             "name" : "Front Corridor",
-            "description" : "",
+            "description" : "Connecting all the rooms at the front of the ship, the Front Corridor is the favorite passageway of lab workers avoiding to disturb those sleeping in Medlab.",
             "elements" : [],
             "usual_suspects" : ["Wang Chao", "Derek Hogan", "Ian Soulton"],
             "skills" : []
         },
         "Central Corridor": {
             "name" : "Central Corridor",
-            "description" : "",
+            "description" : "The only way to the kitchen, you can hear the growling stomachs of hungry crew members echoing through the walls.",
             "elements" : [],
             "usual_suspects" : ["Stephen Seagull", "Terrence Archer"],
             "skills" : []
@@ -50,14 +50,14 @@
         },
         "Front Storage": {
             "name" : "Front Storage",
-            "description" : "",
+            "description" : "This room is full of spider webs. A testament to how often people go there.",
             "elements" : [],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Metalworker"]
         },
         "Medlab": {
             "name" : "Medlab",
-            "description" : "",
+            "description" : "The perfect place for a quick nap between two research sessions.. And to perform surgerys, of course.",
             "elements" : ["Bed", "Narcotic Distiller", "Surgery Pod", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Finola Keegan", "Zhong Chun", "Ian Soulton", "Andie Graham"],
             "skills" : ["Medic", "Mycologist", "Nurse", "Lethargy", "Shrink"]
@@ -65,14 +65,14 @@
         },
         "Central Beta Turret": {
             "name" : "Central Beta Turret",
-            "description" : "",
+            "description" : "On your way to surgery? Stop by to shoot some hunters!",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
         },
         "Central Alpha Turret": {
             "name" : "Central Alpha Turret",
-            "description" : "",
+            "description" : "What are you doing here? Are you lost? You might be the first one to step foot in here in decades!",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Raluca Tomescu", "Derek Hogan"],
             "skills" : ["Gunner", "Shooter"]
@@ -86,28 +86,28 @@
         },
         "Beta Bay": {
             "name" : "Beta Bay",
-            "description" : "",
+            "description" : "Your dream of reaching the stars starts here. Fly away and hunt those pesky hunters. ",
             "elements" : ["Patrol Ship", "Patrol Ship", "Patrol Ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
         },
         "Central Beta Storage": {
             "name" : "Central Beta Storage",
-            "description" : "",
+            "description" : "The constant leaking of the oxygen tank makes this room smell funny.",
             "elements" : ["Oxygen Tank"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu"],
             "skills" : ["Metalworker", "Technician"]
         },
         "Central Alpha Storage": {
             "name" : "Central Alpha Storage",
-            "description" : "",
+            "description" : "Is this room haunted? Why is this oxygen tank breaking so much?",
             "elements" : ["Oxygen Tank"],
             "usual_suspects" : ["Terrence Archer", "Lai Kuan Ti", "Raluca Tomescu", "Stephen Seagull"],
             "skills" : ["Metalworker", "Technician"]
         },
         "Alpha Bay 1": {
             "name" : "Alpha Bay 1",
-            "description" : "Pew pew pew. Fly away and hunt those pesky hunters. ",
+            "description" : "Pew pew pew. Fly away and hunt those mean hunters. ",
             "elements" : ["Patrol Ship", "Patrol Ship", "Patrol Ship"],
             "usual_suspects" : ["Roland Zuccali", "Andie Graham", "Jiang Hua", "Terrence Archer"],
             "skills" : ["Pilot"]
@@ -128,7 +128,7 @@
         },
         "Rear Corridor": {
             "name" : "Rear Corridor",
-            "description" : "",
+            "description" : "This corridor connects the dorms, Nexus, rear storages and bays. An ideal place to store an extinguisher.. Or plan an ambush.",
             "elements" : [],
             "usual_suspects" : ["Stephen Seagull", "Andie Graham", "Terrence Archer", "Jiang Hua"],
             "skills" : []
@@ -149,14 +149,14 @@
         },
         "Engine Room": {
             "name" : "Engine Room",
-            "description" : "Sometimes, late at night, you can hear hear the Pilgred Reactor humming a little tune. It's probably nothing.",
+            "description" : "Sometimes, late at night, you can hear hear the Pilgred Reactor humming a little tune. It's probably nothing...",
             "elements" : ["PILGRED Reactor", "Emergency Reactor","Lateral Reactor", "Lateral Reactor", "Antenna", "Combustion Chamber", "Planet Scanner", "Auxiliary Neron Terminal"],
             "usual_suspects" : ["Lai Kuan Ti", "Terrence Archer", "Raluca Tomescu"],
             "skills" : ["Technician", "Physicist"]
         },
         "Rear Beta Turret": {
             "name" : "Rear Beta Turret",
-            "description" : "The Rear Beta Turret sucks. Way worst that the Rear Alpha Turret",
+            "description" : "Some say at night, you can see the shadow of Raluca in this room. Spooky.",
             "elements" : ["Turret"],
             "usual_suspects" : ["Paola Rinaldo", "Derek Hogan", "Raluca Tomescu"],
             "skills" : ["Gunner", "Shooter"]
@@ -177,14 +177,14 @@
         }, 
         "Rear Beta Storage": {
             "name" : "Rear Beta Storage",
-            "description" : "",
+            "description" : "Need some fuel? You're at the right place!",
             "elements" : ["Fuel Tank"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Technician", "Metalworker"]
         },
         "Rear Alpha Storage": {
             "name" : "Rear Alpha Storage",
-            "description" : "",
+            "description" : "Seeing the fuel constantly leaking from the tank, you finally understand the number of fires in this ship.",
             "elements" : ["Fuel Tank"],
             "usual_suspects" : ["Terrence Archer", "Stephen Seagull"],
             "skills" : ["Technician", "Metalworker"]

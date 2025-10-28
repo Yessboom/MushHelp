@@ -132,16 +132,38 @@ function highlightCharacterRooms(characterName, data) {
 function populateElementList(area, data) {
     const elementsList = document.getElementById("elements-list");
     elementsList.innerHTML = "";
-    if (data["area"][area].elements && data["area"][area].elements.length > 0) {
-        data["area"][area].elements.forEach(element => {
+
+    const elements = (data["area"][area].elements) ? data["area"][area].elements : [];
+
+    if (elements.length > 0) {
+        elements.forEach(elem => {
+            // Determine equipment key and display name depending on data shape
+            let equipmentKey;
+            let displayName;
+
+            if (typeof elem === 'string') {
+                equipmentKey = elem;
+                const equipment = data["Equipments"] && data["Equipments"][equipmentKey];
+                displayName = (equipment && (equipment.name || equipment.displayName)) || equipmentKey;
+            } else if (elem && typeof elem === 'object') {
+                // support { "key": "AuxTerminal", "name": "Auxiliary Terminal" } style entries
+                equipmentKey = elem.key || elem.id || elem.name;
+                displayName = elem.name || (data["Equipments"] && data["Equipments"][equipmentKey] && data["Equipments"][equipmentKey].name) || equipmentKey;
+            } else {
+                equipmentKey = String(elem);
+                displayName = equipmentKey;
+            }
+
             const li = document.createElement("li");
-            li.textContent = element;
+            li.textContent = displayName;
+            li.title = equipmentKey; // helpful for debugging
             li.style.cursor = "pointer";
             li.style.padding = "8px 12px";
             li.style.margin = "4px 0";
             li.style.backgroundColor = "rgba(19, 19, 78, 0.1)";
             li.style.borderRadius = "4px";
             li.style.transition = "background-color 0.2s ease";
+
             
             // Add hover effect
             li.addEventListener('mouseenter', () => {
@@ -153,7 +175,7 @@ function populateElementList(area, data) {
             });
             
             // Add click event to show equipment card
-            li.onclick = () => showEquipmentCard(element);
+            li.onclick = () => showEquipmentCard(equipmentKey);
             elementsList.appendChild(li);
         });
     } else {
@@ -870,6 +892,7 @@ function updatePolygonOverlay() {
 function toggleLanguage(language) {
     closeCard();
     closeCharacterCard();
+    closeEquipmentCard();
     selectedArea = null;
     hideAllHighlights();
     documentLanguage = `Data${language}.json`;
